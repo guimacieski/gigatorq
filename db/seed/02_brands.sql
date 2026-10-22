@@ -1,0 +1,97 @@
+-- GigaTorq brands, owners, retailers, platforms, product lines, warranties
+
+INSERT INTO company (id, slug, name, notes) VALUES (1, 'stanley-black-decker', 'Stanley Black & Decker', 'Owns DeWalt, Craftsman, Black+Decker, Porter-Cable.');
+INSERT INTO company (id, slug, name, notes) VALUES (2, 'tti', 'Techtronic Industries (TTI)', 'Owns Milwaukee and Ryobi; makes Ridgid power tools under license.');
+INSERT INTO company (id, slug, name, notes) VALUES (3, 'makita-corp', 'Makita Corporation', NULL);
+INSERT INTO company (id, slug, name, notes) VALUES (4, 'robert-bosch', 'Robert Bosch', NULL);
+INSERT INTO company (id, slug, name, notes) VALUES (5, 'chervon', 'Chervon', 'Owns Skil, Flex and Ego.');
+INSERT INTO company (id, slug, name, notes) VALUES (6, 'koki-holdings', 'Koki Holdings', 'Metabo HPT (formerly Hitachi Power Tools).');
+INSERT INTO company (id, slug, name, notes) VALUES (7, 'emerson', 'Emerson', 'Owns the Ridgid brand.');
+INSERT INTO company (id, slug, name, notes) VALUES (8, 'lowes', 'Lowe''s', 'House brand Kobalt.');
+INSERT INTO company (id, slug, name, notes) VALUES (9, 'home-depot-co', 'The Home Depot', NULL);
+INSERT INTO company (id, slug, name, notes) VALUES (10, 'harbor-freight', 'Harbor Freight', 'House brands Hercules and Bauer.');
+INSERT INTO company (id, slug, name, notes) VALUES (11, 'hilti-corp', 'Hilti', NULL);
+INSERT INTO company (id, slug, name, notes) VALUES (12, 'festool-gmbh', 'Festool', NULL);
+
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (1, 'home-depot', 'The Home Depot', 'https://www.homedepot.com', 'Home Depot affiliate program (Impact)');
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (2, 'lowes', 'Lowe''s', 'https://www.lowes.com', 'Lowe''s affiliate program');
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (3, 'amazon', 'Amazon', 'https://www.amazon.com', 'Amazon Associates');
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (4, 'acme-tools', 'Acme Tools', 'https://www.acmetools.com', NULL);
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (5, 'harbor-freight', 'Harbor Freight', 'https://www.harborfreight.com', NULL);
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (6, 'walmart', 'Walmart', 'https://www.walmart.com', 'Walmart affiliate program');
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (7, 'ace-hardware', 'Ace Hardware', 'https://www.acehardware.com', NULL);
+
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (1, 'milwaukee', 'Milwaukee', 2, 'https://www.milwaukeetool.com', NULL, 'Specs on the brand site load with JavaScript; dealer pages are easier to read.');
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (2, 'dewalt', 'DeWalt', 1, 'https://www.dewalt.com/en-us', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (3, 'makita', 'Makita', 3, 'https://makitatools.com', NULL, 'Most complete spec tables of the brands surveyed.');
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (4, 'bosch', 'Bosch', 4, 'https://www.boschtools.com/us/en', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (5, 'ryobi', 'Ryobi', 2, 'https://www.ryobitools.com', 1, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (6, 'ridgid', 'Ridgid', 7, 'https://powertools.ridgid.com', 1, 'Power tools made by TTI under license; ridgid.com is the plumbing-tools site.');
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (7, 'craftsman', 'Craftsman', 1, 'https://www.craftsman.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (8, 'black-decker', 'Black+Decker', 1, 'https://www.blackanddecker.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (9, 'porter-cable', 'Porter-Cable', 1, 'https://www.portercable.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (10, 'metabo-hpt', 'Metabo HPT', 6, 'https://metabo-hpt.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (11, 'flex', 'Flex', 5, 'https://www.flextoolusa.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (12, 'skil', 'Skil', 5, 'https://www.skil.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (13, 'kobalt', 'Kobalt', 8, 'https://www.lowes.com', 2, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (14, 'hilti', 'Hilti', 11, 'https://www.hilti.com', NULL, 'Sold mainly direct to trades.');
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (15, 'festool', 'Festool', 12, 'https://www.festoolusa.com', NULL, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (16, 'hercules', 'Hercules', 10, 'https://www.harborfreight.com', 5, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (17, 'bauer', 'Bauer', 10, 'https://www.harborfreight.com', 5, NULL);
+INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (18, 'ego', 'Ego', 5, 'https://egopowerplus.com', NULL, 'Mostly outdoor power equipment.');
+
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (1, 1, 'milwaukee-m18', 'M18', 18, 18, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (2, 1, 'milwaukee-m12', 'M12', 12, 12, 'stem', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (3, 2, 'dewalt-20v-max', '20V MAX', 20, 18, 'slide', '20V is max initial voltage; 18V nominal.');
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (4, 2, 'dewalt-flexvolt', 'FLEXVOLT 60V MAX', 60, 54, 'slide', 'FLEXVOLT batteries are dual 20V/60V MAX.');
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (5, 2, 'dewalt-12v-max', '12V MAX', 12, 10.8, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (6, 3, 'makita-18v-lxt', '18V LXT', 18, 18, 'slide', 'Some tools use two LXT packs (36V / 18V X2).');
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (7, 3, 'makita-40v-xgt', '40V max XGT', 40, 36, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (8, 3, 'makita-12v-cxt', '12V max CXT', 12, 10.8, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (9, 4, 'bosch-18v', '18V (AMPShare)', 18, 18, 'slide', 'Batteries marketed as CORE18V; AMPShare is the cross-brand alliance.');
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (10, 4, 'bosch-12v', '12V Max', 12, 10.8, 'stem', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (11, 5, 'ryobi-18v-one-plus', '18V ONE+', 18, 18, 'pod', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (12, 5, 'ryobi-40v', '40V', 40, 36, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (13, 6, 'ridgid-18v', '18V', 18, 18, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (14, 7, 'craftsman-v20', 'V20', 20, 18, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (15, 8, 'black-decker-20v-max', '20V MAX', 20, 18, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (16, 9, 'porter-cable-20v-max', '20V MAX', 20, 18, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (17, 10, 'metabo-hpt-18v', '18V', 18, 18, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (18, 10, 'metabo-hpt-multivolt', '36V MultiVolt', 36, 36, 'slide', 'MultiVolt batteries are dual 36V/18V.');
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (19, 11, 'flex-24v', '24V', 24, NULL, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (20, 12, 'skil-pwrcore-20', 'PWRCORE 20', 20, 18, 'slide', 'Some tools take two packs (2 x 20V).');
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (21, 13, 'kobalt-24v-max', '24V MAX', 24, NULL, 'slide', NULL);
+
+INSERT INTO platform_compat (battery_platform_id, tool_platform_id, notes) VALUES (4, 3, 'FLEXVOLT batteries run 20V MAX tools.');
+INSERT INTO platform_compat (battery_platform_id, tool_platform_id, notes) VALUES (18, 17, 'MultiVolt batteries also power Metabo HPT / Hitachi 18V slide tools (per Metabo HPT).');
+
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (1, 1, 1, 'milwaukee-m18-fuel', 'M18 FUEL', 'premium', 'POWERSTATE brushless + REDLINK PLUS.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (2, 1, 2, 'milwaukee-m12-fuel', 'M12 FUEL', 'premium', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (3, 2, 3, 'dewalt-xr', '20V MAX XR', 'premium', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (4, 2, 3, 'dewalt-atomic', '20V MAX ATOMIC', 'compact', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (5, 2, 4, 'dewalt-flexvolt-line', 'FLEXVOLT', 'premium', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (6, 3, 6, 'makita-lxt-premium', '18V LXT Premium', 'premium', 'Makita "Form Factor (LXT)" spec value.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (7, 3, 6, 'makita-lxt-subcompact', '18V LXT Sub-Compact', 'compact', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (8, 5, 11, 'ryobi-one-plus-hp', 'ONE+ HP', 'pro', 'Brushless tier.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (9, 6, 13, 'ridgid-subcompact', '18V SubCompact', 'compact', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (10, 12, 20, 'skil-pwrcore-20-xp', 'PWRCORE 20 XP', 'pro', NULL);
+
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 2, 'ANTI-ROTATION');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 2, 'E-CLUTCH');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 2, 'Kickback Brake');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 1, 'AutoStop');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 3, 'Bind-Up Control');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (4, 2, 'TOOL CONNECT');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (4, 1, 'ONE-KEY');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (4, 4, 'Connected-Ready');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (5, 1, 'REDLINK PLUS');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (5, 3, 'Star Protection Computer Controls');
+INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (6, 3, 'XPT (Extreme Protection Technology)');
+
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (1, 2, NULL, NULL, 'tool', 3, 0, 0, '3 Year Limited Warranty', '1 Year Free Service; 90 Days Satisfaction Guaranteed', 'https://www.dewalt.com/en-us/product/dcd1007b/20v-max-xr-brushless-cordless-12-3-speed-hammer-drill-tool-only');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (2, 3, NULL, NULL, 'tool', 3, 0, 0, '3-year limited warranty', NULL, 'https://makitatools.com/products/details/XPH14Z');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (3, 6, NULL, NULL, 'all', NULL, 1, 1, 'Lifetime Service Agreement', 'Register within 90 days: free parts, service and batteries for life', 'https://powertools.ridgid.com/products/648846084978');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (4, 10, NULL, NULL, 'tool', NULL, 1, 0, 'Lifetime Lithium Ion tool body warranty', NULL, 'https://metabo-hpt.com/products/product/c3607daq4-36v-multivolt-brushless-7-1-4-in-circular-saw-tool-body-only');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (5, 7, NULL, NULL, 'tool', 3, 0, 0, '3 Year Limited Warranty', 'Warranties vary by product', 'https://www.craftsman.com/collections/drill-drivers/products/cmcd720d2');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (6, 5, NULL, NULL, 'tool', 3, 0, 0, '3-Year Manufacturer''s Warranty', NULL, 'https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-1-2-in-Hammer-Drill-Tool-Only-PBLHM101B/314109445');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (7, 13, NULL, NULL, 'tool', 5, 0, 0, 'Limited 5-year warranty', NULL, 'https://www.lowes.com/pd/Kobalt-24-volt-Circular-Saw-Bare-Tool/5015405147');
