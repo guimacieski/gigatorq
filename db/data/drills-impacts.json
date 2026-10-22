@@ -1,506 +1,5 @@
 [
  {
-  "slug": "milwaukee-2903",
-  "brand": "milwaukee",
-  "category": "drill-drivers",
-  "platform": "milwaukee-m18",
-  "line": "milwaukee-m18-fuel",
-  "model": "2903",
-  "name": "M18 FUEL 1/2\" Drill/Driver",
-  "motor": "brushless",
-  "url": "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver",
-  "specs": [
-   [
-    "voltage",
-    "",
-    18,
-    "18V",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "chuck_size",
-    "",
-    0.5,
-    "1/2 in.",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "chuck_type",
-    "",
-    "keyless_ratcheting",
-    "All-Metal Ratcheting, Keyless",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "no_load_speed",
-    "",
-    2100,
-    "0-2,100 RPM",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "max_torque",
-    "",
-    1400,
-    "1,400 in-lbs",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "speed_settings",
-    "",
-    2,
-    "2",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "clutch_settings",
-    "",
-    16,
-    "16",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ],
-   [
-    "length",
-    "",
-    6.88,
-    "6.88 in.",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver"
-   ]
-  ],
-  "skus": [
-   {
-    "model": "2903-20",
-    "title": "M18 FUEL 1/2\" Drill/Driver (Tool Only)",
-    "type": "tool_only",
-    "url": "https://www.toolnut.com/products/milwaukee-2903-20-m18-fuel-1-2-drill-driver",
-    "items": [
-     [
-      1,
-      "tool",
-      "milwaukee-2903"
-     ],
-     [
-      1,
-      "text",
-      "Side handle"
-     ],
-     [
-      1,
-      "text",
-      "Belt clip"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "slug": "milwaukee-3601",
-  "brand": "milwaukee",
-  "category": "drill-drivers",
-  "platform": "milwaukee-m18",
-  "model": "3601",
-  "name": "M18 Compact Brushless 1/2\" Drill/Driver",
-  "motor": "brushless",
-  "url": "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html",
-  "specs": [
-   [
-    "chuck_size",
-    "",
-    0.5,
-    "1/2 in",
-    "R",
-    "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html"
-   ],
-   [
-    "chuck_type",
-    "",
-    "keyless",
-    "All-Metal Keyless",
-    "R",
-    "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html"
-   ],
-   [
-    "no_load_speed",
-    "speed:1",
-    550,
-    "0-550 RPM",
-    "R",
-    "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html"
-   ],
-   [
-    "no_load_speed",
-    "speed:2",
-    1700,
-    "0-1,700 RPM",
-    "R",
-    "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html"
-   ],
-   [
-    "max_torque",
-    "",
-    550,
-    "550 in-lbs",
-    "R",
-    "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html"
-   ],
-   [
-    "length",
-    "",
-    5.7,
-    "5.7 in",
-    "R",
-    "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html"
-   ]
-  ],
-  "skus": [
-   {
-    "model": "3601-20",
-    "title": "M18 Compact Brushless 1/2\" Drill Driver (Bare Tool)",
-    "type": "tool_only",
-    "url": "https://www.toolnut.com/milwaukee-3601-20-m18-compact-brushless-1-2-drill-driver.html",
-    "items": [
-     [
-      1,
-      "tool",
-      "milwaukee-3601"
-     ],
-     [
-      1,
-      "text",
-      "Belt clip"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "slug": "milwaukee-3403",
-  "brand": "milwaukee",
-  "category": "drill-drivers",
-  "platform": "milwaukee-m12",
-  "line": "milwaukee-m12-fuel",
-  "model": "3403",
-  "name": "M12 FUEL 1/2\" Drill/Driver",
-  "motor": "brushless",
-  "url": "https://www.toolnut.com/products/milwaukee-3403-20-m12-fuel-1-2-drill-driver",
-  "specs": [
-   [
-    "max_torque",
-    "",
-    400,
-    "400 in-lbs",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-3403-20-m12-fuel-1-2-drill-driver"
-   ],
-   [
-    "length",
-    "",
-    5.9,
-    "5.9 in",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-3403-20-m12-fuel-1-2-drill-driver"
-   ],
-   [
-    "chuck_size",
-    "",
-    0.5,
-    "1/2-in. all-metal",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-3403-20-m12-fuel-1-2-drill-driver"
-   ],
-   [
-    "led_light",
-    "",
-    true,
-    "LED",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-3403-20-m12-fuel-1-2-drill-driver"
-   ]
-  ],
-  "skus": [
-   {
-    "model": "3403-20",
-    "title": "M12 FUEL 1/2\" Drill/Driver (Tool Only)",
-    "type": "tool_only",
-    "url": "https://www.toolnut.com/products/milwaukee-3403-20-m12-fuel-1-2-drill-driver",
-    "items": [
-     [
-      1,
-      "tool",
-      "milwaukee-3403"
-     ],
-     [
-      1,
-      "text",
-      "Belt clip"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "slug": "milwaukee-3404",
-  "brand": "milwaukee",
-  "category": "hammer-drills",
-  "platform": "milwaukee-m12",
-  "line": "milwaukee-m12-fuel",
-  "model": "3404",
-  "name": "M12 FUEL 1/2\" Hammer Drill/Driver",
-  "motor": "brushless",
-  "url": "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html",
-  "specs": [
-   [
-    "no_load_speed",
-    "",
-    1550,
-    "0-1,550 RPM",
-    "R",
-    "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html"
-   ],
-   [
-    "max_torque",
-    "",
-    400,
-    "400 in-lbs",
-    "R",
-    "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html"
-   ],
-   [
-    "length",
-    "",
-    6.0,
-    "6 in",
-    "R",
-    "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html"
-   ],
-   [
-    "chuck_size",
-    "",
-    0.5,
-    "1/2 in",
-    "R",
-    "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html"
-   ],
-   [
-    "chuck_type",
-    "",
-    "keyless_ratcheting",
-    "All-Metal Ratcheting",
-    "R",
-    "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html"
-   ]
-  ],
-  "skus": [
-   {
-    "model": "3404-20",
-    "title": "M12 FUEL 1/2\" Hammer Drill/Driver (Tool Only)",
-    "type": "tool_only",
-    "url": "https://www.toolnut.com/milwaukee-3404-20-m12-fuel-1-2-hammer-drill-driver.html",
-    "items": [
-     [
-      1,
-      "tool",
-      "milwaukee-3404"
-     ],
-     [
-      1,
-      "text",
-      "Belt clip"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "slug": "milwaukee-3453",
-  "brand": "milwaukee",
-  "category": "impact-drivers",
-  "platform": "milwaukee-m12",
-  "line": "milwaukee-m12-fuel",
-  "model": "3453",
-  "name": "M12 FUEL 1/4\" Hex Impact Driver",
-  "motor": "brushless",
-  "origin": "Mexico",
-  "url": "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html",
-  "specs": [
-   [
-    "voltage",
-    "",
-    12,
-    "12V",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "drive_size",
-    "",
-    "1/4_hex",
-    "1/4 in Hex Quick Change",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "max_torque",
-    "",
-    1500,
-    "1,500 in-lbs",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "no_load_speed",
-    "",
-    3600,
-    "0 to 3,600 RPM",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "impact_rate",
-    "",
-    4000,
-    "0 to 4,000 IPM",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "length",
-    "",
-    5.0,
-    "5 in",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "weight_tool_only",
-    "",
-    1.6,
-    "1.6 lbs bare tool",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ],
-   [
-    "variable_speed",
-    "",
-    true,
-    "Yes",
-    "R",
-    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
-   ]
-  ],
-  "skus": [
-   {
-    "model": "3453-20",
-    "title": "M12 FUEL 1/4\" Hex Impact Driver (Tool Only)",
-    "type": "tool_only",
-    "url": "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html",
-    "items": [
-     [
-      1,
-      "tool",
-      "milwaukee-3453"
-     ],
-     [
-      1,
-      "text",
-      "Belt clip"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "slug": "milwaukee-3651",
-  "brand": "milwaukee",
-  "category": "impact-drivers",
-  "platform": "milwaukee-m18",
-  "model": "3651",
-  "name": "M18 Compact Brushless 1/4\" Hex 3-Speed Impact Driver",
-  "motor": "brushless",
-  "url": "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver",
-  "specs": [
-   [
-    "no_load_speed",
-    "",
-    3600,
-    "0-3600 RPMs",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ],
-   [
-    "max_torque",
-    "",
-    1700,
-    "Peak Torque 1,700 in-lbs.",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ],
-   [
-    "length",
-    "",
-    4.4,
-    "4.4\"",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ],
-   [
-    "width",
-    "",
-    2.1,
-    "2.1\"",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ],
-   [
-    "weight_tool_only",
-    "",
-    1.7,
-    "1.7 lbs (tool only)",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ],
-   [
-    "speed_settings",
-    "",
-    3,
-    "3-Speed",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ],
-   [
-    "drive_size",
-    "",
-    "1/4_hex",
-    "1/4\" Hex",
-    "R",
-    "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver"
-   ]
-  ],
-  "skus": [
-   {
-    "model": "3651-20",
-    "title": "M18 Compact Brushless 1/4\" Hex 3-Speed Impact Driver (Tool Only)",
-    "type": "tool_only",
-    "url": "https://www.toolnut.com/products/milwaukee-m18tm-compact-brushless-1-4-hex-3-speed-impact-driver",
-    "items": [
-     [
-      1,
-      "tool",
-      "milwaukee-3651"
-     ]
-    ]
-   }
-  ]
- },
- {
   "slug": "dewalt-dcd800",
   "brand": "dewalt",
   "category": "drill-drivers",
@@ -4242,6 +3741,2020 @@
       1,
       "tool",
       "hercules-59421"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2903",
+  "brand": "milwaukee",
+  "category": "drill-drivers",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2903",
+  "name": "M18 FUEL 1/2\" Drill/Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-drill-driver/2903-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    500,
+    "0 - 500 (low)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    2100,
+    "0 - 2,100 (high)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    2,
+    "Low / High",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    1400,
+    "Peak torque 1400 in-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.5,
+    "1/2\" (13 mm) keyless",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "chuck_type",
+    "",
+    "keyless_ratcheting",
+    "All-metal ratcheting chuck",
+    "M",
+    "https://www.milwaukeetool.com/Products/2904-20"
+   ],
+   [
+    "clutch_settings",
+    "",
+    16,
+    "Torque selector settings 1-16",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "length",
+    "",
+    6.9,
+    "6.9\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    3.3,
+    "3.3 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "drilling_capacity",
+    "material:steel",
+    0.5,
+    "Steel 1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood",
+    1.5,
+    "Wood, flat bit 1-1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_holesaw",
+    3.5,
+    "Hole saw 3-1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_selffeed",
+    2.5625,
+    "Self-feed bits 2-9/16\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "2903-20",
+    "title": "M18 FUEL 1/2\" Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-drill-driver/2903-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2903"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "2903-22",
+    "title": "M18 FUEL 1/2\" Drill/Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2903"
+     ],
+     [
+      2,
+      "battery",
+      "48-11-1850"
+     ],
+     [
+      1,
+      "text",
+      "M18 & M12 multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2904",
+  "brand": "milwaukee",
+  "category": "hammer-drills",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2904",
+  "name": "M18 FUEL 1/2\" Hammer Drill/Driver",
+  "motor": "brushless",
+  "origin": "Vietnam",
+  "url": "https://www.milwaukeetool.com/Products/2904-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    500,
+    "0 - 500 (low)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    2100,
+    "0 - 2,100 (high)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    2,
+    "Low / High",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "blows_per_minute",
+    "speed:2",
+    33000,
+    "High: 0 - 33,000 (under load)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    1400,
+    "Peak torque 1400 in-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.5,
+    "1/2\" (13 mm) keyless",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "chuck_type",
+    "",
+    "keyless_ratcheting",
+    "All-metal ratcheting chuck",
+    "M",
+    "https://www.milwaukeetool.com/Products/2904-20"
+   ],
+   [
+    "clutch_settings",
+    "",
+    16,
+    "Torque selector settings 1-16",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "length",
+    "",
+    6.9,
+    "6.9\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    3.3,
+    "3.3 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED work light",
+    "M",
+    "https://www.milwaukeetool.com/Products/2904-20"
+   ],
+   [
+    "drilling_capacity",
+    "material:steel",
+    0.5,
+    "Steel 1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood",
+    1.5,
+    "Wood, flat bit 1-1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_holesaw",
+    3.5,
+    "Hole saw 3-1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_selffeed",
+    2.5625,
+    "Self-feed bits 2-9/16\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:masonry",
+    0.625,
+    "Masonry 5/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9998d1.pdf"
+   ]
+  ],
+  "features": [
+   [
+    "kickback_control",
+    "AutoStop"
+   ],
+   [
+    "battery_protection",
+    "REDLINK PLUS"
+   ],
+   [
+    "work_light",
+    null
+   ]
+  ],
+  "claims": [
+   [
+    "Most powerful hammer drill, 1,400 in-lbs torque",
+    null,
+    "https://www.milwaukeetool.com/Products/2904-20"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "2904-20",
+    "title": "M18 FUEL 1/2\" Hammer Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/Products/2904-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2904"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "2904-22",
+    "title": "M18 FUEL 1/2\" Hammer Drill/Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2904"
+     ],
+     [
+      2,
+      "battery",
+      "48-11-1850"
+     ],
+     [
+      1,
+      "text",
+      "M18 & M12 multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2953",
+  "brand": "milwaukee",
+  "category": "impact-drivers",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2953",
+  "name": "M18 FUEL 1/4\" Hex Impact Driver",
+  "motor": "brushless",
+  "origin": "Vietnam",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-4-hex-impact-driver/2953-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/4_hex",
+    "1/4\" Hex drive chuck",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    2000,
+    "2,000 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "length",
+    "",
+    4.47,
+    "4.47\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    2.2,
+    "2.2 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "4-Mode Drive Control",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "Modes 1-3",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    1700,
+    "Mode 1: 0 - 1700",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    3000,
+    "Mode 2: 0 - 3000",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    3900,
+    "Mode 3: 0 - 3900",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:1",
+    1400,
+    "Mode 1: 0 - 1400",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:2",
+    3600,
+    "Mode 2: 0 - 3600",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:3",
+    4400,
+    "Mode 3: 0 - 4400",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9987d1.pdf"
+   ]
+  ],
+  "features": [
+   [
+    "self_tapping_mode",
+    "Self-tapping screw function"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "2953-20",
+    "title": "M18 FUEL 1/4\" Hex Impact Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-4-hex-impact-driver/2953-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2953"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "2953-22",
+    "title": "M18 FUEL 1/4\" Hex Impact Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2953"
+     ],
+     [
+      2,
+      "battery",
+      "48-11-1850"
+     ],
+     [
+      1,
+      "text",
+      "M18 & M12 multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "3697-22",
+    "title": "M18 FUEL 2-Tool Combo Kit (Hammer Drill/Driver and Hex Impact Driver)",
+    "type": "combo_kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2904"
+     ],
+     [
+      1,
+      "tool",
+      "milwaukee-2953"
+     ],
+     [
+      2,
+      "battery",
+      "48-11-1850"
+     ],
+     [
+      1,
+      "text",
+      "M18 & M12 multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      2,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3403",
+  "brand": "milwaukee",
+  "category": "drill-drivers",
+  "platform": "milwaukee-m12",
+  "line": "milwaukee-m12-fuel",
+  "model": "3403",
+  "name": "M12 FUEL 1/2\" Drill/Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    12,
+    "12 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    450,
+    "0 - 450 (low)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1550,
+    "0 - 1,550 (high)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    2,
+    "Low / High",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    400,
+    "400 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.5,
+    "1/2\" all-metal chuck",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "chuck_type",
+    "",
+    "keyless",
+    "Keyless",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "clutch_settings",
+    "",
+    13,
+    "Clutch settings 1-13",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    2.1,
+    "2.1 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "length",
+    "",
+    5.9,
+    "5.9\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "drilling_capacity",
+    "material:steel",
+    0.5,
+    "Steel 1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood",
+    1.25,
+    "Wood, flat bit 1-1/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_holesaw",
+    2.0,
+    "Hole saw 2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3403-20",
+    "title": "M12 FUEL 1/2\" Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3403"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3404",
+  "brand": "milwaukee",
+  "category": "hammer-drills",
+  "platform": "milwaukee-m12",
+  "line": "milwaukee-m12-fuel",
+  "model": "3404",
+  "name": "M12 FUEL 1/2\" Hammer Drill/Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    12,
+    "12 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    450,
+    "0 - 450 (low)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1550,
+    "0 - 1,550 (high)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    2,
+    "Low / High",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    400,
+    "400 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.5,
+    "1/2\" all-metal chuck",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "chuck_type",
+    "",
+    "keyless",
+    "Keyless",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "clutch_settings",
+    "",
+    13,
+    "Clutch settings 1-13",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    2.1,
+    "2.1 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "length",
+    "",
+    6.0,
+    "6.0\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "blows_per_minute",
+    "speed:1",
+    6750,
+    "LO 0 - 6750",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "blows_per_minute",
+    "speed:2",
+    22500,
+    "HI 0 - 22,500",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:steel",
+    0.5,
+    "Steel 1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood",
+    1.25,
+    "Wood, flat bit 1-1/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_holesaw",
+    2.0,
+    "Hole saw 2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:masonry",
+    0.375,
+    "Masonry 3/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-3400d2.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3404-20",
+    "title": "M12 FUEL 1/2\" Hammer Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-hammer-drill-driver/3404-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3404"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "3404-22",
+    "title": "M12 FUEL 1/2\" Hammer Drill/Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3404"
+     ],
+     [
+      2,
+      "text",
+      "M12 REDLITHIUM battery"
+     ],
+     [
+      1,
+      "text",
+      "Charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3453",
+  "brand": "milwaukee",
+  "category": "impact-drivers",
+  "platform": "milwaukee-m12",
+  "line": "milwaukee-m12-fuel",
+  "model": "3453",
+  "name": "M12 FUEL 1/4\" Hex Impact Driver",
+  "motor": "brushless",
+  "origin": "Mexico",
+  "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-4-hex-impact-driver/3453-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    12,
+    "12V",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "max_torque",
+    "",
+    1500,
+    "1,500 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/4_hex",
+    "1/4\" hex",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "length",
+    "",
+    5.0,
+    "5.0\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    1.6,
+    "1.6 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "4-Mode Drive Control",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "3 speeds plus self-tapping mode",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "impact_rate",
+    "",
+    4000,
+    "0 to 4,000 IPM",
+    "R",
+    "https://www.toolnut.com/milwaukee-3453-20-m12-fuel-1-4-hex-impact-driver.html"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Tri-LED light",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    1500,
+    "1,500 RPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    2700,
+    "2,700 RPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    3600,
+    "3,600 RPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space"
+   ]
+  ],
+  "features": [
+   [
+    "self_tapping_mode",
+    "4-Mode Drive Control self-tapping mode"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3453-20",
+    "title": "M12 FUEL 1/4\" Hex Impact Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-4-hex-impact-driver/3453-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3453"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "3453-22",
+    "title": "M12 FUEL 1/4\" Hex Impact Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3453"
+     ],
+     [
+      2,
+      "text",
+      "M12 REDLITHIUM CP2.0 battery"
+     ],
+     [
+      1,
+      "text",
+      "Charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "3497-22",
+    "title": "M12 FUEL 2-Tool Combo Kit",
+    "type": "combo_kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-continues-to-lead-in-the-subcompact-drilling-and-driving-space",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3404"
+     ],
+     [
+      1,
+      "tool",
+      "milwaukee-3453"
+     ],
+     [
+      1,
+      "text",
+      "Batteries and charger (see Milwaukee listing)"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3601",
+  "brand": "milwaukee",
+  "category": "drill-drivers",
+  "platform": "milwaukee-m18",
+  "model": "3601",
+  "name": "M18 Compact Brushless 1/2\" Drill/Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    550,
+    "0 - 550 (low)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1700,
+    "0 - 1,700 (high)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    2,
+    "Low / High",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    550,
+    "550 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.5,
+    "1/2\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "chuck_type",
+    "",
+    "keyless",
+    "Keyless chuck",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "clutch_settings",
+    "",
+    13,
+    "Clutch settings 1-13",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "length",
+    "",
+    5.7,
+    "5.7\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    2.3,
+    "2.3 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "drilling_capacity",
+    "material:steel",
+    0.5,
+    "Steel 1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood",
+    1.25,
+    "Wood, flat bit 1-1/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_holesaw",
+    2.0,
+    "Hole saw 2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3601-20",
+    "title": "M18 Compact Brushless 1/2\" Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3601"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   },
+   {
+    "model": "3601-22CT",
+    "title": "M18 Compact Brushless 1/2\" Drill/Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3601"
+     ],
+     [
+      2,
+      "text",
+      "M18 REDLITHIUM 2.0Ah battery"
+     ],
+     [
+      1,
+      "text",
+      "M12/M18 multi-voltage charger"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3602",
+  "brand": "milwaukee",
+  "category": "hammer-drills",
+  "platform": "milwaukee-m18",
+  "model": "3602",
+  "name": "M18 Compact Brushless 1/2\" Hammer Drill/Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-hammer-drill-driver/3602-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    550,
+    "0 - 550 (low)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1700,
+    "0 - 1,700 (high)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    2,
+    "Low / High",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    550,
+    "550 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.5,
+    "1/2\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "chuck_type",
+    "",
+    "keyless",
+    "Keyless chuck",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "clutch_settings",
+    "",
+    13,
+    "Clutch settings 1-13",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "length",
+    "",
+    5.8,
+    "5.8\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    2.3,
+    "2.3 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "blows_per_minute",
+    "",
+    25500,
+    "BPM 0 - 25,500",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:steel",
+    0.5,
+    "Steel 1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood",
+    1.25,
+    "Wood, flat bit 1-1/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:wood_holesaw",
+    2.0,
+    "Hole saw 2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ],
+   [
+    "drilling_capacity",
+    "material:masonry",
+    0.375,
+    "Masonry 3/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9845d2.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3602-20",
+    "title": "M18 Compact Brushless 1/2\" Hammer Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-hammer-drill-driver/3602-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3602"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3650",
+  "brand": "milwaukee",
+  "category": "impact-drivers",
+  "platform": "milwaukee-m18",
+  "model": "3650",
+  "name": "M18 Compact Brushless 1/4\" Hex Impact Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-4-hex-impact-driver/3650-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    1700,
+    "1700 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/4_hex",
+    "1/4\" hex",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "length",
+    "",
+    4.4,
+    "4.4\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "width",
+    "",
+    2.1,
+    "2.1\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    1.7,
+    "1.7 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "no_load_speed",
+    "",
+    3600,
+    "0 - 3600",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "impact_rate",
+    "",
+    4900,
+    "0 - 4900 (under load)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3650-20",
+    "title": "M18 Compact Brushless 1/4\" Hex Impact Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-4-hex-impact-driver/3650-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3650"
+     ]
+    ]
+   },
+   {
+    "model": "3650-22CT",
+    "title": "M18 Compact Brushless 1/4\" Hex Impact Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3650"
+     ],
+     [
+      2,
+      "text",
+      "M18 REDLITHIUM 2.0Ah battery"
+     ],
+     [
+      1,
+      "text",
+      "Multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   },
+   {
+    "model": "3692-22CT",
+    "title": "M18 Compact Brushless 2-Tool Combo Kit",
+    "type": "combo_kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3601"
+     ],
+     [
+      1,
+      "tool",
+      "milwaukee-3650"
+     ],
+     [
+      2,
+      "text",
+      "M18 REDLITHIUM 2.0Ah battery"
+     ],
+     [
+      1,
+      "text",
+      "Multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3651",
+  "brand": "milwaukee",
+  "category": "impact-drivers",
+  "platform": "milwaukee-m18",
+  "model": "3651",
+  "name": "M18 Compact Brushless 1/4\" Hex 3-Speed Impact Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-4-hex-3-speed-impact-driver/3651-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "max_torque",
+    "",
+    1700,
+    "1700 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/4_hex",
+    "1/4\" hex",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "length",
+    "",
+    4.4,
+    "4.4\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "width",
+    "",
+    2.1,
+    "2.1\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    1.7,
+    "1.7 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-delivers-disruptive-performance-and-size-in-new-brushless-solutions"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "3-mode speed selector",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    1250,
+    "Mode 1: 0 - 1250",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    2400,
+    "Mode 2: 0 - 2400",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    3600,
+    "Mode 3: 0 - 3600",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:1",
+    2500,
+    "Mode 1: 0 - 2500",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:2",
+    4700,
+    "Mode 2: 0 - 4700",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:3",
+    4900,
+    "Mode 3: 0 - 4900",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-9880d2.pdf"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3651-20",
+    "title": "M18 Compact Brushless 1/4\" Hex 3-Speed Impact Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-4-hex-3-speed-impact-driver/3651-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3651"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3401",
+  "brand": "milwaukee",
+  "category": "drill-drivers",
+  "platform": "milwaukee-m12",
+  "model": "3401",
+  "name": "M12 Subcompact Brushless 3/8\" Drill/Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m12-subcompact-brushless-3-8-drill-driver/3401-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    12,
+    "12V",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "max_torque",
+    "",
+    350,
+    "350 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "no_load_speed",
+    "",
+    1550,
+    "0-1550",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "chuck_size",
+    "",
+    0.375,
+    "3/8\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "length",
+    "",
+    5.4,
+    "5.4\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "weight_with_battery",
+    "",
+    2.0,
+    "2.0 lbs (with battery)",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3401-20",
+    "title": "M12 Subcompact Brushless 3/8\" Drill/Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m12-subcompact-brushless-3-8-drill-driver/3401-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3401"
+     ]
+    ]
+   },
+   {
+    "model": "3401-22",
+    "title": "M12 Subcompact Brushless 3/8\" Drill/Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3401"
+     ],
+     [
+      2,
+      "text",
+      "M12 REDLITHIUM CP2.0 battery"
+     ],
+     [
+      1,
+      "text",
+      "M12 charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-3450",
+  "brand": "milwaukee",
+  "category": "impact-drivers",
+  "platform": "milwaukee-m12",
+  "model": "3450",
+  "name": "M12 Subcompact Brushless 1/4\" Hex Impact Driver",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m12-subcompact-brushless-1-4-hex-impact-driver/3450-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    12,
+    "12V",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "max_torque",
+    "",
+    1100,
+    "1100 in-lbs",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "no_load_speed",
+    "",
+    3000,
+    "0-3000",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "impact_rate",
+    "",
+    4100,
+    "0-4100",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/4_hex",
+    "1/4\" hex",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "length",
+    "",
+    4.3,
+    "4.3\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "width",
+    "",
+    2.0,
+    "2.0\"",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ],
+   [
+    "weight_with_battery",
+    "",
+    1.7,
+    "1.7 lbs (with battery)",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "3450-20",
+    "title": "M12 Subcompact Brushless 1/4\" Hex Impact Driver (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m12-subcompact-brushless-1-4-hex-impact-driver/3450-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3450"
+     ]
+    ]
+   },
+   {
+    "model": "3450-22",
+    "title": "M12 Subcompact Brushless 1/4\" Hex Impact Driver Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3450"
+     ],
+     [
+      2,
+      "text",
+      "M12 REDLITHIUM CP2.0 battery"
+     ],
+     [
+      1,
+      "text",
+      "M12 charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   },
+   {
+    "model": "3494-22",
+    "title": "M12 Subcompact Brushless 2-Piece Combo Kit",
+    "type": "combo_kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Delivers-the-SMALLEST-and-LIGHTEST-Drilling-and-Driving-Solutions",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3401"
+     ],
+     [
+      1,
+      "tool",
+      "milwaukee-3450"
+     ],
+     [
+      2,
+      "text",
+      "M12 REDLITHIUM CP2.0 battery"
+     ],
+     [
+      1,
+      "text",
+      "M12 charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
      ]
     ]
    }

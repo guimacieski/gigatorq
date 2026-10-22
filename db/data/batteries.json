@@ -48,5 +48,13 @@
   "name": "24V 5.0Ah Lithium-Ion Battery",
   "ah": 5.0,
   "url": "https://www.flexpowertools.com/drill-driver-with-turbo-mode-and-quick-eject-impact-driver-kit-fxm204-2b"
+ },
+ {
+  "brand": "milwaukee",
+  "platform": "milwaukee-m18",
+  "model": "48-11-1850",
+  "name": "M18 REDLITHIUM XC5.0 Battery Pack",
+  "ah": 5.0,
+  "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
  }
 ]
