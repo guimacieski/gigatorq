@@ -61,6 +61,7 @@ INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_vol
 INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (19, 11, 'flex-24v', '24V', 24, NULL, 'slide', NULL);
 INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (20, 12, 'skil-pwrcore-20', 'PWRCORE 20', 20, 18, 'slide', 'Some tools take two packs (2 x 20V).');
 INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (21, 13, 'kobalt-24v-max', '24V MAX', 24, NULL, 'slide', NULL);
+INSERT INTO platform (id, brand_id, slug, name, marketing_voltage_v, nominal_voltage_v, battery_style, notes) VALUES (22, 16, 'hercules-20v', '20V', 20, NULL, 'slide', NULL);
 
 INSERT INTO platform_compat (battery_platform_id, tool_platform_id, notes) VALUES (4, 3, 'FLEXVOLT batteries run 20V MAX tools.');
 INSERT INTO platform_compat (battery_platform_id, tool_platform_id, notes) VALUES (18, 17, 'MultiVolt batteries also power Metabo HPT / Hitachi 18V slide tools (per Metabo HPT).');
@@ -72,9 +73,13 @@ INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VA
 INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (5, 2, 4, 'dewalt-flexvolt-line', 'FLEXVOLT', 'premium', NULL);
 INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (6, 3, 6, 'makita-lxt-premium', '18V LXT Premium', 'premium', 'Makita "Form Factor (LXT)" spec value.');
 INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (7, 3, 6, 'makita-lxt-subcompact', '18V LXT Sub-Compact', 'compact', NULL);
-INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (8, 5, 11, 'ryobi-one-plus-hp', 'ONE+ HP', 'pro', 'Brushless tier.');
-INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (9, 6, 13, 'ridgid-subcompact', '18V SubCompact', 'compact', NULL);
-INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (10, 12, 20, 'skil-pwrcore-20-xp', 'PWRCORE 20 XP', 'pro', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (8, 3, 6, 'makita-lxt-compact', '18V LXT Compact', 'compact', 'Makita "Form Factor (LXT)" = Compact.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (9, 2, 5, 'dewalt-12v-xtreme', '12V MAX XTREME', 'compact', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (10, 4, 9, 'bosch-freak', '18V Freak', 'pro', 'Bosch two-in-one impact driver/drill.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (11, 5, 11, 'ryobi-one-plus', 'ONE+', 'entry', 'Standard (non-HP) ONE+ tools.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (12, 5, 11, 'ryobi-one-plus-hp', 'ONE+ HP', 'pro', 'Brushless tier.');
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (13, 6, 13, 'ridgid-subcompact', '18V SubCompact', 'compact', NULL);
+INSERT INTO product_line (id, brand_id, platform_id, slug, name, tier, notes) VALUES (14, 12, 20, 'skil-pwrcore-20-xp', 'PWRCORE 20 XP', 'pro', NULL);
 
 INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 2, 'ANTI-ROTATION');
 INSERT INTO feature_brand_term (feature_id, brand_id, term) VALUES (1, 2, 'E-CLUTCH');
@@ -95,3 +100,5 @@ INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies
 INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (5, 7, NULL, NULL, 'tool', 3, 0, 0, '3 Year Limited Warranty', 'Warranties vary by product', 'https://www.craftsman.com/collections/drill-drivers/products/cmcd720d2');
 INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (6, 5, NULL, NULL, 'tool', 3, 0, 0, '3-Year Manufacturer''s Warranty', NULL, 'https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-1-2-in-Hammer-Drill-Tool-Only-PBLHM101B/314109445');
 INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (7, 13, NULL, NULL, 'tool', 5, 0, 0, 'Limited 5-year warranty', NULL, 'https://www.lowes.com/pd/Kobalt-24-volt-Circular-Saw-Bare-Tool/5015405147');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (8, 8, NULL, NULL, 'tool', 2, 0, 0, '2-Year Limited Warranty', 'Battery: 2-year limited', 'https://www.blackanddecker.com/products/bdci20b');
+INSERT INTO warranty_policy (id, brand_id, platform_id, product_line_id, applies_to, years, is_lifetime, requires_registration, name, extras, source_url) VALUES (9, 11, NULL, NULL, 'all', 5, 0, 1, '5-year limited warranty with registration', '3-year limited without registration; register within 30 days', 'https://www.flexpowertools.com/drill-driver-with-turbo-mode-and-quick-eject-impact-driver-kit-fxm204-2b');

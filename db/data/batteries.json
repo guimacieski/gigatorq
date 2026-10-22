@@ -1,0 +1,52 @@
+[
+ {
+  "brand": "dewalt",
+  "platform": "dewalt-20v-max",
+  "model": "DCB203",
+  "name": "20V MAX 2.0Ah Lithium Ion Battery",
+  "ah": 2.0,
+  "url": "https://www.toolnut.com/products/dewalt-dcd800d2-20v-max-xr-brushless-compact-1-2-in-drill-driver-2-0ah-kit"
+ },
+ {
+  "brand": "metabo-hpt",
+  "platform": "metabo-hpt-18v",
+  "model": "377797M",
+  "name": "18V 2.0Ah Li-Ion Battery with Fuel Gauge",
+  "ah": 2.0,
+  "fuel_gauge": 1,
+  "url": "https://www.metabo-hpt.com/products/product/18v-multivolt-cordless-brushless-driver-drill-kit-(2-x-2.0ah)-metabo-hpt-ds18dex"
+ },
+ {
+  "brand": "flex",
+  "platform": "flex-24v",
+  "model": "FX0111-1",
+  "name": "24V 2.5Ah Lithium-Ion Battery",
+  "ah": 2.5,
+  "url": "https://www.flexpowertools.com/drill-driver-with-turbo-mode-and-quick-eject-impact-driver-kit-fxm204-2b"
+ },
+ {
+  "brand": "makita",
+  "platform": "makita-18v-lxt",
+  "model": "BL1830B",
+  "name": "18V LXT Lithium-Ion 3.0Ah Battery",
+  "ah": 3.0,
+  "url": "https://www.toolnut.com/makita-xdt131-18v-lxt-brushless-cordless-impact-driver-kit-3ah.html"
+ },
+ {
+  "brand": "dewalt",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCB2104",
+  "name": "20V MAX XR POWERPACK 4Ah Battery",
+  "ah": 4.0,
+  "url": "https://www.dewalt.com/en-us/product/dck2101qq2/20v-max-xr-3-speed-hammer-drill-impact-2-tool-combo-kit"
+ },
+ {
+  "brand": "flex",
+  "platform": "flex-24v",
+  "model": "FX0121-1",
+  "name": "24V 5.0Ah Lithium-Ion Battery",
+  "ah": 5.0,
+  "url": "https://www.flexpowertools.com/drill-driver-with-turbo-mode-and-quick-eject-impact-driver-kit-fxm204-2b"
+ }
+]

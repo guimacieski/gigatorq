@@ -5,10 +5,20 @@ SQLite schema (runs as-is on Cloudflare D1) for power tool specs, kits, prices a
 ## Files
 - `schema.sql` - all tables, indexes and the `v_tool_spec` view
 - `seed/01_reference.sql` - units, 45 categories, 75 spec definitions, which specs apply to each category, 112 brand/retailer label aliases, features
-- `seed/02_brands.sql` - 18 brands and their owners, 7 retailers, 21 battery platforms, product lines, warranty policies
-- `seed/03_sample_products.sql` - 18 real tools from 12 brands (162 spec values, 22 SKUs), each value with its source URL
+- `seed/02_brands.sql` - 18 brands and their owners, 7 retailers, 22 battery platforms, product lines, warranty policies
+- `seed/03_sample_products.sql` - the first 18 surveyed tools (hand-built)
+- `data/*.json` - product data, one file per group (`batteries.json`, `drills-impacts.json`, ...). This is where new tools are added.
+- `seed/1x_*.sql` - generated from `data/` by `tools/build_seed.py`. Don't edit these by hand.
+- `content-plan.csv` - the 50-page plan
 
 Load order: `schema.sql`, then the seed files in number order.
+
+## Adding tools
+1. Add the tool to the right file in `data/`. Each spec is `[spec_key, qualifier, value, raw_text, source, url]`, where source is `M` (manufacturer), `R` (retailer) or `O` (other, e.g. a review site).
+2. Run `python db/tools/build_seed.py`. It checks every brand, category, platform, spec name, unit type, enum value and source URL, and writes nothing if anything is wrong.
+
+## Current coverage
+58 tools from 13 brands, 487 spec values, 64 SKUs (tool-only, kits and combo kits), 12 batteries. Drill/drivers (19), hammer drills (10) and impact drivers (19) are ready for batch 1.
 
 ## How it fits together
 - **tool** is the thing we test (DCD1007). **sku** is what stores sell (DCD1007B tool only, DCD1007WW1 kit). `sku_item` lists what is in the box.
@@ -23,3 +33,4 @@ Load order: `schema.sql`, then the seed files in number order.
 - The same spec has many names and units, and multi-speed tools publish ranges per gear.
 - Retailer pages (Home Depot, Lowe's, Acme, dealers) often fill gaps but sometimes mislabel fields (Ridgid impact rate listed as "BPM").
 - "Weight" can mean bare tool, tool with battery, or the whole kit. We store bare and with-battery weight separately and never use kit weight.
+- Stanley Black & Decker brands (DeWalt, Craftsman, Black+Decker) often publish "unit watts out" instead of torque for drills. Those UWO numbers are stored as claims, not specs, because they can't be compared across brands.
