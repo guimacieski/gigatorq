@@ -1,0 +1,896 @@
+[
+ {
+  "slug": "milwaukee-2821",
+  "brand": "milwaukee",
+  "category": "reciprocating-saws",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2821",
+  "name": "M18 FUEL SAWZALL Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0213d1.pdf"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    3000,
+    "0 to 3000 (no load)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0213d1.pdf"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1-1/4\" (32 mm)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0213d1.pdf"
+   ],
+   [
+    "blade_clamp",
+    "",
+    "QUIK-LOK",
+    "QUIK-LOK (Anti-Corrosion)",
+    "R",
+    "https://thepowertoolstore.com/collections/milwaukee-m18/products/milwaukee-2821-20"
+   ],
+   [
+    "adjustable_shoe",
+    "",
+    true,
+    "Adjustable shoe",
+    "R",
+    "https://thepowertoolstore.com/collections/milwaukee-m18/products/milwaukee-2821-20"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED light",
+    "R",
+    "https://thepowertoolstore.com/collections/milwaukee-m18/products/milwaukee-2821-20"
+   ]
+  ],
+  "features": [
+   [
+    "battery_protection",
+    "REDLINK PLUS"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2821-20",
+    "title": "M18 FUEL SAWZALL Recip Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2821"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2722",
+  "brand": "milwaukee",
+  "category": "reciprocating-saws",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2722",
+  "name": "M18 FUEL SUPER SAWZALL Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://documents.milwaukeetool.com/58-14-2838d2.pdf",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 V DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2838d2.pdf"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    3000,
+    "0 to 3,000 no-load",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2838d2.pdf"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1.25 in",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2838d2.pdf"
+   ],
+   [
+    "orbital_action",
+    "",
+    true,
+    "Straight or orbital switch",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2838d2.pdf"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2722-20",
+    "title": "M18 FUEL SUPER SAWZALL Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://documents.milwaukeetool.com/58-14-2838d2.pdf",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2722"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2719",
+  "brand": "milwaukee",
+  "category": "reciprocating-saws",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2719",
+  "name": "M18 FUEL HACKZALL One-Handed Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://documents.milwaukeetool.com/58-14-1190d1.pdf",
+  "notes": "One-handed (HACKZALL) format.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-1190d1.pdf"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    3000,
+    "0 - 3000 (no load)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-1190d1.pdf"
+   ],
+   [
+    "stroke_length",
+    "",
+    0.875,
+    "7/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-1190d1.pdf"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2719-20",
+    "title": "M18 FUEL HACKZALL Recip Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://documents.milwaukeetool.com/58-14-1190d1.pdf",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2719"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-6538",
+  "brand": "milwaukee",
+  "category": "reciprocating-saws",
+  "model": "6538",
+  "name": "15.0 Amp Super Sawzall Reciprocating Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.milwaukeetool.com/products/details/15-0-amp-super-sawzall-recip-saw/6538-21",
+  "specs": [
+   [
+    "amperage",
+    "",
+    15,
+    "15 A, 120 AC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-4050d10.pdf"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    2800,
+    "0 - 2800",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-4050d10.pdf"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1-1/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-4050d10.pdf"
+   ],
+   [
+    "orbital_action",
+    "",
+    true,
+    "Orbit control switch",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-4050d10.pdf"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "6538-21",
+    "title": "15.0 Amp Super Sawzall Recip Saw",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/products/details/15-0-amp-super-sawzall-recip-saw/6538-21",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-6538"
+     ],
+     [
+      1,
+      "text",
+      "Carrying case"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs382",
+  "brand": "dewalt",
+  "category": "reciprocating-saws",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCS382",
+  "name": "20V MAX XR Brushless Cordless Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs382b/20v-max-xr-brushless-cordless-reciprocating-saw-tool-only",
+  "notes": "DeWalt does not list strokes per minute on the product page.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs382b/20v-max-xr-brushless-cordless-reciprocating-saw-tool-only"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.125,
+    "1-1/8 in",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs382b/20v-max-xr-brushless-cordless-reciprocating-saw-tool-only"
+   ],
+   [
+    "blade_clamp",
+    "",
+    "Twist-style keyless",
+    "Twist-style, keyless",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs382b/20v-max-xr-brushless-cordless-reciprocating-saw-tool-only"
+   ],
+   [
+    "adjustable_shoe",
+    "",
+    true,
+    "Pivoting shoe",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs382b/20v-max-xr-brushless-cordless-reciprocating-saw-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DCS382B",
+    "title": "20V MAX XR Brushless Cordless Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcs382b/20v-max-xr-brushless-cordless-reciprocating-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs382"
+     ],
+     [
+      1,
+      "text",
+      "Blade"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs369",
+  "brand": "dewalt",
+  "category": "reciprocating-saws",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-atomic",
+  "model": "DCS369",
+  "name": "ATOMIC 20V MAX Cordless One-Handed Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only",
+  "notes": "One-handed format. Stroke length not published.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V MAX",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    2800,
+    "2,800 SPM",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    3.13,
+    "3.13 lbs.",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only"
+   ],
+   [
+    "length",
+    "",
+    12.5,
+    "12.5 in. front to back",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only"
+   ],
+   [
+    "blade_clamp",
+    "",
+    "Tool-free",
+    "Tool-free blade release",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Integrated LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DCS369B",
+    "title": "ATOMIC 20V MAX Cordless One-Handed Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcs369b/20v-max-atomic-cordless-one-handed-reciprocating-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs369"
+     ],
+     [
+      2,
+      "text",
+      "Blade"
+     ],
+     [
+      1,
+      "text",
+      "Belt hook"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bosch-gsa18v-125",
+  "brand": "bosch",
+  "category": "reciprocating-saws",
+  "platform": "bosch-18v",
+  "model": "GSA18V-125",
+  "name": "18V EC Brushless 1-1/4 In.-Stroke Multi-Grip Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E",
+  "specs": [
+   [
+    "height",
+    "",
+    8.1,
+    "8.1\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "length",
+    "",
+    19.0,
+    "19\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    2500,
+    "0-2,500",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1.25\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "variable_speed",
+    "",
+    true,
+    "Yes",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    7.7,
+    "7.7 lb (tool only)",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "width",
+    "",
+    4.0,
+    "4\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ],
+   [
+    "orbital_action",
+    "",
+    true,
+    "Three orbital settings (0-1-2)",
+    "M",
+    "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "GSA18V-125N",
+    "title": "18V EC Brushless 1-1/4 In.-Stroke Multi-Grip Reciprocating Saw (Bare Tool)",
+    "type": "tool_only",
+    "url": "https://www.boschtools.com/us/en/products/gsa18v-125n-06016A811E",
+    "items": [
+     [
+      1,
+      "tool",
+      "bosch-gsa18v-125"
+     ],
+     [
+      2,
+      "text",
+      "6 in. bi-metal blade"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ridgid-r8647",
+  "brand": "ridgid",
+  "category": "reciprocating-saws",
+  "platform": "ridgid-18v",
+  "model": "R8647",
+  "name": "18V Brushless Cordless Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://powertools.ridgid.com/products/648846078298",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1-1/4 in.",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    3200,
+    "3200",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ],
+   [
+    "orbital_action",
+    "",
+    true,
+    "Orbital action switch",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    6.71,
+    "Product Weight (lb.): 6.710 lb (tool-only listing)",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ],
+   [
+    "adjustable_shoe",
+    "",
+    true,
+    "Adjustable Shoe",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED Light",
+    "M",
+    "https://powertools.ridgid.com/products/648846078298"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "R8647B",
+    "title": "18V Brushless Cordless Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://powertools.ridgid.com/products/648846078298",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r8647"
+     ],
+     [
+      1,
+      "text",
+      "Wood cutting blade"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ridgid-r8648",
+  "brand": "ridgid",
+  "category": "reciprocating-saws",
+  "platform": "ridgid-18v",
+  "line": "ridgid-subcompact",
+  "model": "R8648",
+  "name": "18V SubCompact Brushless Cordless One-Handed Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://powertools.ridgid.com/products/648846080130",
+  "notes": "One-handed format.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://powertools.ridgid.com/products/648846080130"
+   ],
+   [
+    "stroke_length",
+    "",
+    0.875,
+    "7/8 in. (0.875 in)",
+    "M",
+    "https://powertools.ridgid.com/products/648846080130"
+   ],
+   [
+    "strokes_per_minute",
+    "",
+    3200,
+    "0 to 3,200 SPM",
+    "M",
+    "https://powertools.ridgid.com/products/648846080130"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    3.9,
+    "Product Weight (lb.): 3.9 lb (tool-only listing)",
+    "M",
+    "https://powertools.ridgid.com/products/648846080130"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED Light",
+    "M",
+    "https://powertools.ridgid.com/products/648846080130"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "R8648B",
+    "title": "18V SubCompact Brushless Cordless One-Handed Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://powertools.ridgid.com/products/648846080130",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r8648"
+     ],
+     [
+      1,
+      "text",
+      "Wood cutting blade"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ryobi-pblrs01",
+  "brand": "ryobi",
+  "category": "reciprocating-saws",
+  "platform": "ryobi-18v-one-plus",
+  "line": "ryobi-one-plus-hp",
+  "model": "PBLRS01",
+  "name": "18V ONE+ HP Brushless Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.ryobitools.com/products/33287187836",
+  "specs": [
+   [
+    "strokes_per_minute",
+    "",
+    3200,
+    "3,200 SPM",
+    "M",
+    "https://www.ryobitools.com/products/33287187836"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1-1/4\"",
+    "M",
+    "https://www.ryobitools.com/products/33287187836"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "PBLRS01B",
+    "title": "18V ONE+ HP Brushless Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.ryobitools.com/products/33287187836",
+    "items": [
+     [
+      1,
+      "tool",
+      "ryobi-pblrs01"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "makita-xrj05",
+  "brand": "makita",
+  "category": "reciprocating-saws",
+  "platform": "makita-18v-lxt",
+  "model": "XRJ05",
+  "name": "18V LXT Brushless Cordless Recipro Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html",
+  "notes": "Max. cutting capacity 10 in. in wood (12 in. blade), 5-1/8 in. pipe.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "R",
+    "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html"
+   ],
+   [
+    "strokes_per_minute",
+    "speed:1",
+    2300,
+    "0 - 2,300 SPM",
+    "R",
+    "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html"
+   ],
+   [
+    "strokes_per_minute",
+    "speed:2",
+    3000,
+    "0 - 3,000 SPM",
+    "R",
+    "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html"
+   ],
+   [
+    "stroke_length",
+    "",
+    1.25,
+    "1-1/4 in.",
+    "R",
+    "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html"
+   ],
+   [
+    "length",
+    "",
+    17.25,
+    "17-1/4 in.",
+    "R",
+    "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html"
+   ],
+   [
+    "weight_with_battery",
+    "",
+    8.2,
+    "8.2 lbs with battery",
+    "R",
+    "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "XRJ05Z",
+    "title": "18V LXT Brushless Cordless Recipro Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.toolnut.com/makita-xrj05z-18v-brushless-cordless-recipro-saw-tool-only.html",
+    "items": [
+     [
+      1,
+      "tool",
+      "makita-xrj05"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "craftsman-cmcs351",
+  "brand": "craftsman",
+  "category": "reciprocating-saws",
+  "platform": "craftsman-v20",
+  "model": "CMCS351",
+  "name": "V20 BRUSHLESS RP Cordless Reciprocating Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V MAX",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only"
+   ],
+   [
+    "strokes_per_minute",
+    "speed:1",
+    2300,
+    "Low: 0-2300 SPM",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only"
+   ],
+   [
+    "strokes_per_minute",
+    "speed:2",
+    3200,
+    "High: 0-3200 SPM",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only"
+   ],
+   [
+    "blade_clamp",
+    "",
+    "Tool-free",
+    "Tool-free blade release",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 75% more power than the brushed CMCS300",
+    "Unit watts out with a 4.0Ah battery",
+    "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "CMCS351B",
+    "title": "V20 BRUSHLESS RP Cordless Reciprocating Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.craftsman.com/en-us/product/cmcs351b/v20-brushless-rp-cordless-reciprocating-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "craftsman-cmcs351"
+     ],
+     [
+      1,
+      "text",
+      "6 in. 5/8 TPI blade"
+     ]
+    ]
+   }
+  ]
+ }
+]
