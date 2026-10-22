@@ -1,0 +1,929 @@
+[
+ {
+  "slug": "milwaukee-2880",
+  "brand": "milwaukee",
+  "category": "angle-grinders",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2880",
+  "name": "M18 FUEL 4-1/2\" / 5\" Braking Grinder, Paddle Switch, No-Lock",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-4-1-2-5-braking-grinder-paddle-switch-no-lock/2880-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "",
+    8500,
+    "Rated RPM 8,500",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     5.0
+    ],
+    "4-1/2\" or 5\" (115 mm or 125 mm)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "spindle_thread",
+    "",
+    "5/8-11",
+    "5/8\"-11",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Paddle switch with lock-off button",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "lock_on",
+    "",
+    false,
+    "No-lock",
+    "M",
+    "https://www.milwaukeetool.com/products/details/m18-fuel-4-1-2-5-braking-grinder-paddle-switch-no-lock/2880-20"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "RAPIDSTOP electric brake",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ]
+  ],
+  "features": [
+   [
+    "wheel_brake",
+    "RAPIDSTOP"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2880-20",
+    "title": "M18 FUEL 4-1/2\" / 5\" Braking Grinder, Paddle Switch, No-Lock (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-4-1-2-5-braking-grinder-paddle-switch-no-lock/2880-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2880"
+     ],
+     [
+      1,
+      "text",
+      "T27 guard"
+     ],
+     [
+      1,
+      "text",
+      "T1 clip-on guard"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ],
+     [
+      1,
+      "text",
+      "Back flange"
+     ],
+     [
+      1,
+      "text",
+      "Flange nut"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2881",
+  "brand": "milwaukee",
+  "category": "angle-grinders",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2881",
+  "name": "M18 FUEL 4-1/2\" / 5\" Braking Grinder, Slide Switch, Lock-On",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://documents.milwaukeetool.com/58-14-0243d2.pdf",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "no_load_speed",
+    "",
+    8500,
+    "Rated RPM 8,500",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     5.0
+    ],
+    "4-1/2\" or 5\" (115 mm or 125 mm)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "spindle_thread",
+    "",
+    "5/8-11",
+    "5/8\"-11",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "switch_type",
+    "",
+    "slide",
+    "Slide switch",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "lock_on",
+    "",
+    true,
+    "Lock-on slide switch",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "RAPIDSTOP electric brake",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0243d2.pdf"
+   ]
+  ],
+  "features": [
+   [
+    "wheel_brake",
+    "RAPIDSTOP"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2881-20",
+    "title": "M18 FUEL 4-1/2\" / 5\" Braking Grinder, Slide Switch, Lock-On (Tool Only)",
+    "type": "tool_only",
+    "url": "https://documents.milwaukeetool.com/58-14-0243d2.pdf",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2881"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcg413",
+  "brand": "dewalt",
+  "category": "angle-grinders",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCG413",
+  "name": "20V MAX XR 4-1/2-in Paddle Switch Small Angle Grinder with KICKBACK BRAKE",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     4.5
+    ],
+    "4-1/2 in.",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Paddle switch, two-stage trigger",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Stops wheel in 2 seconds or less on average",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    3.75,
+    "3-3/4 lbs (product graphic)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only"
+   ]
+  ],
+  "features": [
+   [
+    "kickback_control",
+    "KICKBACK BRAKE"
+   ],
+   [
+    "wheel_brake",
+    "Electronic brake"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DCG413B",
+    "title": "20V MAX XR 4-1/2-in Paddle Switch Small Angle Grinder with KICKBACK BRAKE (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcg413b/20v-max-xr-4-12-paddle-switch-small-angle-grinder-kickback-brake-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcg413"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Hex key"
+     ],
+     [
+      1,
+      "text",
+      "Inner and outer flange"
+     ],
+     [
+      1,
+      "text",
+      "4.5-in Type 27 guard"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dwe43114n",
+  "brand": "dewalt",
+  "category": "angle-grinders",
+  "model": "DWE43114N",
+  "name": "4-1/2 in. - 5 in. Paddle Switch Grinder with No Lock-On",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock",
+  "specs": [
+   [
+    "amperage",
+    "",
+    13,
+    "13 amp",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock"
+   ],
+   [
+    "no_load_speed",
+    "",
+    11000,
+    "11,000 RPM",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     5.0
+    ],
+    "4-1/2 in. - 5 in.",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Paddle switch",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock"
+   ],
+   [
+    "lock_on",
+    "",
+    false,
+    "No lock-on",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock"
+   ]
+  ],
+  "features": [
+   [
+    "kickback_control",
+    "E-CLUTCH (anti-rotation)"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DWE43114N",
+    "title": "4-1/2 in. - 5 in. Paddle Switch Grinder with No Lock-On",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dwe43114n/4-12-5-paddle-switch-grinder-no-lock",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dwe43114n"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ],
+     [
+      1,
+      "text",
+      "Inner and outer flange"
+     ],
+     [
+      1,
+      "text",
+      "5 in. Type 27 guard"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bosch-gws18v-10p",
+  "brand": "bosch",
+  "category": "angle-grinders",
+  "platform": "bosch-18v",
+  "model": "GWS18V-10P",
+  "name": "18V Brushless 4-1/2 - 5 In. Angle Grinder with No Lock-On Paddle Switch",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E",
+  "specs": [
+   [
+    "height",
+    "",
+    4.3,
+    "4.3\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "length",
+    "",
+    12.5,
+    "12.5\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "no_load_speed",
+    "",
+    9000,
+    "9,000",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "voltage",
+    "",
+    18,
+    "18 V",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "spindle_thread",
+    "",
+    "5/8-11",
+    "5/8 -11 UNC",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "variable_speed",
+    "",
+    false,
+    "No",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    4.3,
+    "4.3 lb",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     5.0
+    ],
+    "4-1/2\" - 5\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "width",
+    "",
+    5.0,
+    "5\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Multi-grip paddle switch",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "lock_on",
+    "",
+    false,
+    "No lock-on",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Brake system",
+    "M",
+    "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E"
+   ]
+  ],
+  "features": [
+   [
+    "kickback_control",
+    "KickBack Control"
+   ],
+   [
+    "wheel_brake",
+    "Brake system"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "GWS18V-10PN",
+    "title": "18V Brushless 4-1/2 - 5 In. Angle Grinder with No Lock-On Paddle Switch (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.boschtools.com/us/en/products/gws18v-10pn-06019J411E",
+    "items": [
+     [
+      1,
+      "tool",
+      "bosch-gws18v-10p"
+     ],
+     [
+      1,
+      "text",
+      "Vibration-control handle"
+     ],
+     [
+      1,
+      "text",
+      "Wheel guard"
+     ],
+     [
+      1,
+      "text",
+      "Tool-free quick change lock nut"
+     ],
+     [
+      1,
+      "text",
+      "Backing flange"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ridgid-r86047",
+  "brand": "ridgid",
+  "category": "angle-grinders",
+  "platform": "ridgid-18v",
+  "model": "R86047",
+  "name": "18V Brushless Cordless 4-1/2 in. Paddle Switch Angle Grinder",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://powertools.ridgid.com/products/648846085807",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 V",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "no_load_speed",
+    "",
+    9000,
+    "9000 RPM",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     4.5
+    ],
+    "4-1/2 in.",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "spindle_thread",
+    "",
+    "5/8",
+    "Arbor Size 5/8",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Paddle",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "variable_speed",
+    "",
+    false,
+    "No",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    5.0,
+    "Product Weight (lb.): 5 lb (tool-only listing)",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electronic brake",
+    "M",
+    "https://powertools.ridgid.com/products/648846085807"
+   ]
+  ],
+  "features": [
+   [
+    "wheel_brake",
+    "Electronic brake"
+   ]
+  ],
+  "claims": [
+   [
+    "Up to 25% more power than the R86042B",
+    null,
+    "https://powertools.ridgid.com/products/648846085807"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "R86047B",
+    "title": "18V Brushless Cordless 4-1/2 in. Paddle Switch Angle Grinder (Tool Only)",
+    "type": "tool_only",
+    "url": "https://powertools.ridgid.com/products/648846085807",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r86047"
+     ],
+     [
+      1,
+      "text",
+      "Type 27 grinding wheel"
+     ],
+     [
+      1,
+      "text",
+      "Guard"
+     ],
+     [
+      1,
+      "text",
+      "Side handle"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "makita-xag04",
+  "brand": "makita",
+  "category": "angle-grinders",
+  "platform": "makita-18v-lxt",
+  "model": "XAG04",
+  "name": "18V LXT Brushless Cordless 4-1/2\" / 5\" Cut-Off/Angle Grinder",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html",
+  "notes": "Makita sells a braking version, the XAG16.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     5.0
+    ],
+    "4-1/2 in. / 5 in.",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "no_load_speed",
+    "",
+    8500,
+    "8,500 RPM",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "spindle_thread",
+    "",
+    "5/8-11",
+    "5/8 in. - 11 UNC",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "length",
+    "",
+    14.25,
+    "14-1/4 in.",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "weight_with_battery",
+    "",
+    5.6,
+    "5.6 lbs. with battery",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "switch_type",
+    "",
+    "slide",
+    "Body grip / slide with lock-on",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "lock_on",
+    "",
+    true,
+    "Lock-on",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ],
+   [
+    "electric_brake",
+    "",
+    false,
+    "No electric brake (per dealer FAQ)",
+    "R",
+    "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "XAG04Z",
+    "title": "18V LXT Brushless Cordless 4-1/2\" / 5\" Cut-Off/Angle Grinder (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.toolnut.com/makita-xag04z-18v-lxt-brushless-cordless-4-1-2-5-cut-off-angle-grinder-tool-only.html",
+    "items": [
+     [
+      1,
+      "tool",
+      "makita-xag04"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ryobi-pblag01",
+  "brand": "ryobi",
+  "category": "angle-grinders",
+  "platform": "ryobi-18v-one-plus",
+  "line": "ryobi-one-plus-hp",
+  "model": "PBLAG01",
+  "name": "18V ONE+ HP Brushless 4-1/2\" Angle Grinder/Cut-Off Tool",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.ryobitools.com/products/33287188048",
+  "notes": "Ryobi does not list RPM, weight or brake on the product page.",
+  "specs": [
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     4.5
+    ],
+    "4-1/2\"",
+    "M",
+    "https://www.ryobitools.com/products/33287188048"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Large paddle switch",
+    "M",
+    "https://www.ryobitools.com/products/33287188048"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 30% faster cutting",
+    null,
+    "https://www.ryobitools.com/products/33287188048"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "PBLAG01B",
+    "title": "18V ONE+ HP Brushless 4-1/2\" Angle Grinder/Cut-Off Tool (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.ryobitools.com/products/33287188048",
+    "items": [
+     [
+      1,
+      "tool",
+      "ryobi-pblag01"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "craftsman-cmcg451",
+  "brand": "craftsman",
+  "category": "angle-grinders",
+  "platform": "craftsman-v20",
+  "model": "CMCG451",
+  "name": "V20 BRUSHLESS RP Cordless 4-1/2 in. Small Angle Grinder",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.craftsman.com/en-us/product/cmcg451b/v20-brushless-rp-cordless-4-12-small-angle-grinder-tool-only",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V MAX",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcg451b/v20-brushless-rp-cordless-4-12-small-angle-grinder-tool-only"
+   ],
+   [
+    "wheel_diameter",
+    "",
+    [
+     4.5,
+     4.5
+    ],
+    "4-1/2 in.",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcg451b/v20-brushless-rp-cordless-4-12-small-angle-grinder-tool-only"
+   ],
+   [
+    "switch_type",
+    "",
+    "paddle",
+    "Paddle switch",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcg451b/v20-brushless-rp-cordless-4-12-small-angle-grinder-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 65% more power",
+    null,
+    "https://www.craftsman.com/en-us/product/cmcg451b/v20-brushless-rp-cordless-4-12-small-angle-grinder-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "CMCG451B",
+    "title": "V20 BRUSHLESS RP Cordless 4-1/2 in. Small Angle Grinder (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.craftsman.com/en-us/product/cmcg451b/v20-brushless-rp-cordless-4-12-small-angle-grinder-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "craftsman-cmcg451"
+     ]
+    ]
+   }
+  ]
+ }
+]
