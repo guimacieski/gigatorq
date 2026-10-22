@@ -336,7 +336,7 @@ CREATE TABLE test_result (
 
 CREATE TABLE score (
   tool_id    INTEGER NOT NULL REFERENCES tool(id) ON DELETE CASCADE,
-  criterion  TEXT NOT NULL CHECK (criterion IN ('power','runtime','ergonomics','value','overall')),
+  criterion  TEXT NOT NULL CHECK (criterion IN ('power','features','owner_satisfaction','value','overall','runtime','ergonomics')),
   score      REAL NOT NULL CHECK (score BETWEEN 0 AND 10),
   method_version INTEGER NOT NULL DEFAULT 1,
   scored_on  TEXT NOT NULL,
@@ -370,6 +370,31 @@ CREATE TABLE comparison_entry (
   award         TEXT,                    -- 'Best overall', 'Best value'
   rank          INTEGER,
   PRIMARY KEY (comparison_id, tool_id)
+);
+
+-- ---------------------------------------------------------------- owner feedback (summarized, never copied)
+
+-- Aggregate rating snapshot per retailer listing (numbers only, as displayed by the retailer).
+CREATE TABLE rating_snapshot (
+  id           INTEGER PRIMARY KEY,
+  sku_id       INTEGER NOT NULL REFERENCES sku(id) ON DELETE CASCADE,
+  retailer_id  INTEGER NOT NULL REFERENCES retailer(id),
+  observed_on  TEXT NOT NULL,
+  avg_rating   REAL,              -- e.g. 4.7 (out of 5)
+  review_count INTEGER,
+  url          TEXT NOT NULL
+);
+
+-- Recurring themes found across owner reviews, written in our own words.
+CREATE TABLE owner_theme (
+  id           INTEGER PRIMARY KEY,
+  tool_id      INTEGER NOT NULL REFERENCES tool(id) ON DELETE CASCADE,
+  sentiment    TEXT NOT NULL CHECK (sentiment IN ('praise','complaint','mixed')),
+  theme        TEXT NOT NULL,     -- 'Chuck slips under heavy load'
+  frequency    TEXT CHECK (frequency IN ('often','sometimes','rarely')),
+  reviews_read INTEGER,           -- how many reviews this theme was judged from
+  sources      TEXT,              -- JSON array of source URLs
+  researched_on TEXT NOT NULL
 );
 
 -- ---------------------------------------------------------------- indexes
