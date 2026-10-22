@@ -80,5 +80,46 @@
   "name": "V20 4.0Ah Li-ion Battery",
   "ah": 4.0,
   "url": "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+ },
+ {
+  "brand": "milwaukee",
+  "platform": "milwaukee-m18",
+  "model": "48-11-1840",
+  "name": "M18 REDLITHIUM XC4.0 Extended Capacity Battery",
+  "ah": 4.0,
+  "url": "https://acetool.com/products/milwaukee-3693-24cx-m18-4-tool-combo-kit"
+ },
+ {
+  "brand": "milwaukee",
+  "platform": "milwaukee-m18",
+  "model": "48-11-1820",
+  "name": "M18 REDLITHIUM CP2.0 Compact Battery",
+  "ah": 2.0,
+  "url": "https://acetool.com/products/milwaukee-3693-24cx-m18-4-tool-combo-kit"
+ },
+ {
+  "brand": "dewalt",
+  "platform": "dewalt-20v-max",
+  "model": "DCB201",
+  "name": "20V MAX 1.3Ah Compact Lithium Ion Battery",
+  "ah": 1.3,
+  "url": "https://www.dewalt.com/product/dck240c2/20v-max-drill-driverimpact-driver-combo-kit"
+ },
+ {
+  "brand": "makita",
+  "platform": "makita-18v-lxt",
+  "model": "BL1840B",
+  "name": "18V LXT 4.0Ah Lithium-Ion Battery with fuel gauge",
+  "ah": 4.0,
+  "fuel_gauge": 1,
+  "url": "https://www.toolnut.com/products/makita-xt269m-18v-brushless-4ah-combo-kit"
+ },
+ {
+  "brand": "bosch",
+  "platform": "bosch-18v",
+  "model": "GBA18V40",
+  "name": "18V CORE18V 4.0Ah Compact Battery",
+  "ah": 4.0,
+  "url": "https://www.boschtools.com/us/en/products/gxl18v-227b25-06019J0218"
  }
 ]

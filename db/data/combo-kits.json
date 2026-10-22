@@ -1,0 +1,362 @@
+[
+ {
+  "kit": true,
+  "brand": "milwaukee",
+  "skus": [
+   {
+    "model": "3693-24CX",
+    "title": "M18 4-Tool Combo Kit (hammer drill, impact driver, circular saw, HACKZALL)",
+    "type": "combo_kit",
+    "url": "https://www.milwaukeetool.com/products/3693-24cx",
+    "prices": [
+     {
+      "retailer": "ace-tool",
+      "price": 499.0,
+      "url": "https://acetool.com/products/milwaukee-3693-24cx-m18-4-tool-combo-kit"
+     }
+    ],
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-3602"
+     ],
+     [
+      1,
+      "tool",
+      "milwaukee-3651"
+     ],
+     [
+      1,
+      "tool",
+      "milwaukee-2631"
+     ],
+     [
+      1,
+      "text",
+      "2625-20 M18 HACKZALL reciprocating saw"
+     ],
+     [
+      1,
+      "battery",
+      "48-11-1840"
+     ],
+     [
+      1,
+      "battery",
+      "48-11-1820"
+     ],
+     [
+      1,
+      "text",
+      "48-59-1812 M18 & M12 multi-voltage charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "kit": true,
+  "brand": "dewalt",
+  "skus": [
+   {
+    "model": "DCK240C2",
+    "title": "20V MAX Drill/Driver and Impact Driver Combo Kit",
+    "type": "combo_kit",
+    "url": "https://www.dewalt.com/product/dck240c2/20v-max-drill-driverimpact-driver-combo-kit",
+    "items": [
+     [
+      1,
+      "text",
+      "DCD771 20V MAX 1/2 in. drill/driver (brushed)"
+     ],
+     [
+      1,
+      "text",
+      "DCF885 20V MAX 1/4 in. impact driver (brushed)"
+     ],
+     [
+      2,
+      "battery",
+      "DCB201"
+     ],
+     [
+      1,
+      "text",
+      "20V MAX charger"
+     ],
+     [
+      1,
+      "text",
+      "DCK019 contractor bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "kit": true,
+  "brand": "makita",
+  "skus": [
+   {
+    "model": "XT269M",
+    "title": "18V LXT Brushless 2-Tool Combo Kit (hammer drill, impact driver), 4.0Ah",
+    "type": "combo_kit",
+    "url": "https://www.toolnut.com/products/makita-xt269m-18v-brushless-4ah-combo-kit",
+    "prices": [
+     {
+      "retailer": "toolnut",
+      "price": 319.0,
+      "url": "https://www.toolnut.com/products/makita-xt269m-18v-brushless-4ah-combo-kit"
+     }
+    ],
+    "items": [
+     [
+      1,
+      "text",
+      "XPH12Z 18V LXT brushless 1/2 in. hammer driver-drill"
+     ],
+     [
+      1,
+      "tool",
+      "makita-xdt13"
+     ],
+     [
+      2,
+      "battery",
+      "BL1840B"
+     ],
+     [
+      1,
+      "text",
+      "DC18RC rapid charger"
+     ],
+     [
+      1,
+      "text",
+      "Tool bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "kit": true,
+  "brand": "bosch",
+  "skus": [
+   {
+    "model": "GXL18V-227B25",
+    "title": "18V 2-Tool Combo Kit (Freak impact driver/wrench, hammer drill)",
+    "type": "combo_kit",
+    "url": "https://www.boschtools.com/us/en/products/gxl18v-227b25-06019J0218",
+    "items": [
+     [
+      1,
+      "tool",
+      "bosch-gdx18v-1860c"
+     ],
+     [
+      1,
+      "text",
+      "GSB18V-975C 18V brushless 1/2 in. hammer drill/driver"
+     ],
+     [
+      2,
+      "battery",
+      "GBA18V40"
+     ],
+     [
+      1,
+      "text",
+      "GAL18V-40 charger"
+     ],
+     [
+      1,
+      "text",
+      "Carrying bag, 4x bit holder, 2 belt clips"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "kit": true,
+  "brand": "ryobi",
+  "skus": [
+   {
+    "model": "PCL1600K2",
+    "title": "18V ONE+ 6-Tool Combo Kit",
+    "type": "combo_kit",
+    "msrp": 299.0,
+    "url": "https://www.ryobitools.com/products/33287200153",
+    "items": [
+     [
+      1,
+      "text",
+      "18V ONE+ drill/driver"
+     ],
+     [
+      1,
+      "text",
+      "18V ONE+ impact driver"
+     ],
+     [
+      1,
+      "text",
+      "18V ONE+ reciprocating saw"
+     ],
+     [
+      1,
+      "text",
+      "18V ONE+ 5-1/2 in. circular saw"
+     ],
+     [
+      1,
+      "text",
+      "18V ONE+ multi-tool"
+     ],
+     [
+      1,
+      "text",
+      "18V ONE+ LED light"
+     ],
+     [
+      2,
+      "text",
+      "18V ONE+ battery (capacity not stated on the brand page)"
+     ],
+     [
+      1,
+      "text",
+      "18V charger"
+     ],
+     [
+      1,
+      "text",
+      "Tool bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "kit": true,
+  "brand": "ryobi",
+  "skus": [
+   {
+    "model": "PCL1201K2",
+    "title": "18V ONE+ 2-Tool Combo Kit (drill/driver, circular saw)",
+    "type": "combo_kit",
+    "msrp": 179.0,
+    "url": "https://www.ryobitools.com/products/33287200139",
+    "items": [
+     [
+      1,
+      "text",
+      "18V ONE+ drill/driver"
+     ],
+     [
+      1,
+      "text",
+      "18V ONE+ 5-1/2 in. circular saw"
+     ],
+     [
+      2,
+      "text",
+      "18V ONE+ 1.5Ah battery"
+     ],
+     [
+      1,
+      "text",
+      "18V charger"
+     ],
+     [
+      1,
+      "text",
+      "Tool bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "kit": true,
+  "brand": "ridgid",
+  "skus": [
+   {
+    "model": "R96264N",
+    "title": "18V Brushless 8-Tool Combo Kit",
+    "type": "combo_kit",
+    "msrp": 799.0,
+    "url": "https://powertools.ridgid.com/products/648846085715",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r86115"
+     ],
+     [
+      1,
+      "tool",
+      "ridgid-r862311"
+     ],
+     [
+      1,
+      "tool",
+      "ridgid-r8647"
+     ],
+     [
+      1,
+      "tool",
+      "ridgid-r86047"
+     ],
+     [
+      1,
+      "tool",
+      "ridgid-r8657"
+     ],
+     [
+      1,
+      "text",
+      "R86240 18V brushless oscillating multi-tool"
+     ],
+     [
+      1,
+      "text",
+      "R8695 18V LED light"
+     ],
+     [
+      1,
+      "text",
+      "18V brushless mid-torque impact wrench"
+     ],
+     [
+      1,
+      "text",
+      "18V 4.0Ah MAX Output battery"
+     ],
+     [
+      2,
+      "text",
+      "18V 2.0Ah MAX Output battery"
+     ],
+     [
+      1,
+      "text",
+      "18V charger"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   }
+  ]
+ }
+]
