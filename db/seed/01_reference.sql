@@ -213,7 +213,8 @@ INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 29, 11
 INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 30, 12, 1);
 INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 27, 13, 1);
 INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 28, 14, 0);
-INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 31, 15, 0);
+INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 7, 15, 0);
+INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (5, 31, 16, 0);
 INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (6, 1, 1, 0);
 INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (6, 6, 2, 0);
 INSERT INTO category_spec (category_id, spec_id, sort, is_key) VALUES (6, 8, 3, 0);

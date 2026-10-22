@@ -1,0 +1,1724 @@
+[
+ {
+  "slug": "milwaukee-2967",
+  "brand": "milwaukee",
+  "category": "impact-wrenches",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2967",
+  "name": "M18 FUEL 1/2\" High Torque Impact Wrench w/ Friction Ring",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-high-torque-impact-wrench-with-friction-ring/2967-20",
+  "notes": "With the XC5.0 Resistant battery in the 2967-22 kit, Milwaukee rates 1,100 ft-lbs fastening and 1,500 ft-lbs nut-busting.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "Friction Ring",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "fastening_torque",
+    "",
+    1200,
+    "1,200 ft-lbs (with FORGE XC6.0 battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1600,
+    "Nut-busting 1,600 ft-lbs (with FORGE XC6.0 battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "no_load_speed",
+    "",
+    2000,
+    "0-2,000 RPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "impact_rate",
+    "",
+    2400,
+    "0-2,400 IPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "length",
+    "",
+    7.6,
+    "7.6\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    5.9,
+    "5.9 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2967-20",
+    "title": "M18 FUEL 1/2\" High Torque Impact Wrench w/ Friction Ring (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2967"
+     ]
+    ]
+   },
+   {
+    "model": "2967-22",
+    "title": "M18 FUEL 1/2\" High Torque Impact Wrench w/ Friction Ring Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2967"
+     ],
+     [
+      2,
+      "battery",
+      "48-11-1850R"
+     ],
+     [
+      1,
+      "text",
+      "M18 & M12 multi-voltage charger 48-59-1812"
+     ],
+     [
+      1,
+      "text",
+      "Blow molded case"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2966",
+  "brand": "milwaukee",
+  "category": "impact-wrenches",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2966",
+  "name": "M18 FUEL 1/2\" High Torque Impact Wrench w/ Pin Detent",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "pin_detent",
+    "Pin Detent",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "fastening_torque",
+    "",
+    900,
+    "900 ft-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1100,
+    "Nut-busting 1,100 ft-lbs",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "no_load_speed",
+    "",
+    2000,
+    "0-2,000 RPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "impact_rate",
+    "",
+    2700,
+    "0-2,700 IPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "length",
+    "",
+    7.1,
+    "7.1\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    5.4,
+    "5.4 lbs (no battery)",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2966-20",
+    "title": "M18 FUEL 1/2\" High Torque Impact Wrench w/ Pin Detent (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2966"
+     ]
+    ]
+   },
+   {
+    "model": "2966-22",
+    "title": "M18 FUEL 1/2\" High Torque Impact Wrench w/ Pin Detent Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2966"
+     ],
+     [
+      2,
+      "battery",
+      "48-11-1850R"
+     ],
+     [
+      1,
+      "text",
+      "M18 & M12 multi-voltage charger 48-59-1812"
+     ],
+     [
+      1,
+      "text",
+      "Blow molded case"
+     ],
+     [
+      1,
+      "text",
+      "Lanyard loop"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2962",
+  "brand": "milwaukee",
+  "category": "impact-wrenches",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2962",
+  "name": "M18 FUEL 1/2\" Mid-Torque Impact Wrench w/ Friction Ring",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-mid-torque-impact-wrench-w-friction-ring/2962-20",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2\" square drive",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "Friction ring",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "Modes 1-3 plus Auto Shut-Off",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "Modes 1-3",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    1250,
+    "Mode 1: 0-1,250 RPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:1",
+    900,
+    "Mode 1: 0-900 IPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1950,
+    "Mode 2: 0-1,950 RPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:2",
+    2100,
+    "Mode 2: 0-2,100 IPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    2575,
+    "Mode 3: 0-2,575 RPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:3",
+    3100,
+    "Mode 3: 0-3,100 IPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "fastening_torque",
+    "speed:1",
+    350,
+    "Mode 1: up to 350 ft-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "breakaway_torque",
+    "speed:1",
+    350,
+    "Mode 1: up to 350 ft-lbs nut-busting",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "fastening_torque",
+    "speed:2",
+    450,
+    "Mode 2: up to 450 ft-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "breakaway_torque",
+    "speed:2",
+    450,
+    "Mode 2: up to 450 ft-lbs nut-busting",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "fastening_torque",
+    "speed:3",
+    550,
+    "Mode 3: up to 550 ft-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "breakaway_torque",
+    "speed:3",
+    650,
+    "Mode 3: up to 650 ft-lbs nut-busting",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2962-20",
+    "title": "M18 FUEL 1/2\" Mid-Torque Impact Wrench w/ Friction Ring (Tool Only)",
+    "type": "tool_only",
+    "url": "https://documents.milwaukeetool.com/58-14-2960D1.pdf",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2962"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2960",
+  "brand": "milwaukee",
+  "category": "impact-wrenches",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2960",
+  "name": "M18 FUEL 3/8\" Mid-Torque Impact Wrench w/ Friction Ring",
+  "motor": "brushless",
+  "url": "https://documents.milwaukeetool.com/58-14-2960D1.pdf",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "drive_size",
+    "",
+    "3/8_sq",
+    "3/8\" square drive",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "Friction ring",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "Modes 1-3 plus Auto Shut-Off",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "Modes 1-3",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    1250,
+    "Mode 1: 0-1,250 RPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:1",
+    900,
+    "Mode 1: 0-900 IPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1950,
+    "Mode 2: 0-1,950 RPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:2",
+    2100,
+    "Mode 2: 0-2,100 IPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    2575,
+    "Mode 3: 0-2,575 RPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "impact_rate",
+    "speed:3",
+    3100,
+    "Mode 3: 0-3,100 IPM",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "fastening_torque",
+    "speed:1",
+    200,
+    "Mode 1: up to 200 ft-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "breakaway_torque",
+    "speed:1",
+    200,
+    "Mode 1: up to 200 ft-lbs nut-busting",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "fastening_torque",
+    "speed:2",
+    300,
+    "Mode 2: up to 300 ft-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "breakaway_torque",
+    "speed:2",
+    300,
+    "Mode 2: up to 300 ft-lbs nut-busting",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "fastening_torque",
+    "speed:3",
+    550,
+    "Mode 3: up to 550 ft-lbs",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ],
+   [
+    "breakaway_torque",
+    "speed:3",
+    600,
+    "Mode 3: up to 600 ft-lbs nut-busting",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2960D1.pdf"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2960-20",
+    "title": "M18 FUEL 3/8\" Mid-Torque Impact Wrench w/ Friction Ring (Tool Only)",
+    "type": "tool_only",
+    "url": "https://documents.milwaukeetool.com/58-14-2960D1.pdf",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2960"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcf961",
+  "brand": "dewalt",
+  "category": "impact-wrenches",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCF961",
+  "name": "20V MAX XR 1/2-in Brushless High Torque Impact Wrench with Hog Ring Anvil",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+  "notes": "DeWalt lists 3 speed settings in one place and a 4-speed mode select in another.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2-in",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "hog_ring",
+    "Hog ring",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "fastening_torque",
+    "",
+    1320,
+    "1,320 ft-lbs (1,626 Nm), with DCBP520 battery",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1900,
+    "1,900 ft-lbs (2,372 Nm)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "On-tool LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ]
+  ],
+  "features": [
+   [
+    "tool_tracking",
+    "TOOL CONNECT chip-ready"
+   ]
+  ],
+  "claims": [
+   [
+    "Up to 71% more breakaway torque than the DCF899",
+    null,
+    "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "DCF961B",
+    "title": "20V MAX XR 1/2-in Brushless High Torque Impact Wrench With Hog Ring Anvil (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcf961b/20v-max-xr-12-brushless-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcf961"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcf891",
+  "brand": "dewalt",
+  "category": "impact-wrenches",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCF891",
+  "name": "20V MAX XR 1/2-in Mid-Range Impact Wrench with Hog Ring Anvil",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only",
+  "notes": "DeWalt states weight only as \"under 4 lbs (tool only)\".",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2-in (13mm)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "hog_ring",
+    "Hog ring",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ],
+   [
+    "fastening_torque",
+    "",
+    600,
+    "600 ft-lbs",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    800,
+    "800 ft-lbs",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "4 modes",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "On-tool LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DCF891B",
+    "title": "20V MAX XR 1/2-in Mid-Range Impact Wrench With Hog Ring Anvil (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-cordless-12-13mm-mid-range-impact-wrench-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcf891"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcf921",
+  "brand": "dewalt",
+  "category": "impact-wrenches",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-atomic",
+  "model": "DCF921",
+  "name": "ATOMIC 20V MAX 1/2-in Cordless Impact Wrench with Hog Ring Anvil",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2-in",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "hog_ring",
+    "Hog ring",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "fastening_torque",
+    "",
+    300,
+    "up to 300 ft-lbs",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    450,
+    "450 ft-lbs",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "speed_settings",
+    "",
+    4,
+    "4 speed settings",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED with brightness control",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DCF921B",
+    "title": "ATOMIC 20V MAX 1/2-in Cordless Impact Wrench With Hog Ring Anvil (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcf921b/20v-max-atomic-12-cordless-impact-wrench-hog-ring-anvil-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcf921"
+     ],
+     [
+      1,
+      "text",
+      "Belt clip"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "makita-xwt08",
+  "brand": "makita",
+  "category": "impact-wrenches",
+  "platform": "makita-18v-lxt",
+  "model": "XWT08",
+  "name": "18V LXT Brushless Cordless High Torque 1/2\" Sq. Drive Impact Wrench",
+  "motor": "brushless",
+  "url": "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html",
+  "specs": [
+   [
+    "fastening_torque",
+    "",
+    740,
+    "740 ft-lbs",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1180,
+    "Break-Away Torque 1,180 ft-lbs",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2 in. square drive",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "friction ring",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "length",
+    "",
+    9.0,
+    "9 in.",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "3 speeds",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    900,
+    "0-900 RPM",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "impact_rate",
+    "speed:1",
+    1800,
+    "0-1,800 IPM",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1000,
+    "0-1,000 RPM",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "impact_rate",
+    "speed:2",
+    2000,
+    "0-2,000 IPM",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    1800,
+    "0-1,800 RPM",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ],
+   [
+    "impact_rate",
+    "speed:3",
+    2200,
+    "0-2,200 IPM",
+    "R",
+    "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "XWT08Z",
+    "title": "18V LXT Brushless Cordless High Torque 1/2\" Sq. Drive Impact Wrench (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.toolnut.com/makita-xwt08z-18v-brushless-cordless-high-torque-1-2-in-sq-drive-impact-wrench-tool-only.html",
+    "items": [
+     [
+      1,
+      "tool",
+      "makita-xwt08"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ryobi-pbliw01",
+  "brand": "ryobi",
+  "category": "impact-wrenches",
+  "platform": "ryobi-18v-one-plus",
+  "line": "ryobi-one-plus-hp",
+  "model": "PBLIW01",
+  "name": "ONE+ HP 18V Brushless Cordless 4-Mode 1/2 in. High Torque Impact Wrench",
+  "motor": "brushless",
+  "url": "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520",
+  "notes": "Home Depot labels 1,170 as \"Torque (ft-lbs)\"; the description says it is breakaway torque. Fastening torque is not published.",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2 in",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "friction ring",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1170,
+    "up to 1,170 ft./lbs. of breakaway torque",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "impact_rate",
+    "",
+    2800,
+    "Impacts Per Minute: 2800",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "4-mode (low/medium/high plus Auto Mode)",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    5.13,
+    "Product Weight: 5.13 lb (tool-only listing)",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Tri-Beam LED worklights",
+    "R",
+    "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "PBLIW01B",
+    "title": "ONE+ HP 18V Brushless Cordless 4-Mode 1/2 in. High Torque Impact Wrench (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520",
+    "items": [
+     [
+      1,
+      "tool",
+      "ryobi-pbliw01"
+     ]
+    ],
+    "ratings": [
+     {
+      "retailer": "home-depot",
+      "avg": 4.8,
+      "count": 2208,
+      "url": "https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-Cordless-4-Mode-1-2-in-High-Torque-Impact-Wrench-Tool-Only-PBLIW01B/317438520"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ridgid-r86212",
+  "brand": "ridgid",
+  "category": "impact-wrenches",
+  "platform": "ridgid-18v",
+  "model": "R86212",
+  "name": "18V Brushless Cordless 4-Mode 1/2 in. High-Torque Impact Wrench",
+  "motor": "brushless",
+  "url": "https://powertools.ridgid.com/products/648846081489",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1300,
+    "1,300 ft./lbs.",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "fastening_torque",
+    "",
+    900,
+    "900 ft./lbs.",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "impact_rate",
+    "",
+    2300,
+    "2300",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "no_load_speed",
+    "",
+    1800,
+    "1800 RPM",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "drive_modes",
+    "",
+    4,
+    "3 speeds plus auto tightening mode",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "3 speeds",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    5.72,
+    "Product Weight (lb.): 5.72 lb (tool-only listing)",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2 in.",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED Light",
+    "M",
+    "https://powertools.ridgid.com/products/648846081489"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "R86212B",
+    "title": "18V Brushless Cordless 4-Mode 1/2 in. High-Torque Impact Wrench (Tool Only)",
+    "type": "tool_only",
+    "url": "https://powertools.ridgid.com/products/648846081489",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r86212"
+     ],
+     [
+      1,
+      "text",
+      "Belt hook with screw"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bosch-gds18v-770c",
+  "brand": "bosch",
+  "category": "impact-wrenches",
+  "platform": "bosch-18v",
+  "model": "GDS18V-770C",
+  "name": "PROFACTOR 18V Connected-Ready 3/4 In. Impact Wrench with Friction Ring and Thru-Hole",
+  "motor": "brushless",
+  "url": "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217",
+  "notes": "Bosch image text gives 740 ft-lbs fastening and 1,180 ft-lbs breakaway; the spec table and description give 770 and 1,250.",
+  "specs": [
+   [
+    "drive_size",
+    "",
+    "3/4_sq",
+    "3/4\" Square Drive",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "Friction Ring and Thru-Hole",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "height",
+    "",
+    9.5,
+    "9.5\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "length",
+    "",
+    8.7,
+    "8.7\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "fastening_torque",
+    "",
+    770,
+    "Torque (ft.-lbs) 770",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1250,
+    "1,250 Ft.-Lbs. max",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "variable_speed",
+    "",
+    true,
+    "Yes",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    6.4,
+    "6.4 lbs",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "width",
+    "",
+    3.4,
+    "3.4\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "3 speeds",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    800,
+    "0-800",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1300,
+    "0-1,300",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    1750,
+    "0-1,750",
+    "M",
+    "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217"
+   ]
+  ],
+  "features": [
+   [
+    "tool_tracking",
+    "Connected-Ready (GCY42)"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "GDS18V-770CN",
+    "title": "PROFACTOR 18V Connected-Ready 3/4 In. Impact Wrench (Bare Tool)",
+    "type": "tool_only",
+    "url": "https://www.boschtools.com/us/en/products/gds18v-770cn-06019J8217",
+    "items": [
+     [
+      1,
+      "tool",
+      "bosch-gds18v-770c"
+     ],
+     [
+      1,
+      "text",
+      "Joist hanger"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "craftsman-cmcf940",
+  "brand": "craftsman",
+  "category": "impact-wrenches",
+  "platform": "craftsman-v20",
+  "model": "CMCF940",
+  "name": "V20 BRUSHLESS RP 1/2\" Drive High Torque Impact Wrench with Hog Ring Anvil",
+  "motor": "brushless",
+  "url": "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and",
+  "specs": [
+   [
+    "fastening_torque",
+    "",
+    700,
+    "700 ft-lbs max",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1000,
+    "1,000 ft-lbs",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "3-speed",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2\" drive",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "hog_ring",
+    "Hog ring",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED work light",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "CMCF940M1",
+    "title": "V20 Brushless RP 1/2\" High Torque Impact Wrench with Hog Ring Anvil and (1) 4.0Ah Battery and Charger",
+    "type": "kit",
+    "url": "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and",
+    "items": [
+     [
+      1,
+      "tool",
+      "craftsman-cmcf940"
+     ],
+     [
+      1,
+      "battery",
+      "CMCB204"
+     ],
+     [
+      1,
+      "text",
+      "CMCB104 V20 charger"
+     ],
+     [
+      1,
+      "text",
+      "Soft bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "flex-fx1472",
+  "brand": "flex",
+  "category": "impact-wrenches",
+  "platform": "flex-24v",
+  "model": "FX1472",
+  "name": "24V 1/2\" High-Torque Impact Wrench",
+  "motor": "brushless",
+  "url": "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/",
+  "specs": [
+   [
+    "fastening_torque",
+    "",
+    1100,
+    "1,100 ft-lbs",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1500,
+    "Nut-busting (max) 1,500 ft-lbs",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "impact_rate",
+    "",
+    2350,
+    "2,350 IPM",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "Torque setting 3",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2 in",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "friction_ring",
+    "Square, friction ring",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "length",
+    "",
+    7.8,
+    "7.8 in",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    6.4,
+    "6.4 lb",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED with pre-light and after-glow",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    500,
+    "500 RPM",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "no_load_speed",
+    "speed:2",
+    1000,
+    "1,000 RPM",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    1900,
+    "1,900 RPM",
+    "M",
+    "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "FX1472-Z",
+    "title": "24V 1/2\" High-Torque Impact Wrench (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/",
+    "items": [
+     [
+      1,
+      "tool",
+      "flex-fx1472"
+     ]
+    ]
+   },
+   {
+    "model": "FX1472-1H",
+    "title": "24V 1/2\" High-Torque Impact Wrench Stacked Lithium Kit",
+    "type": "kit",
+    "url": "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/",
+    "items": [
+     [
+      1,
+      "tool",
+      "flex-fx1472"
+     ],
+     [
+      1,
+      "battery",
+      "FX0331"
+     ],
+     [
+      1,
+      "text",
+      "280W fast charger FX0421"
+     ],
+     [
+      1,
+      "text",
+      "FLEX case"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "kobalt-kxiw1424a",
+  "brand": "kobalt",
+  "category": "impact-wrenches",
+  "platform": "kobalt-24v-max",
+  "model": "KXIW 1424A",
+  "name": "XTR 24V MAX High-Torque 1/2\" Impact Wrench",
+  "motor": "brushless",
+  "url": "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03",
+  "notes": "Pro Tool Reviews lists two different middle speeds (2,350 and 1,350 RPM); not stored.",
+  "specs": [
+   [
+    "fastening_torque",
+    "",
+    750,
+    "750 ft-lbs",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "breakaway_torque",
+    "",
+    1200,
+    "1200 ft-lbs",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "impact_rate",
+    "",
+    2100,
+    "2100 IPM",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "speed_settings",
+    "",
+    3,
+    "Three speed settings",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "drive_size",
+    "",
+    "1/2_sq",
+    "1/2-inch",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "anvil_retention",
+    "",
+    "hog_ring",
+    "hog ring",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "weight_with_battery",
+    "battery:4.0Ah",
+    8.7,
+    "8.7 lb with 4.0Ah battery",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "no_load_speed",
+    "speed:1",
+    900,
+    "900 RPM",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "no_load_speed",
+    "speed:3",
+    1900,
+    "1900 RPM",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED light",
+    "O",
+    "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "KXIW 1424A-03",
+    "title": "Kobalt XTR 24V MAX High-Torque 1/2\" Impact Wrench Kit",
+    "type": "kit",
+    "url": "https://www.protoolreviews.com/kobalt-xtr-high-torque-impact-wrench-kxiw-1424a-03",
+    "items": [
+     [
+      1,
+      "tool",
+      "kobalt-kxiw1424a"
+     ],
+     [
+      1,
+      "text",
+      "24V MAX 4.0Ah Ultimate Output battery"
+     ],
+     [
+      1,
+      "text",
+      "Charger"
+     ]
+    ]
+   }
+  ]
+ }
+]

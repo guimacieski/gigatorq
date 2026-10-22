@@ -56,5 +56,29 @@
   "name": "M18 REDLITHIUM XC5.0 Battery Pack",
   "ah": 5.0,
   "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Dominates-High-Performance-Drilling-Driving-with-their-New-M18-FUEL-Drill-and-Impact"
+ },
+ {
+  "brand": "milwaukee",
+  "platform": "milwaukee-m18",
+  "model": "48-11-1850R",
+  "name": "M18 REDLITHIUM XC5.0 Resistant Battery",
+  "ah": 5.0,
+  "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-drives-innovation-with-next-generation-of-m18-fuel-1_2in-high-torque-impact-wrenches"
+ },
+ {
+  "brand": "flex",
+  "platform": "flex-24v",
+  "model": "FX0331",
+  "name": "24V 6.0Ah Stacked Lithium Battery",
+  "ah": 6.0,
+  "url": "https://www.flexpowertools.com/half-inch-high-torque-impact-wrench-fx1472/"
+ },
+ {
+  "brand": "craftsman",
+  "platform": "craftsman-v20",
+  "model": "CMCB204",
+  "name": "V20 4.0Ah Li-ion Battery",
+  "ah": 4.0,
+  "url": "https://www.craftsman.com/en-us/product/cmcf940m1/v20-brushless-rp-cordless-12-impact-wrench-hog-ring-anvil-and-1-40ah-battery-and"
  }
 ]
