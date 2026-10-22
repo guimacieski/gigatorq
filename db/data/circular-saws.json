@@ -1,0 +1,1482 @@
+[
+ {
+  "slug": "milwaukee-2834",
+  "brand": "milwaukee",
+  "category": "circular-saws",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2834",
+  "name": "M18 FUEL 7-1/4\" Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www1.milwaukeetool.com/2834-20",
+  "notes": "The manual lists 2\" cut depth at 45 deg; the launch press release says 2-1/16\".",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0586.pdf"
+   ],
+   [
+    "no_load_speed",
+    "",
+    6000,
+    "6000",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0586.pdf"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0586.pdf"
+   ],
+   [
+    "arbor_size",
+    "",
+    0.625,
+    "5/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0586.pdf"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.625,
+    "0 to 2-5/8\" at 90 deg",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0586.pdf"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    2.0,
+    "0 to 2\" at 45 deg",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-0586.pdf"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    57,
+    "57 degrees max",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Drives-Leading-Performance-and-Technology-for-Professional-User"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    7.9,
+    "7.9 lbs (bare tool, no battery)",
+    "M",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Drives-Leading-Performance-and-Technology-for-Professional-User"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 750 cuts per charge",
+    "With REDLITHIUM FORGE HD12.0 battery",
+    "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Drives-Leading-Performance-and-Technology-for-Professional-User"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "2834-20",
+    "title": "M18 FUEL 7-1/4\" Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www1.milwaukeetool.com/2834-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2834"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4\" 24T thick kerf framing blade"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ],
+     [
+      1,
+      "text",
+      "Dust port"
+     ]
+    ]
+   },
+   {
+    "model": "2834-21HD",
+    "title": "M18 FUEL 7-1/4\" Circular Saw Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/News/Press-Releases/Milwaukee-Drives-Leading-Performance-and-Technology-for-Professional-User",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2834"
+     ],
+     [
+      1,
+      "text",
+      "REDLITHIUM FORGE HD12.0 battery"
+     ],
+     [
+      1,
+      "text",
+      "M18/M12 multi-volt rapid charger"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4\" 24T thick kerf framing blade"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ],
+     [
+      1,
+      "text",
+      "Dust port"
+     ],
+     [
+      1,
+      "text",
+      "Contractor bag"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2930",
+  "brand": "milwaukee",
+  "category": "circular-saws",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2930",
+  "name": "M18 FUEL 7-1/4\" Rear Handle Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-7-1-4-rear-handle-circular-saw/2930-20",
+  "notes": "Rear-handle (worm-drive style) layout.",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ],
+   [
+    "no_load_speed",
+    "",
+    6000,
+    "6000 RPM",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4\"",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.625,
+    "2-5/8\" at 90 deg",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    2.0,
+    "2\" at 45 deg",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    8.3,
+    "8.3 lbs bare tool",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ],
+   [
+    "weight_with_battery",
+    "battery:FORGE HD12.0",
+    11.6,
+    "11.6 lbs with FORGE HD12.0 battery",
+    "M",
+    "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2930-20",
+    "title": "M18 FUEL 7-1/4\" Rear Handle Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-7-1-4-rear-handle-circular-saw/2930-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2930"
+     ]
+    ]
+   },
+   {
+    "model": "2930-21HD",
+    "title": "M18 FUEL 7-1/4\" Rear Handle Circular Saw Kit",
+    "type": "kit",
+    "url": "https://www.milwaukeetool.com/news/press-releases/milwaukee-introduces-the-most-powerful-and-fastest-rear-handle-saw",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2930"
+     ],
+     [
+      1,
+      "text",
+      "REDLITHIUM FORGE HD12.0 battery"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4\" 24T thick kerf framing blade"
+     ],
+     [
+      1,
+      "text",
+      "M18/M12 multi-volt rapid charger"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "milwaukee-2631",
+  "brand": "milwaukee",
+  "category": "circular-saws",
+  "platform": "milwaukee-m18",
+  "model": "2631",
+  "name": "M18 Brushless 7-1/4\" Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://documents.milwaukeetool.com/58-14-6400d1.pdf",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-6400d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "",
+    5000,
+    "5000",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-6400d1.pdf"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4\" (184 mm)",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-6400d1.pdf"
+   ],
+   [
+    "arbor_size",
+    "",
+    0.625,
+    "5/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-6400d1.pdf"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5,
+    "0 to 2-1/2\" at 90 deg",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-6400d1.pdf"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    1.875,
+    "0 to 1-7/8\" at 45 deg",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-6400d1.pdf"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2631-20",
+    "title": "M18 Brushless 7-1/4\" Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://documents.milwaukeetool.com/58-14-6400d1.pdf",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2631"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs590",
+  "brand": "dewalt",
+  "category": "circular-saws",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCS590",
+  "name": "20V MAX XR Brushless Cordless 7-1/4 in. Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "watts_out",
+    "",
+    1700,
+    "up to 1,700 MWO",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "no_load_speed",
+    "",
+    5500,
+    "up to 5,500 RPM",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in. (184 mm)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2-9/16 in. at 90 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    2.0,
+    "2 in. at 45 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    57,
+    "57 deg, stops at 45 and 22.5",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "blade_side",
+    "",
+    "right",
+    "blade to the right of the motor",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electronic brake",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Onboard LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ]
+  ],
+  "features": [
+   [
+    "tool_tracking",
+    "TOOL CONNECT Chip-Ready"
+   ],
+   [
+    "wheel_brake",
+    "Electronic brake"
+   ]
+  ],
+  "claims": [
+   [
+    "Up to 368 cuts per charge",
+    null,
+    "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "DCS590B",
+    "title": "20V MAX XR Brushless Cordless 7-1/4 in. Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs590"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs573",
+  "brand": "dewalt",
+  "category": "circular-saws",
+  "platform": "dewalt-20v-max",
+  "model": "DCS573",
+  "name": "20V MAX 7-1/4-in Brushless Cordless Circular Saw with FLEXVOLT ADVANTAGE",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only",
+  "notes": "Listed as discontinued on dewalt.com.",
+  "status": "discontinued",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ],
+   [
+    "no_load_speed",
+    "",
+    5500,
+    "5,500 RPM",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in (184 mm)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2-9/16 in at 90 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    2.0,
+    "2 in at 45 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electric brake",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Bright LED light",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 77% more power with a DCB606 FLEXVOLT battery than with a DCB205",
+    "FLEXVOLT ADVANTAGE",
+    "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "DCS573B",
+    "title": "20V MAX 7-1/4-in Brushless Cordless Circular Saw With FLEXVOLT ADVANTAGE (Tool Only)",
+    "type": "tool_only",
+    "status": "discontinued",
+    "url": "https://www.dewalt.com/en-us/product/dcs573b/20v-max-7-14-brushless-cordless-circular-saw-flexvolt-advantage-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs573"
+     ],
+     [
+      1,
+      "text",
+      "DWA171424 saw blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade change wrench"
+     ],
+     [
+      1,
+      "text",
+      "Dust port"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs565",
+  "brand": "dewalt",
+  "category": "circular-saws",
+  "platform": "dewalt-20v-max",
+  "line": "dewalt-xr",
+  "model": "DCS565",
+  "name": "20V MAX XR 6-1/2 in. Brushless Cordless Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    20,
+    "20V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only"
+   ],
+   [
+    "no_load_speed",
+    "",
+    4950,
+    "4,950 RPM",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only"
+   ],
+   [
+    "blade_diameter",
+    "",
+    6.5,
+    "6-1/2 in. (165 mm)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    50,
+    "0 to 50 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electric brake",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Bright LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DCS565B",
+    "title": "20V MAX XR 6-1/2 in. Brushless Cordless Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcs565b/20v-max-xr-6-12-brushless-cordless-circular-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs565"
+     ],
+     [
+      1,
+      "text",
+      "DWA161218 saw blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade change wrench"
+     ],
+     [
+      1,
+      "text",
+      "Dust chute"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs578",
+  "brand": "dewalt",
+  "category": "circular-saws",
+  "platform": "dewalt-flexvolt",
+  "line": "dewalt-flexvolt-line",
+  "model": "DCS578",
+  "name": "FLEXVOLT 60V MAX 7-1/4-in Brushless Circular Saw with Electronic Brake",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    60,
+    "60V",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ],
+   [
+    "no_load_speed",
+    "",
+    5800,
+    "5,800 rpm",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2-9/16 in at 90 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    57,
+    "57 deg, stops at 22.5 and 45",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electric brake",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Integrated LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 47% more power than the DCS575",
+    "DCS578 with DCB609 vs DCS575 with DCB606",
+    "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "DCS578B",
+    "title": "60V MAX 7-1/4-in Brushless Circular Saw With Electronic Brake (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcs578b/60v-max-7-14-brushless-circular-saw-electronic-brake-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs578"
+     ],
+     [
+      1,
+      "text",
+      "Blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dwe575",
+  "brand": "dewalt",
+  "category": "circular-saws",
+  "model": "DWE575",
+  "name": "7-1/4 in. Lightweight Circular Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded",
+  "status": "active",
+  "specs": [
+   [
+    "amperage",
+    "",
+    15,
+    "15 amp",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    8.8,
+    "8.8 lbs",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7 1/4 in.",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    57,
+    "57 deg, stops at 45 and 22.5",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2-9/16 in. (max)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DWE575",
+    "title": "7-1/4 in. Lightweight Circular Saw",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dwe575/dewalt-7-14-circular-saw-lightweight-corded",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dwe575"
+     ],
+     [
+      1,
+      "text",
+      "Carbide-tipped 7-1/4 in. blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "makita-xsh06",
+  "brand": "makita",
+  "category": "circular-saws",
+  "platform": "makita-18v-lxt",
+  "model": "XSH06",
+  "name": "36V (18V X2) LXT Brushless 7-1/4\" Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://makitatools.com/products/details/XSH06Z",
+  "notes": "Runs on two 18V LXT batteries.",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    36,
+    "2X 18V LXT (36V)",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4\"",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "no_load_speed",
+    "",
+    6000,
+    "6,000 RPM",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.625,
+    "2-5/8\" at 90 deg",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    1.8125,
+    "1-13/16\" at 45 deg",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "cut_depth",
+    "angle:56",
+    1.3125,
+    "1-5/16\" at 56 deg",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    56,
+    "56 deg (max cutting capacity listed at 56)",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "arbor_size",
+    "",
+    0.625,
+    "5/8\"",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "weight_with_battery",
+    "",
+    10.5,
+    "10.5 lbs. (with battery)",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ],
+   [
+    "length",
+    "",
+    13.5,
+    "13-1/2\"",
+    "M",
+    "https://makitatools.com/products/details/XSH06Z"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "XSH06Z",
+    "title": "36V (18V X2) LXT Brushless 7-1/4\" Circular Saw, Tool Only",
+    "type": "tool_only",
+    "upc": "088381869119",
+    "url": "https://makitatools.com/products/details/XSH06Z",
+    "items": [
+     [
+      1,
+      "tool",
+      "makita-xsh06"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ridgid-r8657",
+  "brand": "ridgid",
+  "category": "circular-saws",
+  "platform": "ridgid-18v",
+  "model": "R8657",
+  "name": "18V Brushless Cordless 7-1/4 in. Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://powertools.ridgid.com/products/648846078588",
+  "notes": "Ridgid lists 2.688 in at 45 deg, more than its 90 deg depth, which looks like an error; not stored.",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18V",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    56,
+    "56 deg",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "blade_side",
+    "",
+    "right",
+    "Right",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2.563 in (2-9/16 in.)",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "no_load_speed",
+    "",
+    5400,
+    "5400 RPM",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    8.3,
+    "Product Weight (lb.): 8.3 lb (tool-only listing)",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "saw_drive_type",
+    "",
+    "sidewinder",
+    "Sidewinder",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in.",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electronic blade brake",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED Light",
+    "M",
+    "https://powertools.ridgid.com/products/648846078588"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "R8657B",
+    "title": "18V Brushless Cordless 7-1/4 in. Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://powertools.ridgid.com/products/648846078588",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r8657"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4 in. circular saw blade"
+     ],
+     [
+      1,
+      "text",
+      "Hex key"
+     ],
+     [
+      1,
+      "text",
+      "Vacuum attachment"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ryobi-pblcs302",
+  "brand": "ryobi",
+  "category": "circular-saws",
+  "platform": "ryobi-18v-one-plus",
+  "line": "ryobi-one-plus-hp",
+  "model": "PBLCS302",
+  "name": "18V ONE+ HP Brushless 7-1/4\" Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.ryobitools.com/products/33287227709",
+  "status": "active",
+  "specs": [
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4\"",
+    "M",
+    "https://www.ryobitools.com/products/33287227709"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2-9/16\" at 0 deg bevel",
+    "M",
+    "https://www.ryobitools.com/products/33287227709"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    1.84375,
+    "1-27/32\" at 45 deg",
+    "M",
+    "https://www.ryobitools.com/products/33287227709"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    56,
+    "0 to 56 deg",
+    "M",
+    "https://www.ryobitools.com/products/33287227709"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 370 cuts per charge",
+    null,
+    "https://www.ryobitools.com/products/33287227709"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "PBLCS302B",
+    "title": "18V ONE+ HP Brushless 7-1/4\" Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.ryobitools.com/products/33287227709",
+    "items": [
+     [
+      1,
+      "tool",
+      "ryobi-pblcs302"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "craftsman-cmcs551",
+  "brand": "craftsman",
+  "category": "circular-saws",
+  "platform": "craftsman-v20",
+  "model": "CMCS551",
+  "name": "V20 BRUSHLESS RP Cordless 7-1/4 in. Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only",
+  "status": "active",
+  "specs": [
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in.",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.5625,
+    "2-9/16 in. (max)",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    56,
+    "56 deg, stops at 22.5 and 45",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "voltage",
+    "",
+    20,
+    "20V MAX",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "Onboard LED",
+    "M",
+    "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 75% more power than the brushed CMCS500",
+    "Watts out with a 4.0Ah battery",
+    "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "CMCS551B",
+    "title": "V20 BRUSHLESS RP Cordless 7-1/4 in. Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.craftsman.com/en-us/product/cmcs551b/v20-brushless-rp-cordless-7-14-circular-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "craftsman-cmcs551"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4 in. 24T carbide blade"
+     ],
+     [
+      1,
+      "text",
+      "Onboard wrench"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "flex-fx2141",
+  "brand": "flex",
+  "category": "circular-saws",
+  "platform": "flex-24v",
+  "model": "FX2141",
+  "name": "24V 7-1/4\" Circular Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/",
+  "status": "active",
+  "specs": [
+   [
+    "no_load_speed",
+    "",
+    5800,
+    "5,800 RPM",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in (184 mm)",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ],
+   [
+    "arbor_size",
+    "",
+    0.625,
+    "5/8 in (16 mm)",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ],
+   [
+    "cut_depth",
+    "angle:90",
+    2.625,
+    "2-5/8 in (66 mm) at 90 deg",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ],
+   [
+    "cut_depth",
+    "angle:45",
+    1.875,
+    "1-7/8 in (48 mm) at 45 deg",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ],
+   [
+    "bevel_capacity",
+    "",
+    56,
+    "0-56 deg",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    9.0,
+    "9 lbs (4 kg) without battery",
+    "M",
+    "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "FX2141-Z",
+    "title": "24V 7-1/4\" Circular Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/",
+    "items": [
+     [
+      1,
+      "tool",
+      "flex-fx2141"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4\" 24T FLEX blade"
+     ],
+     [
+      1,
+      "text",
+      "Vacuum adaptor and lower guard lever"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench"
+     ]
+    ]
+   },
+   {
+    "model": "FX2141-1J",
+    "title": "24V 7-1/4\" Circular Saw Stacked Lithium Kit (10.0Ah)",
+    "type": "kit",
+    "url": "https://www.flexpowertools.com/7-25-in-circular-saw-stacked-lithium-kit-fx2141/",
+    "items": [
+     [
+      1,
+      "tool",
+      "flex-fx2141"
+     ],
+     [
+      1,
+      "text",
+      "10.0Ah Stacked-Lithium battery"
+     ],
+     [
+      1,
+      "text",
+      "280W Rapid Charger"
+     ],
+     [
+      1,
+      "text",
+      "FLEX bag"
+     ],
+     [
+      1,
+      "text",
+      "7-1/4\" 24T FLEX blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench"
+     ],
+     [
+      1,
+      "text",
+      "Vacuum adaptor"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "skil-spt77wml",
+  "brand": "skil",
+  "category": "circular-saws",
+  "model": "SPT77WML",
+  "name": "SKILSAW 7-1/4 in. Lightweight Magnesium Worm Drive Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.skil.com/wormdrive-saw-spt77wml-01/",
+  "notes": "SKILSAW-branded; skil.com does not list amps, RPM, cut depth or bevel for this model.",
+  "status": "active",
+  "specs": [
+   [
+    "weight_tool_only",
+    "",
+    11.5,
+    "11.5 lbs.",
+    "M",
+    "https://www.skil.com/wormdrive-saw-spt77wml-01/"
+   ],
+   [
+    "saw_drive_type",
+    "",
+    "worm_drive",
+    "Worm drive",
+    "M",
+    "https://www.skil.com/wormdrive-saw-spt77wml-01/"
+   ],
+   [
+    "blade_diameter",
+    "",
+    7.25,
+    "7-1/4 in.",
+    "M",
+    "https://www.skil.com/wormdrive-saw-spt77wml-01/"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "SPT77WML-01",
+    "title": "SKILSAW 7-1/4 IN. Lightweight Worm Drive Skilsaw",
+    "type": "tool_only",
+    "url": "https://www.skil.com/wormdrive-saw-spt77wml-01/",
+    "items": [
+     [
+      1,
+      "tool",
+      "skil-spt77wml"
+     ],
+     [
+      1,
+      "text",
+      "SKIL blade"
+     ]
+    ]
+   }
+  ]
+ }
+]

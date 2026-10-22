@@ -133,6 +133,8 @@ def main():
     if fk: all_errs.append(f'foreign key problems: {fk[:5]}')
     if all_errs:
         print('NOT WRITTEN. Fix these first:'); print('\n'.join('  - ' + e for e in all_errs)); sys.exit(1)
+    for old in glob.glob(os.path.join(DB_DIR, 'seed', '1*_*.sql')):
+        os.remove(old)  # generated files are rebuilt every run
     for n, (name, sql, count) in enumerate(built):
         path = os.path.join(DB_DIR, 'seed', f'1{n}_{name}.sql')
         open(path, 'w', newline='\n').write(sql)
