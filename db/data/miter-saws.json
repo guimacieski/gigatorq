@@ -1,0 +1,1456 @@
+[
+ {
+  "slug": "milwaukee-2739",
+  "brand": "milwaukee",
+  "category": "miter-saws",
+  "platform": "milwaukee-m18",
+  "line": "milwaukee-m18-fuel",
+  "model": "2739",
+  "name": "M18 FUEL 12\" Dual Bevel Sliding Compound Miter Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.milwaukeetool.com/products/details/m18-fuel-12-dual-bevel-sliding-compound-miter-saw-tool-only/2739-20",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    18,
+    "18 DC",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "no_load_speed",
+    "",
+    3600,
+    "3600",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "arbor_size",
+    "",
+    0.625,
+    "5/8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    47.6,
+    "47.6 lbs.",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "0-48 deg left and right",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "positive_stops",
+    "",
+    12,
+    "6 left and 6 right miter detents",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "13.4 in wide at 3.8 in high",
+    "Crosscut width at 0 deg miter 13.4\"; max height 3.8\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:45",
+    "9.3 in wide",
+    "Crosscut width at 45 deg miter 9.3\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "crown_capacity",
+    "position:nested",
+    7.5,
+    "Nested crown molding 7-1/2\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "base_capacity",
+    "position:vertical",
+    6.75,
+    "Base molding 6-3/4\"",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "miter_capacity",
+    "side:left",
+    55,
+    "55 deg left",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "miter_capacity",
+    "side:right",
+    60,
+    "60 deg right",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    48,
+    "48 deg left",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    48,
+    "48 deg right",
+    "M",
+    "https://documents.milwaukeetool.com/58-14-2739d1.pdf"
+   ]
+  ],
+  "features": [
+   [
+    "tool_tracking",
+    "ONE-KEY"
+   ]
+  ],
+  "claims": [],
+  "skus": [
+   {
+    "model": "2739-20",
+    "title": "M18 FUEL 12\" Dual Bevel Sliding Compound Miter Saw with ONE-KEY (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-12-dual-bevel-sliding-compound-miter-saw-tool-only/2739-20",
+    "items": [
+     [
+      1,
+      "tool",
+      "milwaukee-2739"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dws779",
+  "brand": "dewalt",
+  "category": "miter-saws",
+  "model": "DWS779",
+  "name": "12 in. Double-Bevel Sliding Compound Miter Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw",
+  "notes": "Listed as discontinued on dewalt.com.",
+  "status": "discontinued",
+  "specs": [
+   [
+    "amperage",
+    "",
+    15,
+    "15 amp",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "no_load_speed",
+    "",
+    3800,
+    "3,800 RPM",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12 in.",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "Double bevel",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "2 x 14",
+    "2x14 at 90 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:45",
+    "2 x 10",
+    "2x10 at 45 deg",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "crown_capacity",
+    "position:nested",
+    7.5,
+    "7-1/2 in. nested",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "base_capacity",
+    "position:vertical",
+    6.75,
+    "6-3/4 in. vertical",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "positive_stops",
+    "",
+    10,
+    "10 positive stops",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    48,
+    "48 deg left",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    48,
+    "48 deg right",
+    "M",
+    "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DWS779",
+    "title": "12 in. Double-Bevel Sliding Compound Miter Saw",
+    "type": "tool_only",
+    "status": "discontinued",
+    "url": "https://www.dewalt.com/en-us/product/dws779/12-double-bevel-sliding-compound-miter-saw",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dws779"
+     ],
+     [
+      1,
+      "text",
+      "DW3123 12 in. carbide blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      1,
+      "text",
+      "Vertical material clamp"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dws715",
+  "brand": "dewalt",
+  "category": "miter-saws",
+  "model": "DWS715",
+  "name": "12 in. 15A Single-Bevel Compound Miter Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound",
+  "status": "active",
+  "specs": [
+   [
+    "amperage",
+    "",
+    15,
+    "15 A",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "no_load_speed",
+    "",
+    4000,
+    "4,000 RPM",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12 in. (305 mm)",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "bevel_type",
+    "",
+    "single",
+    "Single bevel (0-48 left, 0-3 right)",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "sliding",
+    "",
+    false,
+    "Non-sliding",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "2 x 8",
+    "2 x 8 at 90 deg",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:45",
+    "2 x 6",
+    "2 x 6 at 45 deg",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "base_capacity",
+    "position:vertical",
+    5.5,
+    "5-1/2 in. base vertically",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "positive_stops",
+    "",
+    14,
+    "14 positive stops",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    36,
+    "36 lbs",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    48,
+    "48 deg left",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    3,
+    "3 deg right",
+    "M",
+    "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "DWS715",
+    "title": "12 in. 15A Single-Bevel Compound Miter Saw",
+    "type": "tool_only",
+    "url": "https://dewalt.com/en-us/product/dws715/12-miter-saw-15-amp-single-bevel-compound",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dws715"
+     ],
+     [
+      1,
+      "text",
+      "12 in. carbide-tipped blade"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      1,
+      "text",
+      "Vertical clamp"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "dewalt-dcs781",
+  "brand": "dewalt",
+  "category": "miter-saws",
+  "platform": "dewalt-flexvolt",
+  "line": "dewalt-flexvolt-line",
+  "model": "DCS781",
+  "name": "60V MAX 12-in Brushless Cordless Double-Bevel Sliding Miter Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only",
+  "status": "active",
+  "specs": [
+   [
+    "voltage",
+    "",
+    60,
+    "60V MAX (54V nominal)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    50.9,
+    "50.9 lb (bare tool)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12-in",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "Double bevel",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "crown_capacity",
+    "position:nested",
+    6.5,
+    "6-1/2-in crown molding, nested",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "base_capacity",
+    "position:vertical",
+    6.5,
+    "6-1/2-in baseboard, cut vertically",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "12-3/16 in wide",
+    "12-3/16-in wide lumber (horizontal cut)",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Regenerative braking",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "CUTLINE blade positioning LED",
+    "M",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 675 cuts per charge in 3-1/4 in MDF base molding",
+    "With DCB609 FLEXVOLT battery",
+    "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "DCS781B",
+    "title": "60V MAX 12-in Brushless Cordless Double Bevel Sliding Miter Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.dewalt.com/en-us/product/dcs781b/60v-max-12-brushless-cordless-double-bevel-sliding-miter-saw-tool-only",
+    "items": [
+     [
+      1,
+      "tool",
+      "dewalt-dcs781"
+     ],
+     [
+      1,
+      "text",
+      "Blade"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench"
+     ],
+     [
+      1,
+      "text",
+      "Material clamp"
+     ],
+     [
+      1,
+      "text",
+      "Stabilizer bar"
+     ],
+     [
+      1,
+      "text",
+      "Vacuum adapter"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      2,
+      "text",
+      "Base extension"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bosch-gcm12sd",
+  "brand": "bosch",
+  "category": "miter-saws",
+  "model": "GCM12SD",
+  "name": "12 In. Dual-Bevel Glide Miter Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.boschtools.com/us/en/products/gcm12sd-060166501C",
+  "notes": "Axial-Glide arm instead of sliding rails.",
+  "status": "active",
+  "specs": [
+   [
+    "amperage",
+    "",
+    15,
+    "15",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "no_load_speed",
+    "",
+    4000,
+    "4,000",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "47 deg left and right",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Axial-Glide",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electric Motor Brake: Yes",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "height",
+    "",
+    27,
+    "27\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "length",
+    "",
+    32.375,
+    "32.375\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "width",
+    "",
+    26.5,
+    "26.5\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    65,
+    "65 lb",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "3-1/2 x 13-1/2 in",
+    "0 deg miter 0 deg bevel: 3-1/2\" x 13-1/2\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:45",
+    "3-1/2 x 9-1/2 in",
+    "45 deg miter 0 deg bevel: 3-1/2\" x 9-1/2\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "crown_capacity",
+    "position:against_fence",
+    6,
+    "Max crown (45 deg spring) angled against fence: 6\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "base_capacity",
+    "position:vertical",
+    3.875,
+    "Max base molding against fence: 3-7/8\"",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "miter_capacity",
+    "side:left",
+    52,
+    "52 deg left",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "miter_capacity",
+    "side:right",
+    60,
+    "60 deg right",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    47,
+    "47 deg left",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    47,
+    "47 deg right",
+    "M",
+    "https://www.boschtools.com/us/en/products/gcm12sd-060166501C"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "GCM12SD",
+    "title": "12 In. Dual-Bevel Glide Miter Saw",
+    "type": "tool_only",
+    "url": "https://www.boschtools.com/us/en/products/gcm12sd-060166501C",
+    "items": [
+     [
+      1,
+      "tool",
+      "bosch-gcm12sd"
+     ],
+     [
+      1,
+      "text",
+      "12 in. 60-tooth carbide blade"
+     ],
+     [
+      1,
+      "text",
+      "Wrench"
+     ],
+     [
+      1,
+      "text",
+      "Toolless vertical work clamp"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      1,
+      "text",
+      "Vacuum adapter elbow"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ridgid-r4222",
+  "brand": "ridgid",
+  "category": "miter-saws",
+  "model": "R4222",
+  "name": "15 Amp Corded 12 in. Dual Bevel Sliding Miter Saw with 70 Deg. Miter Capacity",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://powertools.ridgid.com/products/648846071787",
+  "status": "active",
+  "specs": [
+   [
+    "amperage",
+    "",
+    15,
+    "15 A",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "no_load_speed",
+    "",
+    4000,
+    "4000 RPM",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12 in.",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "Dual Bevel",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding Compound",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "cord_length",
+    "",
+    6,
+    "6 ft",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "2 x 16",
+    "2 in x 16 in at 90 deg",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:45",
+    "2 x 12",
+    "2 in x 12 in at 45 deg",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "positive_stops",
+    "",
+    13,
+    "13 positive miter stops",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    64,
+    "64 lb",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "electric_brake",
+    "",
+    true,
+    "Electric Brake",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "miter_capacity",
+    "side:left",
+    70,
+    "70 deg left",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "miter_capacity",
+    "side:right",
+    70,
+    "70 deg right",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    48,
+    "48 deg left",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    48,
+    "48 deg right",
+    "M",
+    "https://powertools.ridgid.com/products/648846071787"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "R4222",
+    "title": "15 Amp Corded 12 in. Dual Bevel Sliding Miter Saw",
+    "type": "tool_only",
+    "url": "https://powertools.ridgid.com/products/648846071787",
+    "items": [
+     [
+      1,
+      "tool",
+      "ridgid-r4222"
+     ],
+     [
+      1,
+      "text",
+      "12 in. carbide tipped blade"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      1,
+      "text",
+      "Material clamp"
+     ],
+     [
+      1,
+      "text",
+      "Blade wrench/hex key"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "metabo-hpt-c12rsh3",
+  "brand": "metabo-hpt",
+  "category": "miter-saws",
+  "model": "C12RSH3",
+  "name": "12\" Dual Bevel Sliding Miter Saw",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1",
+  "status": "active",
+  "specs": [
+   [
+    "no_load_speed",
+    "",
+    4000,
+    "4,000 RPM",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "cord_length",
+    "",
+    6,
+    "6 ft",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    54.9,
+    "54.9 lbs (tool only)",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12\"",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "45 deg left and right",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "positive_stops",
+    "",
+    9,
+    "9 miter detent stops",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED light",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "miter_capacity",
+    "side:left",
+    45,
+    "45 deg left",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "miter_capacity",
+    "side:right",
+    57,
+    "57 deg right",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    45,
+    "45 deg left",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    45,
+    "45 deg right",
+    "M",
+    "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "C12RSH3",
+    "title": "12\" Dual Bevel Sliding Miter Saw",
+    "type": "tool_only",
+    "url": "https://www.metabo-hpt.com/docs/default-source/tool-cards/c12rsh3-tool-card-4-9-24.pdf?sfvrsn=fca26689_1",
+    "items": [
+     [
+      1,
+      "tool",
+      "metabo-hpt-c12rsh3"
+     ],
+     [
+      1,
+      "text",
+      "12\" TCT saw blade"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      1,
+      "text",
+      "Vise assembly"
+     ],
+     [
+      1,
+      "text",
+      "8 mm hex bar wrench"
+     ],
+     [
+      1,
+      "text",
+      "Holder"
+     ],
+     [
+      1,
+      "text",
+      "Side holder"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "makita-ls1219l",
+  "brand": "makita",
+  "category": "miter-saws",
+  "model": "LS1219L",
+  "name": "12\" Dual-Bevel Sliding Compound Miter Saw with Laser",
+  "power": "corded",
+  "motor": "brushed",
+  "url": "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html",
+  "status": "active",
+  "specs": [
+   [
+    "blade_diameter",
+    "",
+    12,
+    "12 in",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "arbor_size",
+    "",
+    1.0,
+    "1 in",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "amperage",
+    "",
+    15,
+    "15 Amp, 120V direct drive",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "no_load_speed",
+    "",
+    3200,
+    "3,200 RPM",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "bevel_type",
+    "",
+    "double",
+    "0-48 deg left and right",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "3-5/8 x 15 in",
+    "3-5/8 in x 15 in at 90 deg",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:45",
+    "3-5/8 x 10-1/2 in",
+    "3-5/8 in x 10-1/2 in at 45 deg miter",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "crown_capacity",
+    "position:nested",
+    8,
+    "8 inch crown molding (nested)",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "base_capacity",
+    "position:vertical",
+    6.75,
+    "6-3/4 inch baseboard (vertical)",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "weight_tool_only",
+    "",
+    65,
+    "65 lbs",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "miter_capacity",
+    "side:left",
+    60,
+    "60 deg left",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "miter_capacity",
+    "side:right",
+    60,
+    "60 deg right",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    48,
+    "48 deg left",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ],
+   [
+    "bevel_capacity",
+    "side:right",
+    48,
+    "48 deg right",
+    "R",
+    "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html"
+   ]
+  ],
+  "features": [],
+  "claims": [],
+  "skus": [
+   {
+    "model": "LS1219L",
+    "title": "12\" Dual-Bevel Sliding Compound Miter Saw with Laser",
+    "type": "tool_only",
+    "url": "https://www.toolnut.com/makita-ls1219l-12-dual-bevel-sliding-compound-miter-saw-with-laser.html",
+    "items": [
+     [
+      1,
+      "tool",
+      "makita-ls1219l"
+     ],
+     [
+      1,
+      "text",
+      "60-tooth carbide-tipped blade"
+     ],
+     [
+      1,
+      "text",
+      "Dust bag"
+     ],
+     [
+      1,
+      "text",
+      "Vertical vise"
+     ],
+     [
+      1,
+      "text",
+      "Wrenches"
+     ],
+     [
+      1,
+      "text",
+      "Triangle"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ryobi-pblms01",
+  "brand": "ryobi",
+  "category": "miter-saws",
+  "platform": "ryobi-18v-one-plus",
+  "line": "ryobi-one-plus-hp",
+  "model": "PBLMS01",
+  "name": "18V ONE+ HP Brushless 10\" Sliding Compound Miter Saw",
+  "power": "battery",
+  "motor": "brushless",
+  "url": "https://www.ryobitools.com/products/33287198153",
+  "status": "active",
+  "specs": [
+   [
+    "no_load_speed",
+    "",
+    4100,
+    "up to 4,100 RPM",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "blade_diameter",
+    "",
+    10,
+    "10\"",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "bevel_type",
+    "",
+    "single",
+    "0 to 45 deg single bevel",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "sliding",
+    "",
+    true,
+    "Sliding",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "crosscut_capacity",
+    "angle:90",
+    "12 in",
+    "Up to 12\" crosscut",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "positive_stops",
+    "",
+    9,
+    "9 positive stops",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "led_light",
+    "",
+    true,
+    "LED cutline indicator",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "miter_capacity",
+    "side:left",
+    47,
+    "47 deg left",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "miter_capacity",
+    "side:right",
+    47,
+    "47 deg right",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ],
+   [
+    "bevel_capacity",
+    "side:left",
+    45,
+    "45 deg left",
+    "M",
+    "https://www.ryobitools.com/products/33287198153"
+   ]
+  ],
+  "features": [],
+  "claims": [
+   [
+    "Up to 550 cuts per charge",
+    "With a 4Ah battery",
+    "https://www.ryobitools.com/products/33287198153"
+   ]
+  ],
+  "skus": [
+   {
+    "model": "PBLMS01B",
+    "title": "18V ONE+ HP Brushless 10\" Sliding Compound Miter Saw (Tool Only)",
+    "type": "tool_only",
+    "url": "https://www.ryobitools.com/products/33287198153",
+    "items": [
+     [
+      1,
+      "tool",
+      "ryobi-pblms01"
+     ]
+    ]
+   },
+   {
+    "model": "PBLMS01K",
+    "title": "18V ONE+ HP Brushless 10\" Sliding Compound Miter Saw Kit",
+    "type": "kit",
+    "url": "https://www.ryobitools.com/products/33287198153",
+    "items": [
+     [
+      1,
+      "tool",
+      "ryobi-pblms01"
+     ],
+     [
+      1,
+      "text",
+      "4Ah battery"
+     ],
+     [
+      1,
+      "text",
+      "Charger"
+     ]
+    ]
+   }
+  ]
+ }
+]

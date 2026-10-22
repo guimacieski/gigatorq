@@ -18,7 +18,7 @@ Load order: `schema.sql`, then the seed files in number order.
 2. Run `python db/tools/build_seed.py`. It checks every brand, category, platform, spec name, unit type, enum value and source URL, and writes nothing if anything is wrong.
 
 ## Current coverage
-90 tools from 13 brands, 818 spec values, 115 SKUs (tool-only, kits and combo kits), 16 batteries. Ready for batch 1: drill/drivers (20), hammer drills (11), impact drivers (21), impact wrenches (14), circular saws (18).
+99 tools from 13 brands, 938 spec values, 125 SKUs (tool-only, kits and combo kits), 16 batteries. Ready for batch 1: drill/drivers (20), hammer drills (11), impact drivers (21), impact wrenches (14), circular saws (18), miter saws (10).
 
 Milwaukee's website loads specs with JavaScript, so Milwaukee data comes from its operator manuals (spec tables), press releases (weights, kit contents) and warranty page, all on milwaukeetool.com.
 
