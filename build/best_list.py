@@ -3,6 +3,10 @@ import json
 from datetime import date
 from layout import page, esc, DISCLOSURE
 
+# Store names and "Check price" buttons stay off the pages until affiliate programs are live.
+# Set to True then (and add affiliate_url to the listings); store links still appear in Sources.
+SHOW_STORES = False
+
 
 def fmt_date(iso):
     d = date.fromisoformat(iso)
@@ -140,7 +144,7 @@ class Tool:
 
 
 def buy_button(p, ghost=False):
-    if p is None:
+    if p is None or not SHOW_STORES:
         return ''
     href = p['affiliate_url'] or p['url']
     rel = 'sponsored nofollow noopener' if p['affiliate_url'] else 'nofollow noopener'
@@ -162,6 +166,14 @@ def render(db, spec):
     cat = spec['category']
     n_tools = db.execute('SELECT count(*) FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,)).fetchone()[0]
     n_brands = db.execute('SELECT count(DISTINCT brand_id) FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,)).fetchone()[0]
+    store_hosts = {r[0].split('/')[2].replace('www.', '') for r in db.execute('SELECT website FROM retailer WHERE website IS NOT NULL')}
+
+    def link_text(u):
+        host = u.split('/')[2]
+        if not SHOW_STORES and host.replace('www.', '') in store_hosts:
+            return 'retailer page'
+        return host
+
     upd = fmt_date(spec['updated'])
     all_sources = []
 
@@ -179,7 +191,7 @@ def render(db, spec):
                  f'{w} ({wk})' if w else None,
                  'Brushless' if t.t['motor_type'] == 'brushless' else 'Brushed']
         chips = ''.join(f'<span>{esc(c)}</span>' for c in chips if c)
-        price = (f'<div class="price">${num(pr["price_usd"])} <small>{esc(s["sku_type"].replace("_", " "))} &middot; {esc(pr["retailer"])}</small></div>'
+        price = (f'<div class="price">${num(pr["price_usd"])} <small>{esc(s["sku_type"].replace("_", " "))}{(" &middot; " + esc(pr["retailer"])) if SHOW_STORES else ""}</small></div>'
                  if pr else '')
         glance.append(f"""      <div class="card pick-card">
         <span class="tag">{esc(p['label'])}</span>
@@ -187,7 +199,7 @@ def render(db, spec):
         <p>{esc(p['headline'])}</p>
         <div class="chips">{chips}</div>
         <div class="pick-foot">{price}{stars(t.rating(s['id']))}</div>
-        <div class="buy-box">{buy_button(pr)}</div>
+        {('<div class="buy-box">' + buy_button(pr) + '</div>') if SHOW_STORES else ''}
       </div>""")
 
     # --- comparison table
@@ -228,15 +240,15 @@ def render(db, spec):
                 continue
             inc = t.items(k['id'])
             what = 'Tool only' if k['sku_type'] == 'tool_only' else ('Kit: ' + ', '.join(inc) if inc else 'Kit')
-            opts.append(f'<li><b>{esc(k["model_number"])}</b> &middot; {what} &middot; <b>${num(kp["price_usd"])}</b> at '
-                        f'<a href="{esc(kp["affiliate_url"] or kp["url"])}" rel="{"sponsored " if kp["affiliate_url"] else ""}nofollow noopener" target="_blank">{esc(kp["retailer"])}</a>'
+            opts.append(f'<li><b>{esc(k["model_number"])}</b> &middot; {what} &middot; <b>${num(kp["price_usd"])}</b>'
+                        + (f' at <a href="{esc(kp["affiliate_url"] or kp["url"])}" rel="{"sponsored " if kp["affiliate_url"] else ""}nofollow noopener" target="_blank">{esc(kp["retailer"])}</a>' if SHOW_STORES else '') +
                         f' <small class="muted">({fmt_date(kp["observed_at"])})</small></li>')
-            all_sources.append((f'{k["model_number"]} price at {kp["retailer"]}', kp['url']))
+            all_sources.append((f'{k["model_number"]} price', kp['url']))
         r = t.best_rating()
         th = t.themes()
         if r is not None:
-            all_sources.append((f'{t.name} owner rating at {r["retailer"]}', r['url']))
-        owner = [f'      <p>{stars(r)}' + (f' <span class="muted">at <a href="{esc(r["url"])}" rel="nofollow noopener" target="_blank">{esc(r["retailer"])}</a>, checked {fmt_date(r["observed_on"])}</span>' if r else '') + '</p>']
+            all_sources.append((f'{t.name} owner rating', r['url']))
+        owner = [f'      <p>{stars(r)}' + (f' <span class="muted">&middot; checked {fmt_date(r["observed_on"])} (<a href="{esc(r["url"])}" rel="nofollow noopener" target="_blank">source</a>)</span>' if r else '') + '</p>']
         if th:
             pros = ''.join(f'<li>{esc(x["theme"])}</li>' for x in th if x['sentiment'] == 'praise')
             cons = ''.join(f'<li>{esc(x["theme"])}</li>' for x in th if x['sentiment'] == 'complaint')
@@ -245,7 +257,7 @@ def render(db, spec):
                          f'<div><h4>What they complain about</h4><ul class="cons">{cons or "<li>No recurring complaints in the reviews we read</li>"}</ul></div></div>')
             rare = all(x['frequency'] == 'rarely' for x in th if x['sentiment'] == 'complaint')
             owner.append(f'      <p class="muted small">Summarized in our own words from the {n_read} reviews we could read on the first page of '
-                         f'<a href="{esc(json.loads(th[0]["sources"])[0])}" rel="nofollow noopener" target="_blank">Home Depot\'s reviews</a> '
+                         f'<a href="{esc(json.loads(th[0]["sources"])[0])}" rel="nofollow noopener" target="_blank">a major US retailer\'s reviews</a> '
                          f'on {fmt_date(th[0]["researched_on"])}.' + (' Each complaint listed came up in only one or two of them.' if rare else '')
                          + (' ' + esc(p['owner_note']) if p.get('owner_note') else '') + '</p>')
             for u in json.loads(th[0]['sources']):
@@ -255,7 +267,7 @@ def render(db, spec):
         srcs = t.sources()
         for u in srcs:
             all_sources.append((f'{t.name} specs', u))
-        src_list = ''.join(f'<li><a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(u.split("/")[2])}</a></li>' for u in srcs)
+        src_list = ''.join(f'<li><a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(link_text(u))}</a></li>' for u in srcs)
         sections.append(f"""    <section class="pick" id="{anchor(t)}">
       <span class="tag">{esc(p['label'])}</span>
       <h2>{esc(t.name)}</h2>
@@ -268,9 +280,9 @@ def render(db, spec):
       </div>
       <h3>What owners say</h3>
 {chr(10).join(owner)}
-      <h3>Buying options</h3>
+      <h3>Kits and prices</h3>
       <ul class="options">{''.join(opts)}</ul>
-      <div class="buy-box">{buy_button(pr)}</div>
+      {('<div class="buy-box">' + buy_button(pr) + '</div>') if SHOW_STORES else ''}
       <details class="sources"><summary>Spec sources for the {esc(t.name)}</summary><ul>{src_list}</ul></details>
     </section>""")
 
@@ -281,8 +293,8 @@ def render(db, spec):
         s = t.sku(a['sku'])
         pr = t.price(s['id']) if s else None
         if pr:
-            all_sources.append((f'{s["model_number"]} price at {pr["retailer"]}', pr['url']))
-        price = f' Last seen at <b>${num(pr["price_usd"])}</b> (tool only) at {esc(pr["retailer"])}.' if pr else ''
+            all_sources.append((f'{s["model_number"]} price', pr['url']))
+        price = f' Last seen at <b>${num(pr["price_usd"])}</b> (tool only){(" at " + esc(pr["retailer"])) if SHOW_STORES else ""}, {fmt_date(pr["observed_at"])}.' if pr else ''
         also.append(f'      <li><b>{esc(t.name)}</b>: {esc(a["text"])}{price}</li>')
 
     guide = '\n'.join(f'      <h3>{esc(h)}</h3>\n      <p>{esc(b)}</p>' for h, b in spec['guide'])
@@ -295,7 +307,7 @@ def render(db, spec):
         if u not in seen:
             seen.add(u)
             uniq.append((label, u))
-    src_html = ''.join(f'<li>{esc(l)}: <a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(u.split("/")[2])}</a></li>' for l, u in uniq)
+    src_html = ''.join(f'<li>{esc(l)}: <a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(link_text(u))}</a></li>' for l, u in uniq)
 
     body = f"""
 <section class="section">
@@ -322,7 +334,7 @@ def render(db, spec):
         </tbody>
       </table>
     </div>
-    <p class="muted small">Specs as published by each brand or, where the brand doesn't publish them, a major retailer. "20V MAX" batteries are 18V nominal, the same as 18V batteries. Owner ratings are from Home Depot.</p>
+    <p class="muted small">Specs as published by each brand or, where the brand doesn't publish them, a major retailer. "20V MAX" batteries are 18V nominal, the same as 18V batteries. Owner ratings are from a major US retailer, with links in the Sources section.</p>
 
 {chr(10).join(sections)}
 

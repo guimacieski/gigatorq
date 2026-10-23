@@ -8,7 +8,7 @@
   "updated": "2026-10-22",
   "category": "drill-drivers",
   "intro": [
-    "A drill/driver is the first cordless tool most people buy, and the one they use most: drilling holes in wood and metal, driving screws, mixing paint and running hole saws. We went through the published specs of {n_tools} drill/drivers from {n_brands} brands, checked current prices and owner ratings at Home Depot, and picked the six that make the most sense for different buyers.",
+    "A drill/driver is the first cordless tool most people buy, and the one they use most: drilling holes in wood and metal, driving screws, mixing paint and running hole saws. We went through the published specs of {n_tools} drill/drivers from {n_brands} brands, checked current prices and owner ratings at a major US retailer, and picked the six that make the most sense for different buyers.",
     "We didn't test these drills ourselves. Every number on this page comes from the brand or a major retailer, and every owner rating links to where we found it. <a href=\"/how-we-choose/\">Here's how we choose</a>."
   ],
   "picks": [
@@ -43,7 +43,7 @@
       "headline": "The cheapest drill here, with the most owner reviews.",
       "why": [
         "The ONE+ PCL206 is a brushed drill, so it won't match the brushless models for runtime or punch. But 515 in-lbs and a 24-position clutch cover most household jobs.",
-        "It has more Home Depot reviews than any other drill on this page, and owners rate it highly."
+        "It has more owner reviews than any other drill on this page, and owners rate it highly."
       ],
       "best_for": "Owners of Ryobi ONE+ batteries who need a basic drill for light jobs.",
       "skip_if": "You have no Ryobi batteries. Add a battery and charger and the brushless PBLDD01 kit is the better buy.",
@@ -90,7 +90,7 @@
     {
       "tool": "bosch-gsr18v-535c",
       "sku": "GSR18V-535CN",
-      "text": "A light (2.5 lb bare) 535 in-lbs brushless drill. We left it out of the picks because its Lowe's listing had no reviews when we checked and we couldn't find enough owner feedback elsewhere to judge it."
+      "text": "A light (2.5 lb bare) 535 in-lbs brushless drill. We left it out of the picks because the store listings we checked had no owner reviews and we couldn't find enough owner feedback elsewhere to judge it."
     }
   ],
   "guide": [
