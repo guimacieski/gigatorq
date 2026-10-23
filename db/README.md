@@ -5,7 +5,7 @@ SQLite schema (runs as-is on Cloudflare D1) for power tool specs, kits, prices a
 ## Files
 - `schema.sql` - all tables, indexes and the `v_tool_spec` view
 - `seed/01_reference.sql` - units, 45 categories, 75 spec definitions, which specs apply to each category, 112 brand/retailer label aliases, features
-- `seed/02_brands.sql` - 18 brands and their owners, 9 retailers, 22 battery platforms, product lines, warranty policies
+- `seed/02_brands.sql` - 18 brands and their owners, 10 retailers, 22 battery platforms, product lines, warranty policies
 - `seed/03_sample_products.sql` - the first 18 surveyed tools (hand-built)
 - `data/*.json` - product data, one file per group (`batteries.json`, `drills-impacts.json`, ...). This is where new tools are added.
 - `seed/1x_*.sql` - generated from `data/` by `tools/build_seed.py`. Don't edit these by hand.
@@ -15,6 +15,7 @@ Load order: `schema.sql`, then the seed files in number order.
 
 ## Adding tools
 1. Add the tool to the right file in `data/`. Each spec is `[spec_key, qualifier, value, raw_text, source, url]`, where source is `M` (manufacturer), `R` (retailer) or `O` (other, e.g. a review site).
+   Store prices, owner ratings and owner review themes go in `data/observations.json`, dated, so price history is kept. Add new rows with a new date instead of editing old ones.
    Combo kits whose tools already live in other files go in `data/combo-kits.json` as `{"kit": true, "brand", "skus"}` entries. A SKU can carry `msrp`, `prices` (`[{retailer, price, url}]`, stored as dated price observations) and `ratings`.
 2. Run `python db/tools/build_seed.py`. It checks every brand, category, platform, spec name, unit type, enum value, source URL, retailer and kit item (tool or battery), and writes nothing if anything is wrong.
 

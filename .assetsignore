@@ -5,3 +5,4 @@ README.md
 wrangler.jsonc
 *.ps1
 db
+build

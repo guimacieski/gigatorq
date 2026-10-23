@@ -22,6 +22,7 @@ INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (6, 'wa
 INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (7, 'ace-hardware', 'Ace Hardware', 'https://www.acehardware.com', NULL);
 INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (8, 'toolnut', 'Toolnut', 'https://www.toolnut.com', NULL);
 INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (9, 'ace-tool', 'Ace Tool Company', 'https://acetool.com', NULL);
+INSERT INTO retailer (id, slug, name, website, affiliate_program) VALUES (10, 'the-power-tool-store', 'The Power Tool Store', 'https://thepowertoolstore.com', NULL);
 
 INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (1, 'milwaukee', 'Milwaukee', 2, 'https://www.milwaukeetool.com', NULL, 'Specs on the brand site load with JavaScript; dealer pages are easier to read.');
 INSERT INTO brand (id, slug, name, owner_company_id, website_us, exclusive_retailer_id, notes) VALUES (2, 'dewalt', 'DeWalt', 1, 'https://www.dewalt.com/en-us', NULL, NULL);

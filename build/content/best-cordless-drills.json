@@ -1,0 +1,136 @@
+{
+  "path": "/best/cordless-drills/",
+  "title": "Best Cordless Drills (2026): 6 Picks Compared by Specs, Price and Owner Ratings",
+  "h1": "Best Cordless Drills",
+  "tag": "Cordless drills",
+  "description": "The best cordless drill/drivers for pros, homeowners and tight budgets, compared on published torque, speed, weight, real voltage, price and owner ratings.",
+  "teaser": "Six drill/drivers for pros, homeowners and tight budgets, compared on torque, weight, price and owner ratings.",
+  "updated": "2026-10-22",
+  "category": "drill-drivers",
+  "intro": [
+    "A drill/driver is the first cordless tool most people buy, and the one they use most: drilling holes in wood and metal, driving screws, mixing paint and running hole saws. We went through the published specs of {n_tools} drill/drivers from {n_brands} brands, checked current prices and owner ratings at Home Depot, and picked the six that make the most sense for different buyers.",
+    "We didn't test these drills ourselves. Every number on this page comes from the brand or a major retailer, and every owner rating links to where we found it. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "milwaukee-2903",
+      "buy_sku": "2903-20",
+      "headline": "The most torque in our group, in a body under 7 inches long.",
+      "why": [
+        "Milwaukee rates the M18 FUEL 2903 at 1,400 in-lbs, tied with Flex's FX1171T for the highest torque of any drill/driver in our database, and it does that at 6.9 inches long and 3.3 lb without a battery.",
+        "That headroom matters for big hole saws and self-feed bits: Milwaukee lists capacity for 3-1/2 in. hole saws and 2-9/16 in. self-feed bits in wood. It also gets the longest tool warranty of our picks, 5 years."
+      ],
+      "best_for": "Pros, remodelers and anyone who drills large holes or already owns M18 batteries.",
+      "skip_if": "You mostly hang shelves and assemble furniture. You'd be paying for power you won't use."
+    },
+    {
+      "label": "Best value",
+      "tool": "ryobi-pbldd01",
+      "buy_sku": "PBLDD01K1",
+      "headline": "A brushless drill, battery and charger for about the price of a bare pro drill.",
+      "why": [
+        "The ONE+ HP PBLDD01 is Ryobi's brushless drill/driver: 750 in-lbs, a 2-speed gearbox (500 and 2,100 RPM), a 24-position clutch and a metal ratcheting chuck.",
+        "The kit we priced includes a 2.0Ah battery and charger, so it's a complete starter set. The batteries also run every tool in Ryobi's 18V ONE+ line."
+      ],
+      "best_for": "Homeowners and DIYers who want brushless power without pro prices.",
+      "skip_if": "You work on a jobsite every day or already own another brand's batteries."
+    },
+    {
+      "label": "Best budget",
+      "tool": "ryobi-pcl206",
+      "buy_sku": "PCL206B",
+      "headline": "The cheapest drill here, with the most owner reviews.",
+      "why": [
+        "The ONE+ PCL206 is a brushed drill, so it won't match the brushless models for runtime or punch. But 515 in-lbs and a 24-position clutch cover most household jobs.",
+        "It has more Home Depot reviews than any other drill on this page, and owners rate it highly."
+      ],
+      "best_for": "Owners of Ryobi ONE+ batteries who need a basic drill for light jobs.",
+      "skip_if": "You have no Ryobi batteries. Add a battery and charger and the brushless PBLDD01 kit is the better buy.",
+      "owner_note": "About half of them were marked as written as part of a promotion, so read the praise with that in mind."
+    },
+    {
+      "label": "Best compact",
+      "tool": "dewalt-dcd800",
+      "buy_sku": "DCD800B",
+      "headline": "DeWalt's short, brushless drill for 20V MAX owners.",
+      "why": [
+        "At 6.37 inches front to back, the DCD800 is one of the shortest full-size 1/2 in. drills we compared, which helps between studs and joists. It has a metal ratcheting chuck, 650 and 2,000 RPM speeds and a 3-mode LED.",
+        "DeWalt doesn't publish torque for this drill. It only says it delivers up to 40% more power (unit watts out) than the older DCD791, so we can't rank it on torque."
+      ],
+      "best_for": "DeWalt 20V MAX owners who want a compact, brushless upgrade.",
+      "skip_if": "You want published torque numbers to compare, or you're not on DeWalt batteries."
+    },
+    {
+      "label": "Best lightweight",
+      "tool": "milwaukee-3403",
+      "buy_sku": "3403-20",
+      "headline": "A 12V drill at 2.1 lb that still makes 400 in-lbs.",
+      "why": [
+        "At 2.1 lb without a battery and 5.9 inches long, the M12 FUEL 3403 is the lightest drill on this page with a published weight. Its 400 in-lbs of torque is close to some 18V compact drills.",
+        "It's the one to grab for overhead work, cabinet installs and long days of light drilling."
+      ],
+      "best_for": "Cabinet and trim work, overhead drilling, and users who want the least weight.",
+      "skip_if": "You need to run large hole saws or long spade bits all day. An 18V drill does that better."
+    },
+    {
+      "label": "Best for Makita users",
+      "tool": "makita-xfd12",
+      "buy_sku": "XFD12Z",
+      "headline": "A balanced compact 18V drill that owners consistently praise.",
+      "why": [
+        "Makita's XFD12 makes 530 in-lbs with 500 and 2,000 RPM speeds, and Makita lists it at 3.9 lb with a battery. That's one of the few drills where the brand publishes the weight with a battery.",
+        "Owners mainly praise its balance and its power for the size. It has fewer reviews than the other picks, so treat its rating with a little caution."
+      ],
+      "best_for": "Makita 18V LXT owners who want a compact everyday drill.",
+      "skip_if": "You need fine low-speed control for delicate screws. A few owners say the trigger is hard to feather."
+    }
+  ],
+  "also": [
+    {
+      "tool": "bosch-gsr18v-535c",
+      "sku": "GSR18V-535CN",
+      "text": "A light (2.5 lb bare) 535 in-lbs brushless drill. We left it out of the picks because its Lowe's listing had no reviews when we checked and we couldn't find enough owner feedback elsewhere to judge it."
+    }
+  ],
+  "guide": [
+    [
+      "Torque",
+      "Torque (in-lbs) tells you how hard a drill can twist before it stalls. 300 to 500 in-lbs covers furniture, shelves and pilot holes. Large hole saws, spade bits and lag screws call for 700 in-lbs and up. Some brands, including DeWalt and Craftsman, publish \"unit watts out\" instead, which can't be compared across brands."
+    ],
+    [
+      "Voltage",
+      "\"20V MAX\" and \"18V\" batteries are the same thing: 20V is the voltage with no load, 18V is the nominal voltage under load. Our table shows the nominal number so you can compare like for like."
+    ],
+    [
+      "Brushless or brushed",
+      "Brushless motors run cooler, last longer and get more out of each charge. A brushed drill like the Ryobi PCL206 is fine for light use and costs less."
+    ],
+    [
+      "Weight",
+      "Brands usually publish weight without the battery, and a battery adds roughly 1 to 1.5 lb depending on its size. Compare tool-only weights with tool-only weights."
+    ],
+    [
+      "Battery platform",
+      "The battery is the expensive part. If you already own batteries from one brand, buying a bare tool from that brand usually saves the most money."
+    ]
+  ],
+  "faq": [
+    [
+      "Is a 20V MAX drill more powerful than an 18V drill?",
+      "No, not because of the voltage. 20V MAX batteries are 18V nominal, the same as 18V batteries. Motor, gearing and battery size make the difference."
+    ],
+    [
+      "Do I need a hammer drill?",
+      "Only for drilling into brick, block or concrete. For wood, metal and drywall, a drill/driver is lighter and does the same job."
+    ],
+    [
+      "Drill or impact driver?",
+      "A drill makes clean holes and controls screws with its clutch. An impact driver drives long screws and lag bolts more easily. Many people buy both, which is why so many are sold as 2-tool combo kits."
+    ],
+    [
+      "Should I buy a kit or a bare tool?",
+      "If you don't own the brand's batteries, buy a kit. The battery and charger are worth far more bought together. If you do own them, the bare tool is the better deal."
+    ]
+  ]
+}

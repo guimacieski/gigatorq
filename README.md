@@ -3,17 +3,21 @@
 Static site for gigatorq.com - power tool comparisons and reviews for US buyers.
 
 ## Structure
-- `index.html` - home page
-- `compare/` - comparison hub and `cordless-drills/` template
-- `reviews/` - review hub and `review-template/`
-- `how-we-test/`, `about/`, `contact/`, `disclosure/`, `privacy/`
+- `index.html` and every page folder (`best/`, `compare/`, `reviews/`, `how-we-choose/`, `about/`, ...) - generated HTML, don't edit by hand
+- `build/` - the site generator: `layout.py` (header, footer), `pages_static.py` (home, about, legal), `best_list.py` (best-list template), `content/` (editorial text for each best-list page)
+- `db/` - product database (specs, kits, prices, owner ratings). See `db/README.md`
 - `assets/css/style.css`, `assets/js/main.js`, `assets/img/`
-- `_headers` - cache and security headers
+- `_headers`, `_redirects` - cache/security headers and redirects
 - `wrangler.jsonc` - Cloudflare Workers config (serves the folder as static assets)
-- `.assetsignore` - files that are not published
+- `.assetsignore` - files that are not published (`build/`, `db/`, scripts)
 
-## New comparison or review
-Copy the template folder, rename it (e.g. `compare/impact-drivers/`), replace the placeholder content, add the card to the hub page and the URL to `sitemap.xml`.
+## Rebuilding the site
+Needs Python 3.8 or newer, no packages.
+1. `python db/tools/build_seed.py` - after changing anything in `db/data/`
+2. `python build/build.py` - regenerates every page and `sitemap.xml` from the database and `build/content/`
+
+## New best-list page
+Copy `build/content/best-cordless-drills.json`, change the path, picks and text, then run `python build/build.py`. Numbers (specs, prices, ratings, warranty) come from the database, never from the content file.
 
 ## Logo
 Brand colors: black `#000000` and steel grey `#EEEFF0`. Amber `#e3a401` is the site accent.

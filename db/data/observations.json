@@ -1,0 +1,226 @@
+[
+ {
+  "brand": "milwaukee",
+  "sku": "2903-20",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 219.0,
+    "url": "https://www.homedepot.com/p/Milwaukee-M18-FUEL-18V-Lithium-Ion-Brushless-Cordless-1-2-in-Drill-Driver-Tool-Only-2903-20/320959083"
+   }
+  ],
+  "ratings": [
+   {
+    "retailer": "home-depot",
+    "avg": 4.6,
+    "count": 2573,
+    "url": "https://www.homedepot.com/p/reviews/Milwaukee-M18-FUEL-18V-Lithium-Ion-Brushless-Cordless-1-2-in-Drill-Driver-Tool-Only-2903-20/320959083/1"
+   }
+  ]
+ },
+ {
+  "brand": "milwaukee",
+  "sku": "2903-22",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 319.0,
+    "url": "https://www.homedepot.com/p/Milwaukee-M18-FUEL-18V-Lithium-Ion-Brushless-Cordless-1-2-in-Drill-Driver-Kit-W-2-5-0Ah-Batteries-Charger-and-Hard-Case-2903-22/320959125"
+   }
+  ]
+ },
+ {
+  "brand": "ryobi",
+  "sku": "PBLDD01K1",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 129.0,
+    "url": "https://www.homedepot.com/p/315312366/315312366"
+   }
+  ],
+  "ratings": [
+   {
+    "retailer": "home-depot",
+    "avg": null,
+    "count": 774,
+    "url": "https://www.homedepot.com/p/315312366/315312366"
+   }
+  ]
+ },
+ {
+  "brand": "ryobi",
+  "sku": "PCL206B",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 54.0,
+    "url": "https://www.homedepot.com/p/RYOBI-ONE-18V-Cordless-1-2-in-Drill-Driver-Tool-Only-PCL206B/317984876"
+   }
+  ],
+  "ratings": [
+   {
+    "retailer": "home-depot",
+    "avg": 4.7,
+    "count": 3757,
+    "url": "https://www.homedepot.com/p/reviews/RYOBI-ONE-18V-Cordless-1-2-in-Drill-Driver-Tool-Only-PCL206B/317984876/1"
+   }
+  ]
+ },
+ {
+  "brand": "dewalt",
+  "sku": "DCD800B",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 151.74,
+    "url": "https://www.homedepot.com/p/DEWALT-20V-MAX-XR-Cordless-Compact-1-2-in-Drill-Driver-Tool-Only-DCD800B/318875485"
+   }
+  ],
+  "ratings": [
+   {
+    "retailer": "home-depot",
+    "avg": 4.7,
+    "count": 329,
+    "url": "https://www.homedepot.com/p/reviews/DEWALT-20V-MAX-XR-Cordless-Compact-1-2-in-Drill-Driver-Tool-Only-DCD800B/318875485/1"
+   }
+  ]
+ },
+ {
+  "brand": "milwaukee",
+  "sku": "3403-20",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 149.0,
+    "url": "https://www.homedepot.com/p/Milwaukee-M12-FUEL-12V-Lithium-Ion-Brushless-Cordless-1-2-in-Drill-Driver-Tool-Only-3403-20/321179925"
+   }
+  ],
+  "ratings": [
+   {
+    "retailer": "home-depot",
+    "avg": 4.7,
+    "count": 430,
+    "url": "https://www.homedepot.com/p/reviews/Milwaukee-M12-FUEL-12V-Lithium-Ion-Brushless-Cordless-1-2-in-Drill-Driver-Tool-Only-3403-20/321179925/1"
+   }
+  ]
+ },
+ {
+  "brand": "makita",
+  "sku": "XFD12Z",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "home-depot",
+    "price": 154.0,
+    "url": "https://www.homedepot.com/p/Makita-18V-LXT-Lithium-Ion-Brushless-Cordless-1-2-in-Driver-Drill-Tool-Only-XFD12Z/300786662"
+   }
+  ],
+  "ratings": [
+   {
+    "retailer": "home-depot",
+    "avg": 4.7,
+    "count": 31,
+    "url": "https://www.homedepot.com/p/reviews/Makita-18V-LXT-Lithium-Ion-Brushless-Cordless-1-2-in-Driver-Drill-Tool-Only-XFD12Z/300786662/1"
+   }
+  ]
+ },
+ {
+  "brand": "bosch",
+  "sku": "GSR18V-535CN",
+  "observed": "2026-10-22",
+  "prices": [
+   {
+    "retailer": "the-power-tool-store",
+    "price": 139.0,
+    "url": "https://thepowertoolstore.com/products/bosch-gsr18v-535cn"
+   }
+  ]
+ },
+ {
+  "tool": "ryobi-pcl206",
+  "researched": "2026-10-22",
+  "reviews_read": 30,
+  "sources": [
+   "https://www.homedepot.com/p/reviews/RYOBI-ONE-18V-Cordless-1-2-in-Drill-Driver-Tool-Only-PCL206B/317984876/1"
+  ],
+  "themes": [
+   [
+    "praise",
+    "often",
+    "Enough power for shelves, furniture and other household projects"
+   ],
+   [
+    "praise",
+    "often",
+    "Light and easy to handle for its class"
+   ],
+   [
+    "praise",
+    "often",
+    "Runs on the ONE+ batteries many owners already have"
+   ],
+   [
+    "praise",
+    "sometimes",
+    "Good value for the price"
+   ],
+   [
+    "complaint",
+    "rarely",
+    "Chuck can loosen its grip on bits"
+   ],
+   [
+    "complaint",
+    "rarely",
+    "Not meant for heavy-duty drilling"
+   ]
+  ]
+ },
+ {
+  "tool": "makita-xfd12",
+  "researched": "2026-10-22",
+  "reviews_read": 31,
+  "sources": [
+   "https://www.homedepot.com/p/reviews/Makita-18V-LXT-Lithium-Ion-Brushless-Cordless-1-2-in-Driver-Drill-Tool-Only-XFD12Z/300786662/1"
+  ],
+  "themes": [
+   [
+    "praise",
+    "often",
+    "Plenty of power for a compact drill"
+   ],
+   [
+    "praise",
+    "often",
+    "Compact, well balanced and comfortable to hold"
+   ],
+   [
+    "praise",
+    "sometimes",
+    "Long runtime, especially with larger batteries"
+   ],
+   [
+    "praise",
+    "sometimes",
+    "Feels solidly built; several owners are repeat Makita buyers"
+   ],
+   [
+    "complaint",
+    "rarely",
+    "Trigger is hard to feather at very low speed"
+   ],
+   [
+    "complaint",
+    "rarely",
+    "Low gear feels faster than its rated speed"
+   ]
+  ]
+ }
+]
