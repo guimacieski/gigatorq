@@ -9,9 +9,7 @@ WRITTEN = []  # (path, lastmod, indexable) for the sitemap
 NAV = [('/best/', 'Best Picks'), ('/compare/', 'Comparisons'), ('/reviews/', 'Reviews'),
        ('/how-we-choose/', 'How We Choose'), ('/about/', 'About')]
 
-DISCLOSURE = ('<p class="disclosure-note">GigaTorq is reader-supported. When you buy through links on this page, '
-              'we may earn an affiliate commission at no extra cost to you. As an Amazon Associate we earn from '
-              'qualifying purchases. <a href="/disclosure/">Learn more</a>.</p>')
+DISCLOSURE = ''  # no affiliate links yet; add a disclosure note here when the first affiliate program is live
 
 HEAD = """<!DOCTYPE html>
 <html lang="en-US">
@@ -76,13 +74,13 @@ FOOT = """</main>
       <div>
         <h4>Legal</h4>
         <ul>
-          <li><a href="/disclosure/">Affiliate Disclosure</a></li>
+          <li><a href="/disclosure/">Disclosure</a></li>
           <li><a href="/privacy/">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; <span id="year">2026</span> GigaTorq. All rights reserved. As an Amazon Associate we earn from qualifying purchases.
+      &copy; <span id="year">2026</span> GigaTorq. All rights reserved.
     </div>
   </div>
 </footer>

@@ -181,9 +181,9 @@ def build(db, best_pages):
         <h2>Where to buy</h2>
         <div class="grid grid-2">
           <div class="card"><h3>Brand A Model X</h3>
-            <div class="buy-box"><a class="btn" href="#" rel="sponsored nofollow">Check price at Home Depot</a><a class="btn btn-ghost" href="#" rel="sponsored nofollow">Amazon</a></div></div>
+            <div class="buy-box"><a class="btn" href="#" rel="nofollow">Check price</a><a class="btn btn-ghost" href="#" rel="nofollow">Other store</a></div></div>
           <div class="card"><h3>Brand B Model Y</h3>
-            <div class="buy-box"><a class="btn" href="#" rel="sponsored nofollow">Check price at Lowe's</a><a class="btn btn-ghost" href="#" rel="sponsored nofollow">Amazon</a></div></div>
+            <div class="buy-box"><a class="btn" href="#" rel="nofollow">Check price</a><a class="btn btn-ghost" href="#" rel="nofollow">Other store</a></div></div>
         </div>
       </div>
     </section>
@@ -227,7 +227,7 @@ def build(db, best_pages):
             <h3 style="margin:0">The verdict</h3>
             <p>One or two sentences summing up who this tool is for and whether it's worth the money.</p>
           </div>
-          <a class="btn" href="#" rel="sponsored nofollow">Check price</a>
+          <a class="btn" href="#" rel="nofollow">Check price</a>
         </div>
 
         <div class="grid grid-2" style="margin-top:20px">
@@ -284,7 +284,7 @@ def build(db, best_pages):
           <li><strong>Value</strong> - what you get for the price, including kit contents and warranty.</li>
         </ul>
         <h2>Independence</h2>
-        <p>Brands don't see our pages before they're published and can't pay for placement or a better score. We earn affiliate commissions on some links, which never changes our picks. <a href="/disclosure/">Read our disclosure</a>.</p>
+        <p>Brands don't see our pages before they're published and can't pay for placement or a better score. <a href="/disclosure/">Read our disclosure</a>.</p>
         <h2>Keeping pages current</h2>
         <p>Prices and models change. We update pages when a new model replaces an old one or a price moves enough to change a pick, and every page shows when it was last updated.</p>
       </div>
@@ -308,12 +308,12 @@ def build(db, best_pages):
           <li>Brands can't pay for placement or scores.</li>
           <li>We update pages when better tools come out or prices change.</li>
         </ul>
-        <h2>How we make money</h2>
-        <p>We earn affiliate commissions when you buy through some links on our site. That never changes our verdict. <a href="/disclosure/">Read our full disclosure</a>.</p>
+        <h2>Money and independence</h2>
+        <p>GigaTorq doesn't make money from its links yet. If that changes, it will never change our picks, and we'll say so on every page. <a href="/disclosure/">Read our disclosure</a>.</p>
       </div>
     </section>
     """
-    page("/about/", "About GigaTorq", "Who we are and how GigaTorq researches and compares power tools.", about, '/about/')
+    page("/about/", "About GigaTorq", "Who we are and how GigaTorq researches and compares power tools.", about, '/about/', lastmod='2026-10-22')
 
     # ---------------- Contact ----------------
     contact = """
@@ -333,17 +333,17 @@ def build(db, best_pages):
     <section class="section">
       <div class="container article">
         <span class="eyebrow">Legal</span>
-        <h1>Affiliate disclosure</h1>
-        <p class="muted">Last updated October 21, 2026</p>
-        <p>GigaTorq is reader-supported. Some links on this site are affiliate links. If you click one and buy something, we may earn a commission at no extra cost to you.</p>
-        <p>GigaTorq is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases. We may also participate in affiliate programs from other retailers.</p>
+        <h1>Disclosure</h1>
+        <p class="muted">Last updated October 22, 2026</p>
+        <p>GigaTorq doesn't earn money from the links on this site. Store links go straight to the retailer's product page so you can check the current price.</p>
+        <p>If that changes, we'll update this page and label it clearly on every page before it happens.</p>
         <h2>Our independence</h2>
-        <p>Affiliate relationships never affect our research, scores or recommendations. Brands do not review our content before publication and cannot pay for placement.</p>
+        <p>Brands do not review our content before publication and cannot pay for placement or a better pick.</p>
         <p>This disclosure is provided in line with the US Federal Trade Commission's guidance on endorsements and testimonials.</p>
       </div>
     </section>
     """
-    page("/disclosure/", "Affiliate Disclosure | GigaTorq", "How GigaTorq earns money through affiliate links.", disclosure)
+    page("/disclosure/", "Disclosure | GigaTorq", "How GigaTorq makes money and stays independent.", disclosure, lastmod='2026-10-22')
 
     # ---------------- Privacy ----------------
     privacy = """
@@ -351,12 +351,12 @@ def build(db, best_pages):
       <div class="container article">
         <span class="eyebrow">Legal</span>
         <h1>Privacy policy</h1>
-        <p class="muted">Last updated October 21, 2026</p>
+        <p class="muted">Last updated October 22, 2026</p>
         <p class="placeholder">STARTER TEXT: review and complete this policy before launch, especially once you add analytics, ads or a newsletter provider.</p>
         <h2>What we collect</h2>
         <p>If you subscribe to our newsletter, we collect your email address. Our hosting provider and any analytics tools may collect standard technical data such as IP address, browser type and pages visited.</p>
-        <h2>Cookies and affiliate links</h2>
-        <p>Retailers we link to (such as Amazon) may set cookies when you click an affiliate link so they can credit the referral to us.</p>
+        <h2>Links to stores</h2>
+        <p>When you click a link to a store, that store's own privacy policy applies to what happens on its site.</p>
         <h2>Your choices</h2>
         <p>You can unsubscribe from emails at any time, and you can block or delete cookies in your browser settings.</p>
         <h2>Contact</h2>
@@ -364,7 +364,7 @@ def build(db, best_pages):
       </div>
     </section>
     """
-    page("/privacy/", "Privacy Policy | GigaTorq", "GigaTorq privacy policy.", privacy)
+    page("/privacy/", "Privacy Policy | GigaTorq", "GigaTorq privacy policy.", privacy, lastmod='2026-10-22')
 
     # ---------------- 404 ----------------
     nf = """
