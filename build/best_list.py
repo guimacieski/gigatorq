@@ -1,11 +1,15 @@
 """Best-list pages (/best/...): editorial picks from build/content/*.json, numbers from the database."""
-import json
+import json, os
 from datetime import date
 from layout import page, esc, DISCLOSURE
 
 # Store names and "Check price" buttons stay off the pages until affiliate programs are live.
 # Set to True then (and add affiliate_url to the listings); store links still appear in Sources.
 SHOW_STORES = False
+
+# The site's author, from build/content/site.json. With no name set, pages say "By the GigaTorq team".
+_site = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content', 'site.json')
+AUTHOR = json.load(open(_site, encoding='utf-8')).get('author', {}) if os.path.exists(_site) else {}
 
 
 def fmt_date(iso):
@@ -161,6 +165,59 @@ def stars(r):
             f'<span class="muted">from {r["review_count"]:,} reviews</span></span>')
 
 
+CONTEXT_SPECS = [  # (label, spec key, unit, higher_is_better)
+    ('Max torque', 'max_torque', 'in-lbs', True),
+    ('Top speed', 'no_load_speed', 'RPM', True),
+    ('Weight (tool only)', 'weight_tool_only', 'lb', False),
+    ('Length', 'length', 'in.', False),
+]
+
+
+def spec_value(db, tool_id, key):
+    """One comparable number per tool: the plain value, or for speeds the top gear (no turbo or hammer modes)."""
+    rows = db.execute("""SELECT ts.qualifier, ts.value_num FROM tool_spec ts JOIN spec_definition sd ON sd.id = ts.spec_id
+                         WHERE ts.tool_id = ? AND sd.key = ? AND ts.value_num IS NOT NULL""", (tool_id, key)).fetchall()
+    vals = [r['value_num'] for r in rows
+            if not r['qualifier'] or (key == 'no_load_speed' and r['qualifier'].startswith('speed:')
+                                      and 'turbo' not in r['qualifier'] and 'mode' not in r['qualifier'])]
+    return max(vals) if vals else None
+
+
+def context_rows(db, t, cat_name_plural):
+    """Where this tool's specs sit among every tool in its category that publishes the same spec."""
+    ids = [r[0] for r in db.execute('SELECT id FROM tool WHERE category_id = ?', (t.t['category_id'],))]
+    out = []
+    for label, key, unit, higher in CONTEXT_SPECS:
+        mine = spec_value(db, t.t['id'], key)
+        if mine is None:
+            continue
+        field = [v for v in (spec_value(db, i, key) for i in ids) if v is not None]
+        n = len(field)
+        if n < 4:
+            continue
+        better = sum(1 for v in field if (v > mine if higher else v < mine))
+        ties = sum(1 for v in field if v == mine) - 1
+        rank = better + 1
+        best_word = ('highest' if higher else 'lowest') if key != 'length' else 'shortest'
+        best_word = 'lightest' if key == 'weight_tool_only' else best_word
+        if rank == 1:
+            txt = ('tied for the ' if ties else 'the ') + best_word
+        else:
+            txt = f'#{rank} of {n}' + (' (tied)' if ties else '')
+        pos = 100 * (n - rank) / (n - 1)  # 100 = best in the category
+        out.append((label, f'{num(mine)} {unit}', txt, n, pos))
+    if not out:
+        return ''
+    rows = ''.join(f'<tr><th>{esc(l)}</th><td class="num">{esc(v)}</td>'
+                   f'<td><div class="meter" role="img" aria-label="{esc(txt)} of {n}"><i style="left:{pos:.0f}%"></i></div></td>'
+                   f'<td class="muted">{esc(txt)}{"" if txt.startswith("#") else f" of {n}"}</td></tr>'
+                   for l, v, txt, n, pos in out)
+    return (f'      <h3>How its specs compare</h3>\n'
+            f'      <div class="table-wrap ctx-wrap"><table class="ctx"><tbody>{rows}</tbody></table></div>\n'
+            f'      <p class="muted small">Compared with all {esc(cat_name_plural)} in our database that publish the same spec. '
+            f'Right end of the bar = best in the group.</p>')
+
+
 def render(db, spec):
     picks = [(p, Tool(db, p['tool'])) for p in spec['picks']]
     cat = spec['category']
@@ -175,6 +232,8 @@ def render(db, spec):
         return host
 
     upd = fmt_date(spec['updated'])
+    author = AUTHOR if AUTHOR.get('name') else None
+    byline = (f'By <a href="/about/#author">{esc(author["name"])}</a>' if author else 'By the GigaTorq team')
     all_sources = []
 
     def anchor(t):
@@ -264,6 +323,17 @@ def render(db, spec):
                 all_sources.append((f'{t.name} owner reviews', u))
         else:
             owner.append('      <p class="muted small">We couldn\'t read individual reviews for this drill when we checked, so we only report its rating here.</p>')
+        ctx = context_rows(db, t, spec.get('category_plural', 'tools'))
+        alts = ''
+        if p.get('alternatives'):
+            items = []
+            for slug, why_alt in p['alternatives']:
+                at = Tool(db, slug)
+                lab = next((q['label'] for q, tt in picks if tt.t['slug'] == slug), None)
+                target = f'#{slug}' if lab else None
+                name = f'<a href="{target}">{esc(at.name)}</a>' if target else esc(at.name)
+                items.append(f'<li>{name}{(" <span class=muted>(" + esc(lab) + ")</span>") if lab else ""}: {esc(why_alt)}</li>')
+            alts = f'      <h3>If not this one</h3>\n      <ul class="alts">{"".join(items)}</ul>'
         srcs = t.sources()
         for u in srcs:
             all_sources.append((f'{t.name} specs', u))
@@ -278,11 +348,13 @@ def render(db, spec):
         <div class="card"><h4>Best for</h4><p>{esc(p['best_for'])}</p></div>
         <div class="card"><h4>Skip it if</h4><p>{esc(p['skip_if'])}</p></div>
       </div>
+{ctx}
       <h3>What owners say</h3>
 {chr(10).join(owner)}
       <h3>Kits and prices</h3>
       <ul class="options">{''.join(opts)}</ul>
       {('<div class="buy-box">' + buy_button(pr) + '</div>') if SHOW_STORES else ''}
+{alts}
       <details class="sources"><summary>Spec sources for the {esc(t.name)}</summary><ul>{src_list}</ul></details>
     </section>""")
 
@@ -314,7 +386,7 @@ def render(db, spec):
   <div class="container article wide-article">
     <div class="breadcrumb"><a href="/">Home</a> / <a href="/best/">Best Picks</a> / {esc(spec['tag'])}</div>
     <h1>{esc(spec['h1'])}</h1>
-    <p class="muted">Updated <time datetime="{spec['updated']}">{upd}</time> &middot; By the GigaTorq team &middot; Research-based, not hands-on tested</p>
+    <p class="muted">Updated <time datetime="{spec['updated']}">{upd}</time> &middot; {byline} &middot; Research-based, not hands-on tested</p>
     {DISCLOSURE}
 {intro}
     <nav class="toc"><b>Our picks</b><ol>{toc}</ol></nav>
@@ -349,6 +421,8 @@ def render(db, spec):
     <h2>FAQ</h2>
 {faq}
 
+{author_box(author)}
+
     <h2>Sources</h2>
     <details class="sources" open><summary>Where every number on this page comes from</summary><ul>{src_html}</ul></details>
   </div>
@@ -357,12 +431,21 @@ def render(db, spec):
     ld = {
         '@context': 'https://schema.org', '@type': 'Article', 'headline': spec['title'],
         'description': spec['description'], 'dateModified': spec['updated'],
-        'author': {'@type': 'Organization', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/about/'},
+        'author': ({'@type': 'Person', 'name': author['name'], 'jobTitle': author['title'], 'url': 'https://gigatorq.com/about/#author'}
+                   if author else {'@type': 'Organization', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/about/'}),
         'publisher': {'@type': 'Organization', 'name': 'GigaTorq', 'logo': {'@type': 'ImageObject', 'url': 'https://gigatorq.com/assets/img/favicon.png'}},
         'mainEntityOfPage': 'https://gigatorq.com' + spec['path'],
     }
     page(spec['path'], spec['title'] + ' | GigaTorq', spec['description'], body, '/best/',
          lastmod=spec['updated'], jsonld=ld, og_type='article')
+
+
+def author_box(author):
+    if not author:
+        return ''
+    return (f'    <aside class="author-box" id="author"><div><span class="eyebrow">About the author</span>'
+            f'<h3>{esc(author["name"])}</h3><p class="muted small">{esc(author["title"])}</p>'
+            f'<p>{esc(author["bio"])}</p></div></aside>')
 
 
 def render_hub(pages):

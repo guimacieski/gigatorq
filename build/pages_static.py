@@ -275,6 +275,10 @@ def build(db, best_pages):
         <p>We record each tool's star rating and review count at major US retailers, with the date we checked. Where reviews are publicly readable, we read them and look for patterns: problems and praise that come up again and again, not one-off stories. We summarize them in our own words, say how many reviews we read, and link to the sources. When we couldn't read enough reviews to see a pattern, the page says so. We never copy reviews or present other people's experiences as our own.</p>
         <h2>3. Price, kit and warranty</h2>
         <p>We compare what you actually get for the money: which batteries and charger come in the box, how the price compares with similar tools, and how long the warranty lasts.</p>
+        <h2 id="ai">4. How we use AI</h2>
+        <p>GigaTorq uses AI tools to research at a scale one person couldn't manage alone: collecting spec sheets from every brand, converting them to the same units, reading owner reviews and drafting summaries.</p>
+        <p>AI doesn't decide what's true. Every number on a page comes from a brand or retailer source that we link to, and our database won't accept a spec without one. When sources disagree, the page says so instead of picking a number. An engineer with hands-on power tool experience reviews the picks before they go live.</p>
+        <p>Some images on the site are AI-generated illustrations. They're captioned "Illustration" and never presented as a photo of a specific model.</p>
         <h2>What we weigh</h2>
         <p>Every pick comes down to four things:</p>
         <ul>
@@ -291,20 +295,32 @@ def build(db, best_pages):
     </section>
     """
     page("/how-we-choose/", "How We Choose Power Tools | GigaTorq",
-         "Our research method: verified specs, owner feedback from major retailers, prices and warranty, weighed for power, features, owner satisfaction and value.", how, '/how-we-choose/', lastmod='2026-10-22')
+         "Our research method: verified specs, owner feedback from major retailers, prices and warranty, weighed for power, features, owner satisfaction and value.", how, '/how-we-choose/', lastmod='2026-10-24')
 
     # ---------------- About ----------------
+    from best_list import AUTHOR
+    if AUTHOR.get('name'):
+        author_html = (f'''        <section id="author" class="author-box">
+          <span class="eyebrow">Who writes GigaTorq</span>
+          <h2>{esc(AUTHOR['name'])}</h2>
+          <p class="muted small">{esc(AUTHOR['title'])}</p>
+          <p>{esc(AUTHOR['bio'])}</p>
+        </section>''')
+    else:
+        author_html = '        <p>GigaTorq is written by a mechanical assembler and engineer with years of hands-on work with power tools.</p>'
+
     about = """
     <section class="section">
       <div class="container article">
         <span class="eyebrow">About</span>
         <h1>About GigaTorq</h1>
         <p>GigaTorq is an independent power tool comparison site for US buyers. We compare tools on verified specs, real prices and what owners report, and tell you which one to buy for the way you work.</p>
-        <p class="placeholder">Add your story here: who runs the site, your experience with tools, and why you started GigaTorq.</p>
+{author_html}
         <h2>Our promise</h2>
         <ul>
           <li>We're clear about how every pick is made: research, not hands-on testing.</li>
           <li>We summarize owner feedback in our own words and link to the sources.</li>
+          <li>We use AI to research at scale, and we say so. Every number still links to its source. <a href="/how-we-choose/#ai">How we use AI</a></li>
           <li>Brands can't pay for placement or scores.</li>
           <li>We update pages when better tools come out or prices change.</li>
         </ul>
@@ -313,7 +329,8 @@ def build(db, best_pages):
       </div>
     </section>
     """
-    page("/about/", "About GigaTorq", "Who we are and how GigaTorq researches and compares power tools.", about, '/about/', lastmod='2026-10-22')
+    about = about.replace('{author_html}', author_html)
+    page("/about/", "About GigaTorq", "Who we are and how GigaTorq researches and compares power tools.", about, '/about/', lastmod='2026-10-24')
 
     # ---------------- Contact ----------------
     contact = """

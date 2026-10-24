@@ -5,11 +5,11 @@
   "tag": "Cordless drills",
   "description": "The best cordless drill/drivers for pros, homeowners and tight budgets, compared on published torque, speed, weight, real voltage, price and owner ratings.",
   "teaser": "Six drill/drivers for pros, homeowners and tight budgets, compared on torque, weight, price and owner ratings.",
-  "updated": "2026-10-22",
+  "updated": "2026-10-24",
   "category": "drill-drivers",
   "intro": [
     "A drill/driver is the first cordless tool most people buy, and the one they use most: drilling holes in wood and metal, driving screws, mixing paint and running hole saws. We went through the published specs of {n_tools} drill/drivers from {n_brands} brands, checked current prices and owner ratings at a major US retailer, and picked the six that make the most sense for different buyers.",
-    "We didn't test these drills ourselves. Every number on this page comes from the brand or a major retailer, and every owner rating links to where we found it. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+    "We didn't test these drills ourselves. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
   ],
   "picks": [
     {
@@ -22,7 +22,17 @@
         "That headroom matters for big hole saws and self-feed bits: Milwaukee lists capacity for 3-1/2 in. hole saws and 2-9/16 in. self-feed bits in wood. It also gets the longest tool warranty of our picks, 5 years."
       ],
       "best_for": "Pros, remodelers and anyone who drills large holes or already owns M18 batteries.",
-      "skip_if": "You mostly hang shelves and assemble furniture. You'd be paying for power you won't use."
+      "skip_if": "You mostly hang shelves and assemble furniture. You'd be paying for power you won't use.",
+      "alternatives": [
+        [
+          "ryobi-pbldd01",
+          "About half the torque (750 in-lbs), but a battery and charger come in the $129 kit."
+        ],
+        [
+          "milwaukee-3403",
+          "1.2 lb lighter (tool only) and shorter, for lighter work with 400 in-lbs."
+        ]
+      ]
     },
     {
       "label": "Best value",
@@ -34,7 +44,17 @@
         "The kit we priced includes a 2.0Ah battery and charger, so it's a complete starter set. The batteries also run every tool in Ryobi's 18V ONE+ line."
       ],
       "best_for": "Homeowners and DIYers who want brushless power without pro prices.",
-      "skip_if": "You work on a jobsite every day or already own another brand's batteries."
+      "skip_if": "You work on a jobsite every day or already own another brand's batteries.",
+      "alternatives": [
+        [
+          "ryobi-pcl206",
+          "Brushed and $54 tool only, if you already own ONE+ batteries and only do light jobs."
+        ],
+        [
+          "milwaukee-2903",
+          "Nearly twice the torque (1,400 in-lbs) for big hole saws and self-feed bits."
+        ]
+      ]
     },
     {
       "label": "Best budget",
@@ -47,7 +67,13 @@
       ],
       "best_for": "Owners of Ryobi ONE+ batteries who need a basic drill for light jobs.",
       "skip_if": "You have no Ryobi batteries. Add a battery and charger and the brushless PBLDD01 kit is the better buy.",
-      "owner_note": "About half of them were marked as written as part of a promotion, so read the praise with that in mind."
+      "owner_note": "About half of them were marked as written as part of a promotion, so read the praise with that in mind.",
+      "alternatives": [
+        [
+          "ryobi-pbldd01",
+          "Brushless, 750 in-lbs, with a battery and charger included for $129."
+        ]
+      ]
     },
     {
       "label": "Best compact",
@@ -59,7 +85,17 @@
         "DeWalt doesn't publish torque for this drill. It only says it delivers up to 40% more power (unit watts out) than the older DCD791, so we can't rank it on torque."
       ],
       "best_for": "DeWalt 20V MAX owners who want a compact, brushless upgrade.",
-      "skip_if": "You want published torque numbers to compare, or you're not on DeWalt batteries."
+      "skip_if": "You want published torque numbers to compare, or you're not on DeWalt batteries.",
+      "alternatives": [
+        [
+          "makita-xfd12",
+          "A similar compact size (6.75 in.) with published torque: 530 in-lbs."
+        ],
+        [
+          "milwaukee-2903",
+          "1,400 in-lbs if you need the most power and want numbers you can compare."
+        ]
+      ]
     },
     {
       "label": "Best lightweight",
@@ -71,7 +107,17 @@
         "It's the one to grab for overhead work, cabinet installs and long days of light drilling."
       ],
       "best_for": "Cabinet and trim work, overhead drilling, and users who want the least weight.",
-      "skip_if": "You need to run large hole saws or long spade bits all day. An 18V drill does that better."
+      "skip_if": "You need to run large hole saws or long spade bits all day. An 18V drill does that better.",
+      "alternatives": [
+        [
+          "dewalt-dcd800",
+          "A short 18V-class drill (6.37 in.) if you need more power than 12V."
+        ],
+        [
+          "milwaukee-2903",
+          "3.5 times the torque (1,400 in-lbs) for heavy drilling, at 3.3 lb tool only."
+        ]
+      ]
     },
     {
       "label": "Best for Makita users",
@@ -83,7 +129,17 @@
         "Owners mainly praise its balance and its power for the size. It has fewer reviews than the other picks, so treat its rating with a little caution."
       ],
       "best_for": "Makita 18V LXT owners who want a compact everyday drill.",
-      "skip_if": "You need fine low-speed control for delicate screws. A few owners say the trigger is hard to feather."
+      "skip_if": "You need fine low-speed control for delicate screws. A few owners say the trigger is hard to feather.",
+      "alternatives": [
+        [
+          "ryobi-pbldd01",
+          "More torque (750 in-lbs) and a battery and charger included, for $129."
+        ],
+        [
+          "milwaukee-2903",
+          "About 2.6 times the torque (1,400 in-lbs) for heavy hole-saw work."
+        ]
+      ]
     }
   ],
   "also": [
@@ -132,5 +188,6 @@
       "Should I buy a kit or a bare tool?",
       "If you don't own the brand's batteries, buy a kit. The battery and charger are worth far more bought together. If you do own them, the bare tool is the better deal."
     ]
-  ]
+  ],
+  "category_plural": "drill/drivers"
 }

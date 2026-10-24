@@ -270,3 +270,26 @@ details.faq p { margin: 10px 0 0; color: var(--muted); }
 .compare.wide tbody th, .compare.wide thead th:first-child { position: sticky; left: 0; z-index: 1; background: var(--bg-2); }
 .compare.wide thead th:first-child { background: var(--bg-3); }
 .price small { white-space: nowrap; }
+/* Specs in context, alternatives, author box */
+table.ctx { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.ctx th, .ctx td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
+.ctx tr:last-child th, .ctx tr:last-child td { border-bottom: none; }
+.ctx th { color: var(--muted); font-weight: 600; width: 160px; }
+.ctx td.num { font-weight: 700; white-space: nowrap; width: 110px; font-variant-numeric: tabular-nums; }
+.ctx td:last-child { width: 210px; }
+.ctx-wrap { margin-bottom: 6px; }
+.meter { position: relative; height: 8px; min-width: 120px; border-radius: 4px; background: linear-gradient(90deg, var(--bg-3), rgba(227,164,1,.45)); }
+.meter i { position: absolute; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
+.alts { padding-left: 1.2em; }
+.alts li { margin: 6px 0; }
+.author-box { margin-top: 48px; background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; }
+.author-box h3 { margin: 4px 0 2px; }
+.author-box p { margin: 6px 0 0; }
+@media (max-width: 680px) {
+  .ctx, .ctx tbody { display: block; }
+  .ctx tr { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  .ctx tr:last-child { border-bottom: none; }
+  .ctx th, .ctx td, .ctx td.num, .ctx td:last-child { border: 0; padding: 0; width: auto; }
+  .ctx td:nth-child(3), .ctx td:last-child { grid-column: 1 / -1; }
+  .meter { min-width: 0; }
+}
