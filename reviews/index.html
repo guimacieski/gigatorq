@@ -3,12 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Power Tool Reviews | GigaTorq</title>
-<meta name="description" content="In-depth power tool reviews with scores for power, features, owner satisfaction and value.">
+<title>Power Tool Reviews: Specs, Rankings and Owner Ratings | GigaTorq</title>
+<meta name="description" content="Search 119 drills, drivers, saws and grinders from 13 brands. See published specs, how each tool ranks against its type, price ranges and what owners report.">
 <link rel="canonical" href="https://gigatorq.com/reviews/">
-<meta name="robots" content="noindex, follow">
-<meta property="og:title" content="Power Tool Reviews | GigaTorq">
-<meta property="og:description" content="In-depth power tool reviews with scores for power, features, owner satisfaction and value.">
+<meta property="og:title" content="Power Tool Reviews: Specs, Rankings and Owner Ratings | GigaTorq">
+<meta property="og:description" content="Search 119 drills, drivers, saws and grinders from 13 brands. See published specs, how each tool ranks against its type, price ranges and what owners report.">
 <meta property="og:url" content="https://gigatorq.com/reviews/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GigaTorq">
@@ -22,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=232f39e3">
+<link rel="stylesheet" href="/assets/css/style.css?v=b6115db8">
 </head>
 <body>
 <header class="site-header">
@@ -40,21 +39,108 @@
 </header>
 <main>
 
-    <section class="section">
-      <div class="container">
-        <span class="eyebrow">Reviews</span>
-        <h1>In-depth reviews</h1>
-        <p class="muted" style="max-width:640px">Detailed looks at single tools: verified specs, what owners report and who should buy it, scored on the same scale as our comparisons.</p>
-        <div class="grid grid-3" style="margin-top:32px">
-          <a class="card" href="/reviews/review-template/">
-            <span class="tag">Template</span>
-            <h3>Review template</h3>
-            <p>Duplicate this page for each new tool review.</p>
-          </a>
-        </div>
+<section class="section">
+  <div class="container wide-article">
+    <div class="breadcrumb"><a href="/">Home</a> / Reviews</div>
+    <div id="reviews-head">
+      <h1>Power tool reviews</h1>
+      <p class="muted" style="max-width:680px">Search any of the 119 tools in our database by brand, model or type. Each review shows the published specs, how the tool ranks against others of its type, its price range and what owners report.</p>
+    </div>
+
+    <div class="tool-app" id="reviews-app" data-app="reviews" data-src="/assets/data/tools.json?v=211facb8">
+      <div class="search-box">
+        <input type="search" id="q" placeholder="Search a brand, model or type" autocomplete="off" aria-label="Search tools" aria-controls="q-results">
+        <ul id="q-results" class="results" role="listbox" hidden></ul>
       </div>
-    </section>
-    </main>
+      <div id="review-out" aria-live="polite"></div>
+    </div>
+
+    <div id="review-browse">
+      <h2>Our top picks</h2>
+      <div class="grid grid-3">
+        <a class="card pick-card" href="/reviews/?tool=dewalt-dcd800">
+          <img class="card-thumb" src="/assets/img/illustrations/web/dewalt-dcd800-800.jpg" width="800" height="450" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" onerror="this.remove()">
+          <span class="tag">Best compact</span>
+          <h3>DeWalt DCD800</h3>
+          <p>DeWalt&#x27;s short, brushless drill for 20V MAX owners.</p>
+        </a>
+        <a class="card pick-card" href="/reviews/?tool=makita-xfd12">
+          <img class="card-thumb" src="/assets/img/illustrations/web/makita-drill-drivers-800.jpg" width="800" height="450" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" onerror="this.remove()">
+          <span class="tag">Best for Makita users</span>
+          <h3>Makita XFD12</h3>
+          <p>A balanced compact 18V drill that owners consistently praise.</p>
+        </a>
+        <a class="card pick-card" href="/reviews/?tool=milwaukee-2903">
+          <img class="card-thumb" src="/assets/img/illustrations/web/milwaukee-drill-drivers-800.jpg" width="800" height="450" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" onerror="this.remove()">
+          <span class="tag">Best overall</span>
+          <h3>Milwaukee 2903</h3>
+          <p>The most torque in our group, in a body under 7 inches long.</p>
+        </a>
+        <a class="card pick-card" href="/reviews/?tool=milwaukee-3403">
+          <img class="card-thumb" src="/assets/img/illustrations/web/milwaukee-m12-drill-drivers-800.jpg" width="800" height="450" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" onerror="this.remove()">
+          <span class="tag">Best lightweight</span>
+          <h3>Milwaukee 3403</h3>
+          <p>A 12V drill at 2.1 lb that still makes 400 in-lbs.</p>
+        </a>
+        <a class="card pick-card" href="/reviews/?tool=ryobi-pbldd01">
+          <img class="card-thumb" src="/assets/img/illustrations/web/ryobi-drill-drivers-800.jpg" width="800" height="450" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" onerror="this.remove()">
+          <span class="tag">Best value</span>
+          <h3>Ryobi PBLDD01</h3>
+          <p>A brushless drill, battery and charger for about the price of a bare pro drill.</p>
+        </a>
+        <a class="card pick-card" href="/reviews/?tool=ryobi-pcl206">
+          <img class="card-thumb" src="/assets/img/illustrations/web/ryobi-pcl206-800.jpg" width="800" height="450" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" onerror="this.remove()">
+          <span class="tag">Best budget</span>
+          <h3>Ryobi PCL206</h3>
+          <p>The cheapest drill here, with the most owner reviews.</p>
+        </a>
+      </div>
+      <h2>Browse by type</h2>
+      <section class="browse-cat" id="drill-drivers">
+        <h3>Drill/Drivers <small class="muted">(20)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=black-decker-bdcdd120">Black+Decker BDCDD120</a> <span class="muted">20V MAX POWERCONNECT Cordless 3/8 Inch Drill Driver</span></li><li><a href="/reviews/?tool=bosch-gsr18v-535c">Bosch GSR18V-535C</a> <span class="muted">18V EC Brushless Connected-Ready 1/2 In. Drill/Driver</span></li><li><a href="/reviews/?tool=craftsman-cmcd700">Craftsman CMCD700</a> <span class="muted">V20 Cordless 1/2-in Drill Driver</span></li><li><a href="/reviews/?tool=craftsman-cmcd720">Craftsman CMCD720</a> <span class="muted">V20 Brushless Cordless 1/2-in Drill/Driver</span></li><li><a href="/reviews/?tool=dewalt-dcd777">DeWalt DCD777</a> <span class="muted">20V MAX 1/2-in Compact Brushless Drill/Driver</span></li><li><a href="/reviews/?tool=dewalt-dcd794">DeWalt DCD794</a> <span class="muted">ATOMIC COMPACT SERIES 20V MAX Brushless Cordless 1/2-in Drill/Driver</span></li><li><a href="/reviews/?tool=dewalt-dcd800">DeWalt DCD800</a> <span class="muted">20V MAX XR 1/2-in Brushless Cordless Drill/Driver</span></li><li><a href="/reviews/?tool=flex-fx1171t">Flex FX1171T</a> <span class="muted">24V 1/2&quot; 2-Speed Drill Driver with Turbo Mode</span></li><li><a href="/reviews/?tool=hercules-59420">Hercules 59420</a> <span class="muted">20V Brushless Cordless 1/2 in. Drill/Driver</span></li><li><a href="/reviews/?tool=kobalt-kdd2024a">Kobalt KDD 2024A</a> <span class="muted">Next-Gen 24-volt 1/2-in Keyless Brushless Cordless Drill</span></li><li><a href="/reviews/?tool=makita-xfd12">Makita XFD12</a> <span class="muted">18V LXT Lithium-Ion Compact Brushless Cordless 1/2&quot; Driver-Drill</span></li><li><a href="/reviews/?tool=makita-xfd13">Makita XFD13</a> <span class="muted">18V LXT Lithium-Ion Brushless Cordless 1/2&quot; Driver-Drill</span></li><li><a href="/reviews/?tool=metabo-hpt-ds18de">Metabo HPT DS18DE</a> <span class="muted">18V MultiVolt 1/2&quot; Cordless Brushless Driver Drill</span></li><li><a href="/reviews/?tool=milwaukee-2903">Milwaukee 2903</a> <span class="muted">M18 FUEL 1/2&quot; Drill/Driver</span></li><li><a href="/reviews/?tool=milwaukee-3401">Milwaukee 3401</a> <span class="muted">M12 Subcompact Brushless 3/8&quot; Drill/Driver</span></li><li><a href="/reviews/?tool=milwaukee-3403">Milwaukee 3403</a> <span class="muted">M12 FUEL 1/2&quot; Drill/Driver</span></li><li><a href="/reviews/?tool=milwaukee-3601">Milwaukee 3601</a> <span class="muted">M18 Compact Brushless 1/2&quot; Drill/Driver</span></li><li><a href="/reviews/?tool=ridgid-r86114">Ridgid R86114</a> <span class="muted">18V Brushless Cordless 1/2 in. Drill/Driver</span></li><li><a href="/reviews/?tool=ryobi-pbldd01">Ryobi PBLDD01</a> <span class="muted">ONE+ HP 18V Brushless Cordless 1/2 in. Drill/Driver</span></li><li><a href="/reviews/?tool=ryobi-pcl206">Ryobi PCL206</a> <span class="muted">ONE+ 18V Cordless 1/2 in. Drill/Driver</span></li></ul>
+      </section>
+      <section class="browse-cat" id="hammer-drills">
+        <h3>Hammer Drills <small class="muted">(11)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=bosch-gsb18v-535c">Bosch GSB18V-535C</a> <span class="muted">18V EC Brushless Connected-Ready 1/2 In. Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=dewalt-dcd1007">DeWalt DCD1007</a> <span class="muted">20V MAX XR Brushless Cordless 1/2-in 3-Speed Hammer Drill</span></li><li><a href="/reviews/?tool=dewalt-dcd805">DeWalt DCD805</a> <span class="muted">20V MAX XR Brushless Cordless 1/2-in Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=dewalt-dcd996">DeWalt DCD996</a> <span class="muted">20V MAX XR Brushless Premium 3-Speed 1/2-in Hammer Drill</span></li><li><a href="/reviews/?tool=hercules-59419">Hercules 59419</a> <span class="muted">20V Brushless Cordless 1/2 in. Compact Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=makita-xph14">Makita XPH14</a> <span class="muted">18V LXT Lithium-Ion Brushless Cordless 1/2&quot; Hammer Driver-Drill</span></li><li><a href="/reviews/?tool=milwaukee-2904">Milwaukee 2904</a> <span class="muted">M18 FUEL 1/2&quot; Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=milwaukee-3404">Milwaukee 3404</a> <span class="muted">M12 FUEL 1/2&quot; Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=milwaukee-3602">Milwaukee 3602</a> <span class="muted">M18 Compact Brushless 1/2&quot; Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=ridgid-r86115">Ridgid R86115</a> <span class="muted">18V Brushless Cordless 1/2 in. Hammer Drill/Driver</span></li><li><a href="/reviews/?tool=ryobi-pblhm101">Ryobi PBLHM101</a> <span class="muted">18V ONE+ HP Brushless 1/2&quot; Hammer Drill</span></li></ul>
+      </section>
+      <section class="browse-cat" id="impact-drivers">
+        <h3>Impact Drivers <small class="muted">(21)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=black-decker-bdci20">Black+Decker BDCI20</a> <span class="muted">20V MAX POWERCONNECT Cordless Impact Driver</span></li><li><a href="/reviews/?tool=bosch-gdr18v-1860c">Bosch GDR18V-1860C</a> <span class="muted">18V Brushless Connected-Ready 1/4 In. Hex Impact Driver</span></li><li><a href="/reviews/?tool=bosch-gdx18v-1860c">Bosch GDX18V-1860C</a> <span class="muted">18V Connected-Ready Two-In-One 1/4 In. and 1/2 In. Bit/Socket Impact Driver/Wrench</span></li><li><a href="/reviews/?tool=craftsman-cmcf820">Craftsman CMCF820</a> <span class="muted">V20 Brushless Cordless 1/4-in Impact Driver</span></li><li><a href="/reviews/?tool=dewalt-dcf845">DeWalt DCF845</a> <span class="muted">20V MAX XR 3-Speed 1/4-in Impact Driver</span></li><li><a href="/reviews/?tool=dewalt-dcf850">DeWalt DCF850</a> <span class="muted">ATOMIC 20V MAX 1/4-in Brushless Cordless 3-Speed Impact Driver</span></li><li><a href="/reviews/?tool=dewalt-dcf860">DeWalt DCF860</a> <span class="muted">20V MAX XR 1/4-in 3-Speed Brushless High Torque Impact Driver</span></li><li><a href="/reviews/?tool=flex-fx1371a">Flex FX1371A</a> <span class="muted">24V 1/4&quot; Quick Eject Hex Impact Driver with Multi-Mode</span></li><li><a href="/reviews/?tool=hercules-59421">Hercules 59421</a> <span class="muted">20V Brushless 1/4 in. Compact Impact Driver</span></li><li><a href="/reviews/?tool=kobalt-kid124b">Kobalt KID 124B</a> <span class="muted">24V MAX Next-Gen Brushless Impact Driver</span></li><li><a href="/reviews/?tool=makita-xdt13">Makita XDT13</a> <span class="muted">18V LXT Brushless Cordless Impact Driver</span></li><li><a href="/reviews/?tool=makita-xdt19">Makita XDT19</a> <span class="muted">18V LXT Brushless Cordless Quick-Shift Mode 4-Speed Impact Driver</span></li><li><a href="/reviews/?tool=metabo-hpt-wh18de">Metabo HPT WH18DE</a> <span class="muted">18V MultiVolt Cordless Brushless Impact Driver</span></li><li><a href="/reviews/?tool=milwaukee-2953">Milwaukee 2953</a> <span class="muted">M18 FUEL 1/4&quot; Hex Impact Driver</span></li><li><a href="/reviews/?tool=milwaukee-3450">Milwaukee 3450</a> <span class="muted">M12 Subcompact Brushless 1/4&quot; Hex Impact Driver</span></li><li><a href="/reviews/?tool=milwaukee-3453">Milwaukee 3453</a> <span class="muted">M12 FUEL 1/4&quot; Hex Impact Driver</span></li><li><a href="/reviews/?tool=milwaukee-3650">Milwaukee 3650</a> <span class="muted">M18 Compact Brushless 1/4&quot; Hex Impact Driver</span></li><li><a href="/reviews/?tool=milwaukee-3651">Milwaukee 3651</a> <span class="muted">M18 Compact Brushless 1/4&quot; Hex 3-Speed Impact Driver</span></li><li><a href="/reviews/?tool=ridgid-r862311">Ridgid R862311</a> <span class="muted">18V Brushless Cordless 3-Speed 1/4 in. Impact Driver</span></li><li><a href="/reviews/?tool=ridgid-r872311">Ridgid R872311</a> <span class="muted">18V SubCompact Brushless 4-Mode Impact Driver</span></li><li><a href="/reviews/?tool=ryobi-pblid02">Ryobi PBLID02</a> <span class="muted">ONE+ HP 18V Brushless Cordless 1/4 in. 4-Mode Impact Driver</span></li></ul>
+      </section>
+      <section class="browse-cat" id="impact-wrenches">
+        <h3>Impact Wrenches <small class="muted">(14)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=bosch-gds18v-770c">Bosch GDS18V-770C</a> <span class="muted">PROFACTOR 18V Connected-Ready 3/4 In. Impact Wrench with Friction Ring and Thru-Hole</span></li><li><a href="/reviews/?tool=craftsman-cmcf940">Craftsman CMCF940</a> <span class="muted">V20 BRUSHLESS RP 1/2&quot; Drive High Torque Impact Wrench with Hog Ring Anvil</span></li><li><a href="/reviews/?tool=dewalt-dcf891">DeWalt DCF891</a> <span class="muted">20V MAX XR 1/2-in Mid-Range Impact Wrench with Hog Ring Anvil</span></li><li><a href="/reviews/?tool=dewalt-dcf921">DeWalt DCF921</a> <span class="muted">ATOMIC 20V MAX 1/2-in Cordless Impact Wrench with Hog Ring Anvil</span></li><li><a href="/reviews/?tool=dewalt-dcf961">DeWalt DCF961</a> <span class="muted">20V MAX XR 1/2-in Brushless High Torque Impact Wrench with Hog Ring Anvil</span></li><li><a href="/reviews/?tool=flex-fx1472">Flex FX1472</a> <span class="muted">24V 1/2&quot; High-Torque Impact Wrench</span></li><li><a href="/reviews/?tool=kobalt-kxiw1424a">Kobalt KXIW 1424A</a> <span class="muted">XTR 24V MAX High-Torque 1/2&quot; Impact Wrench</span></li><li><a href="/reviews/?tool=makita-xwt08">Makita XWT08</a> <span class="muted">18V LXT Brushless Cordless High Torque 1/2&quot; Sq. Drive Impact Wrench</span></li><li><a href="/reviews/?tool=milwaukee-2960">Milwaukee 2960</a> <span class="muted">M18 FUEL 3/8&quot; Mid-Torque Impact Wrench w/ Friction Ring</span></li><li><a href="/reviews/?tool=milwaukee-2962">Milwaukee 2962</a> <span class="muted">M18 FUEL 1/2&quot; Mid-Torque Impact Wrench w/ Friction Ring</span></li><li><a href="/reviews/?tool=milwaukee-2966">Milwaukee 2966</a> <span class="muted">M18 FUEL 1/2&quot; High Torque Impact Wrench w/ Pin Detent</span></li><li><a href="/reviews/?tool=milwaukee-2967">Milwaukee 2967</a> <span class="muted">M18 FUEL 1/2&quot; High Torque Impact Wrench w/ Friction Ring</span></li><li><a href="/reviews/?tool=ridgid-r86212">Ridgid R86212</a> <span class="muted">18V Brushless Cordless 4-Mode 1/2 in. High-Torque Impact Wrench</span></li><li><a href="/reviews/?tool=ryobi-pbliw01">Ryobi PBLIW01</a> <span class="muted">ONE+ HP 18V Brushless Cordless 4-Mode 1/2 in. High Torque Impact Wrench</span></li></ul>
+      </section>
+      <section class="browse-cat" id="rotary-hammers">
+        <h3>Rotary Hammers <small class="muted">(1)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=makita-xrh01">Makita XRH01</a> <span class="muted">18V LXT Brushless Cordless 1&quot; Rotary Hammer, SDS-PLUS</span></li></ul>
+      </section>
+      <section class="browse-cat" id="circular-saws">
+        <h3>Circular Saws <small class="muted">(18)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=craftsman-cmcs551">Craftsman CMCS551</a> <span class="muted">V20 BRUSHLESS RP Cordless 7-1/4 in. Circular Saw</span></li><li><a href="/reviews/?tool=dewalt-dcs565">DeWalt DCS565</a> <span class="muted">20V MAX XR 6-1/2 in. Brushless Cordless Circular Saw</span></li><li><a href="/reviews/?tool=dewalt-dcs573">DeWalt DCS573</a> <span class="muted">20V MAX 7-1/4-in Brushless Cordless Circular Saw with FLEXVOLT ADVANTAGE</span></li><li><a href="/reviews/?tool=dewalt-dcs578">DeWalt DCS578</a> <span class="muted">FLEXVOLT 60V MAX 7-1/4-in Brushless Circular Saw with Electronic Brake</span></li><li><a href="/reviews/?tool=dewalt-dcs590">DeWalt DCS590</a> <span class="muted">20V MAX XR Brushless Cordless 7-1/4 in. Circular Saw</span></li><li><a href="/reviews/?tool=dewalt-dwe575">DeWalt DWE575</a> <span class="muted">7-1/4 in. Lightweight Circular Saw</span></li><li><a href="/reviews/?tool=flex-fx2141">Flex FX2141</a> <span class="muted">24V 7-1/4&quot; Circular Saw</span></li><li><a href="/reviews/?tool=kobalt-kccs124b">Kobalt KCCS 124B</a> <span class="muted">24-Volt Brushless Circular Saw</span></li><li><a href="/reviews/?tool=makita-5007f">Makita 5007F</a> <span class="muted">7-1/4&quot; Circular Saw</span></li><li><a href="/reviews/?tool=makita-xsh06">Makita XSH06</a> <span class="muted">36V (18V X2) LXT Brushless 7-1/4&quot; Circular Saw</span></li><li><a href="/reviews/?tool=metabo-hpt-c3607da">Metabo HPT C3607DA</a> <span class="muted">36V MultiVolt Brushless 7-1/4&quot; Cordless Circular Saw</span></li><li><a href="/reviews/?tool=milwaukee-2631">Milwaukee 2631</a> <span class="muted">M18 Brushless 7-1/4&quot; Circular Saw</span></li><li><a href="/reviews/?tool=milwaukee-2834">Milwaukee 2834</a> <span class="muted">M18 FUEL 7-1/4&quot; Circular Saw</span></li><li><a href="/reviews/?tool=milwaukee-2930">Milwaukee 2930</a> <span class="muted">M18 FUEL 7-1/4&quot; Rear Handle Circular Saw</span></li><li><a href="/reviews/?tool=ridgid-r8657">Ridgid R8657</a> <span class="muted">18V Brushless Cordless 7-1/4 in. Circular Saw</span></li><li><a href="/reviews/?tool=ryobi-pblcs302">Ryobi PBLCS302</a> <span class="muted">18V ONE+ HP Brushless 7-1/4&quot; Circular Saw</span></li><li><a href="/reviews/?tool=skil-cr5429b">Skil CR5429B</a> <span class="muted">PWRCORE 20 Brushless 2 x 20V 7-1/4&quot; Rear Handle Circular Saw</span></li><li><a href="/reviews/?tool=skil-spt77wml">Skil SPT77WML</a> <span class="muted">SKILSAW 7-1/4 in. Lightweight Magnesium Worm Drive Saw</span></li></ul>
+      </section>
+      <section class="browse-cat" id="miter-saws">
+        <h3>Miter Saws <small class="muted">(10)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=bosch-gcm12sd">Bosch GCM12SD</a> <span class="muted">12 In. Dual-Bevel Glide Miter Saw</span></li><li><a href="/reviews/?tool=dewalt-dcs781">DeWalt DCS781</a> <span class="muted">60V MAX 12-in Brushless Cordless Double-Bevel Sliding Miter Saw</span></li><li><a href="/reviews/?tool=dewalt-dws715">DeWalt DWS715</a> <span class="muted">12 in. 15A Single-Bevel Compound Miter Saw</span></li><li><a href="/reviews/?tool=dewalt-dws779">DeWalt DWS779</a> <span class="muted">12 in. Double-Bevel Sliding Compound Miter Saw</span></li><li><a href="/reviews/?tool=dewalt-dws780">DeWalt DWS780</a> <span class="muted">12&quot; Double Bevel Sliding Compound Miter Saw</span></li><li><a href="/reviews/?tool=makita-ls1219l">Makita LS1219L</a> <span class="muted">12&quot; Dual-Bevel Sliding Compound Miter Saw with Laser</span></li><li><a href="/reviews/?tool=metabo-hpt-c12rsh3">Metabo HPT C12RSH3</a> <span class="muted">12&quot; Dual Bevel Sliding Miter Saw</span></li><li><a href="/reviews/?tool=milwaukee-2739">Milwaukee 2739</a> <span class="muted">M18 FUEL 12&quot; Dual Bevel Sliding Compound Miter Saw</span></li><li><a href="/reviews/?tool=ridgid-r4222">Ridgid R4222</a> <span class="muted">15 Amp Corded 12 in. Dual Bevel Sliding Miter Saw with 70 Deg. Miter Capacity</span></li><li><a href="/reviews/?tool=ryobi-pblms01">Ryobi PBLMS01</a> <span class="muted">18V ONE+ HP Brushless 10&quot; Sliding Compound Miter Saw</span></li></ul>
+      </section>
+      <section class="browse-cat" id="reciprocating-saws">
+        <h3>Reciprocating Saws <small class="muted">(12)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=bosch-gsa18v-125">Bosch GSA18V-125</a> <span class="muted">18V EC Brushless 1-1/4 In.-Stroke Multi-Grip Reciprocating Saw</span></li><li><a href="/reviews/?tool=craftsman-cmcs351">Craftsman CMCS351</a> <span class="muted">V20 BRUSHLESS RP Cordless Reciprocating Saw</span></li><li><a href="/reviews/?tool=dewalt-dcs369">DeWalt DCS369</a> <span class="muted">ATOMIC 20V MAX Cordless One-Handed Reciprocating Saw</span></li><li><a href="/reviews/?tool=dewalt-dcs382">DeWalt DCS382</a> <span class="muted">20V MAX XR Brushless Cordless Reciprocating Saw</span></li><li><a href="/reviews/?tool=makita-xrj05">Makita XRJ05</a> <span class="muted">18V LXT Brushless Cordless Recipro Saw</span></li><li><a href="/reviews/?tool=milwaukee-2719">Milwaukee 2719</a> <span class="muted">M18 FUEL HACKZALL One-Handed Reciprocating Saw</span></li><li><a href="/reviews/?tool=milwaukee-2722">Milwaukee 2722</a> <span class="muted">M18 FUEL SUPER SAWZALL Reciprocating Saw</span></li><li><a href="/reviews/?tool=milwaukee-2821">Milwaukee 2821</a> <span class="muted">M18 FUEL SAWZALL Reciprocating Saw</span></li><li><a href="/reviews/?tool=milwaukee-6538">Milwaukee 6538</a> <span class="muted">15.0 Amp Super Sawzall Reciprocating Saw</span></li><li><a href="/reviews/?tool=ridgid-r8647">Ridgid R8647</a> <span class="muted">18V Brushless Cordless Reciprocating Saw</span></li><li><a href="/reviews/?tool=ridgid-r8648">Ridgid R8648</a> <span class="muted">18V SubCompact Brushless Cordless One-Handed Reciprocating Saw</span></li><li><a href="/reviews/?tool=ryobi-pblrs01">Ryobi PBLRS01</a> <span class="muted">18V ONE+ HP Brushless Reciprocating Saw</span></li></ul>
+      </section>
+      <section class="browse-cat" id="angle-grinders">
+        <h3>Angle Grinders <small class="muted">(11)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=bosch-gws18v-10p">Bosch GWS18V-10P</a> <span class="muted">18V Brushless 4-1/2 - 5 In. Angle Grinder with No Lock-On Paddle Switch</span></li><li><a href="/reviews/?tool=craftsman-cmcg451">Craftsman CMCG451</a> <span class="muted">V20 BRUSHLESS RP Cordless 4-1/2 in. Small Angle Grinder</span></li><li><a href="/reviews/?tool=dewalt-dcg413">DeWalt DCG413</a> <span class="muted">20V MAX XR 4-1/2-in Paddle Switch Small Angle Grinder with KICKBACK BRAKE</span></li><li><a href="/reviews/?tool=dewalt-dcg418">DeWalt DCG418</a> <span class="muted">FLEXVOLT 60V MAX 4-1/2 - 6 in. Brushless Grinder with Kickback Brake</span></li><li><a href="/reviews/?tool=dewalt-dwe43114n">DeWalt DWE43114N</a> <span class="muted">4-1/2 in. - 5 in. Paddle Switch Grinder with No Lock-On</span></li><li><a href="/reviews/?tool=flex-fx3171a">Flex FX3171A</a> <span class="muted">24V 5-In. Variable Speed Angle Grinder With Paddle Switch</span></li><li><a href="/reviews/?tool=makita-xag04">Makita XAG04</a> <span class="muted">18V LXT Brushless Cordless 4-1/2&quot; / 5&quot; Cut-Off/Angle Grinder</span></li><li><a href="/reviews/?tool=milwaukee-2880">Milwaukee 2880</a> <span class="muted">M18 FUEL 4-1/2&quot; / 5&quot; Braking Grinder, Paddle Switch, No-Lock</span></li><li><a href="/reviews/?tool=milwaukee-2881">Milwaukee 2881</a> <span class="muted">M18 FUEL 4-1/2&quot; / 5&quot; Braking Grinder, Slide Switch, Lock-On</span></li><li><a href="/reviews/?tool=ridgid-r86047">Ridgid R86047</a> <span class="muted">18V Brushless Cordless 4-1/2 in. Paddle Switch Angle Grinder</span></li><li><a href="/reviews/?tool=ryobi-pblag01">Ryobi PBLAG01</a> <span class="muted">18V ONE+ HP Brushless 4-1/2&quot; Angle Grinder/Cut-Off Tool</span></li></ul>
+      </section>
+      <section class="browse-cat" id="framing-nailers">
+        <h3>Framing Nailers <small class="muted">(1)</small></h3>
+        <ul class="browse-list"><li><a href="/reviews/?tool=milwaukee-2744">Milwaukee 2744</a> <span class="muted">M18 FUEL 21 Degree Framing Nailer</span></li></ul>
+      </section>
+    </div>
+  </div>
+</section>
+<script src="/assets/js/tools.js?v=e7addde7" defer></script>
+</main>
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">

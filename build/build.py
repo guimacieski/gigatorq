@@ -6,7 +6,7 @@ Writes every HTML page plus sitemap.xml into the repo root. Needs only Python 3.
 import glob, json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import layout, best_list, pages_static  # noqa: E402
+import layout, best_list, pages_static, tools_pages  # noqa: E402
 
 
 def main():
@@ -18,6 +18,7 @@ def main():
         best_list.render(db, s)
     best_list.render_hub(specs)
     pages_static.build(db, specs)
+    tools_pages.build(db, specs)
     layout.write_sitemap()
     print(f'built {len(layout.WRITTEN)} pages ({sum(1 for w in layout.WRITTEN if w[2])} in sitemap)')
 

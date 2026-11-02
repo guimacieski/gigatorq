@@ -47,13 +47,13 @@ def build(db, best_pages):
         <h2>Find your tool</h2>
         <div class="grid grid-4" style="margin-top:28px">
           <a class="card cat-card" href="/best/cordless-drills/"><div class="icon">&#128297;</div><h3>Drills</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#9881;&#65039;</div><h3>Impact Drivers</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#129690;</div><h3>Saws</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#9889;</div><h3>Grinders</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#128296;</div><h3>Rotary Hammers</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#128267;</div><h3>Batteries</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#128168;</div><h3>Nailers</h3></a>
-          <a class="card cat-card" href="/compare/"><div class="icon">&#128736;&#65039;</div><h3>Combo Kits</h3></a>
+          <a class="card cat-card" href="/reviews/#impact-drivers"><div class="icon">&#9881;&#65039;</div><h3>Impact Drivers</h3></a>
+          <a class="card cat-card" href="/reviews/#hammer-drills"><div class="icon">&#128296;</div><h3>Hammer Drills</h3></a>
+          <a class="card cat-card" href="/reviews/#circular-saws"><div class="icon">&#129690;</div><h3>Circular Saws</h3></a>
+          <a class="card cat-card" href="/reviews/#miter-saws"><div class="icon">&#129690;</div><h3>Miter Saws</h3></a>
+          <a class="card cat-card" href="/reviews/#reciprocating-saws"><div class="icon">&#129690;</div><h3>Reciprocating Saws</h3></a>
+          <a class="card cat-card" href="/reviews/#angle-grinders"><div class="icon">&#9889;</div><h3>Angle Grinders</h3></a>
+          <a class="card cat-card" href="/reviews/#impact-wrenches"><div class="icon">&#128297;</div><h3>Impact Wrenches</h3></a>
         </div>
       </div>
     </section>
@@ -86,182 +86,7 @@ def build(db, best_pages):
     page("/", "GigaTorq | Power Tool Comparisons and Reviews",
          "Research-based power tool comparisons. We compare drills, impact drivers, saws and grinders on verified specs, prices and owner feedback so you can buy the right tool.", home, lastmod='2026-10-22')
 
-    # ---------------- Compare hub ----------------
-    compare_hub = """
-    <section class="section">
-      <div class="container">
-        <span class="eyebrow">Comparisons</span>
-        <h1>Head-to-head matchups</h1>
-        <p class="muted" style="max-width:640px">Every comparison lines up verified specs, kit contents, prices and owner feedback, then names a pick for each kind of buyer.</p>
-        <div class="grid grid-3" style="margin-top:32px">
-          <a class="card" href="/compare/cordless-drills/">
-            <span class="tag">Cordless drills</span>
-            <h3>Best cordless drill</h3>
-            <p>Comparison template: duplicate this page for each new matchup.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-    """
-    page("/compare/", "Power Tool Comparisons | GigaTorq",
-         "Side-by-side power tool comparisons built on verified specs, prices and owner feedback.", compare_hub, '/compare/', noindex=True)
-
-    # ---------------- Comparison template ----------------
-    compare = f"""
-    <section class="section">
-      <div class="container article">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="/compare/">Comparisons</a> / Cordless Drills</div>
-        <h1>Brand A vs Brand B: Best Cordless Drill</h1>
-        <p class="muted">Updated <time datetime="2026-10-21">October 21, 2026</time> &middot; By the GigaTorq team</p>
-        {DISCLOSURE}
-        <p class="placeholder">TEMPLATE: replace "Brand A / Brand B", specs, owner feedback and scores with real data before publishing.</p>
-
-        <h2>Quick verdict</h2>
-        <div class="grid grid-2">
-          <div class="card"><span class="tag">Best overall</span><h3>Brand A Model X</h3><p>One-sentence reason it wins for most buyers.</p></div>
-          <div class="card"><span class="tag">Best value</span><h3>Brand B Model Y</h3><p>One-sentence reason it wins on price.</p></div>
-        </div>
-
-        <h2>Specs side by side</h2>
-        <div class="table-wrap">
-          <table class="compare">
-            <thead><tr><th></th><th>Brand A Model X</th><th>Brand B Model Y</th></tr></thead>
-            <tbody>
-              <tr><th>Voltage</th><td>-- V</td><td>-- V</td></tr>
-              <tr><th>Max torque</th><td>-- in-lbs</td><td>-- in-lbs</td></tr>
-              <tr><th>Speed (no load)</th><td>-- RPM</td><td>-- RPM</td></tr>
-              <tr><th>Chuck size</th><td>-- in</td><td>-- in</td></tr>
-              <tr><th>Weight (with battery)</th><td>-- lbs</td><td>-- lbs</td></tr>
-              <tr><th>Battery included</th><td>-- Ah</td><td>-- Ah</td></tr>
-              <tr><th>Warranty</th><td>-- years</td><td>-- years</td></tr>
-              <tr><th>Price (kit)</th><td>$--</td><td>$--</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h2>What owners say</h2>
-        <p class="muted">Summarized in our own words from owner reviews at major US retailers. Links to the sources are below each summary.</p>
-        <div class="grid grid-2">
-          <div class="card">
-            <h3>Brand A Model X</h3>
-            <p><strong>Praised for:</strong> recurring positives.</p>
-            <p><strong>Common complaints:</strong> recurring negatives.</p>
-            <p class="muted">Based on -- reviews from -- retailers.</p>
-          </div>
-          <div class="card">
-            <h3>Brand B Model Y</h3>
-            <p><strong>Praised for:</strong> recurring positives.</p>
-            <p><strong>Common complaints:</strong> recurring negatives.</p>
-            <p class="muted">Based on -- reviews from -- retailers.</p>
-          </div>
-        </div>
-
-        <h2>Scores</h2>
-        <div class="grid grid-2">
-          <div class="card">
-            <h3>Brand A Model X</h3>
-            <div class="score-row"><span>Power</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-            <div class="score-row"><span>Features</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-            <div class="score-row"><span>Owner satisfaction</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-            <div class="score-row"><span>Value</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-          </div>
-          <div class="card">
-            <h3>Brand B Model Y</h3>
-            <div class="score-row"><span>Power</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-            <div class="score-row"><span>Features</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-            <div class="score-row"><span>Owner satisfaction</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-            <div class="score-row"><span>Value</span><div class="bar"><i style="width:0%"></i></div><b>--</b></div>
-          </div>
-        </div>
-
-        <h2>Which one should you buy?</h2>
-        <p><strong>Buy Brand A if</strong> ... (who it's for).</p>
-        <p><strong>Buy Brand B if</strong> ... (who it's for).</p>
-
-        <h2>Where to buy</h2>
-        <div class="grid grid-2">
-          <div class="card"><h3>Brand A Model X</h3>
-            <div class="buy-box"><a class="btn" href="#" rel="nofollow">Check price</a><a class="btn btn-ghost" href="#" rel="nofollow">Other store</a></div></div>
-          <div class="card"><h3>Brand B Model Y</h3>
-            <div class="buy-box"><a class="btn" href="#" rel="nofollow">Check price</a><a class="btn btn-ghost" href="#" rel="nofollow">Other store</a></div></div>
-        </div>
-      </div>
-    </section>
-    """
-    page("/compare/cordless-drills/", "Brand A vs Brand B: Best Cordless Drill | GigaTorq",
-         "Two cordless drills compared: torque, speed, kit value and what owners say.", compare, '/compare/', noindex=True)
-
-    # ---------------- Reviews hub ----------------
-    reviews_hub = """
-    <section class="section">
-      <div class="container">
-        <span class="eyebrow">Reviews</span>
-        <h1>In-depth reviews</h1>
-        <p class="muted" style="max-width:640px">Detailed looks at single tools: verified specs, what owners report and who should buy it, scored on the same scale as our comparisons.</p>
-        <div class="grid grid-3" style="margin-top:32px">
-          <a class="card" href="/reviews/review-template/">
-            <span class="tag">Template</span>
-            <h3>Review template</h3>
-            <p>Duplicate this page for each new tool review.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-    """
-    page("/reviews/", "Power Tool Reviews | GigaTorq",
-         "In-depth power tool reviews with scores for power, features, owner satisfaction and value.", reviews_hub, '/reviews/', noindex=True)
-
-    # ---------------- Review template ----------------
-    review = f"""
-    <section class="section">
-      <div class="container article">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="/reviews/">Reviews</a> / Brand A Model X</div>
-        <h1>Brand A Model X Review</h1>
-        <p class="muted">Updated <time datetime="2026-10-21">October 21, 2026</time> &middot; By the GigaTorq team</p>
-        {DISCLOSURE}
-        <p class="placeholder">TEMPLATE: replace the tool name, specs, owner feedback and scores with real data before publishing.</p>
-
-        <div class="card" style="display:flex;gap:20px;align-items:center;flex-wrap:wrap">
-          <div class="score">--</div>
-          <div style="flex:1;min-width:220px">
-            <h3 style="margin:0">The verdict</h3>
-            <p>One or two sentences summing up who this tool is for and whether it's worth the money.</p>
-          </div>
-          <a class="btn" href="#" rel="nofollow">Check price</a>
-        </div>
-
-        <div class="grid grid-2" style="margin-top:20px">
-          <div class="card"><h3>Pros</h3><ul class="pros"><li>Pro one</li><li>Pro two</li><li>Pro three</li></ul></div>
-          <div class="card"><h3>Cons</h3><ul class="cons"><li>Con one</li><li>Con two</li></ul></div>
-        </div>
-
-        <h2>Specs</h2>
-        <div class="table-wrap">
-          <table class="compare">
-            <tbody>
-              <tr><th>Voltage</th><td>-- V</td></tr>
-              <tr><th>Max torque</th><td>-- in-lbs</td></tr>
-              <tr><th>Speed (no load)</th><td>-- RPM</td></tr>
-              <tr><th>Weight (with battery)</th><td>-- lbs</td></tr>
-              <tr><th>Warranty</th><td>-- years</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h2>How the specs compare</h2>
-        <p>What the numbers mean next to similar tools in the same class.</p>
-        <h2>What owners say</h2>
-        <p>Recurring praise and complaints from owner reviews, summarized in our own words, with links to the sources.</p>
-        <h2>Battery platform and kit</h2>
-        <p>Platform, compatible batteries and what each kit includes.</p>
-        <h2>Who should buy it</h2>
-        <p>Best for ... Skip it if ...</p>
-      </div>
-    </section>
-    """
-    page("/reviews/review-template/", "Brand A Model X Review | GigaTorq",
-         "In-depth review: specs, owner feedback, kit value and who should buy it.", review, '/reviews/', noindex=True)
-
+    # Compare and Reviews are built by tools_pages.py
     # ---------------- How we choose ----------------
     how = """
     <section class="section">
