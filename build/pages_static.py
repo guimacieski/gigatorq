@@ -76,7 +76,7 @@ def build(db, best_pages):
          "Research-based power tool comparisons. We compare drills, impact drivers, saws and grinders on verified specs, prices and owner feedback so you can buy the right tool.", home, lastmod='2026-11-02',
          jsonld={'@context': 'https://schema.org', '@graph': [
              {'@type': 'Organization', '@id': 'https://gigatorq.com/#org', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/',
-              'logo': 'https://gigatorq.com/assets/img/favicon.png', 'email': 'hello@gigatorq.com'},
+              'logo': 'https://gigatorq.com/assets/img/favicon.png', 'email': 'contact@gigatorq.com'},
              {'@type': 'WebSite', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/', 'publisher': {'@id': 'https://gigatorq.com/#org'}}]})
 
     # Compare and Reviews are built by tools_pages.py
@@ -156,8 +156,8 @@ def build(db, best_pages):
       <div class="container article">
         <span class="eyebrow">Contact</span>
         <h1>Get in touch</h1>
-        <p>Questions, tool suggestions or corrections? Email us at <a href="mailto:hello@gigatorq.com">hello@gigatorq.com</a>.</p>
-        <p>Brands and PR: <a href="mailto:reviews@gigatorq.com">reviews@gigatorq.com</a>. Sending us a tool doesn't guarantee coverage or a positive review.</p>
+        <p>Questions, tool suggestions or corrections? Email us at <a href="mailto:contact@gigatorq.com">contact@gigatorq.com</a>.</p>
+        <p>Brands and PR can use the same address. Sending us a tool doesn't guarantee coverage or a positive review.</p>
       </div>
     </section>
     """
@@ -197,7 +197,7 @@ def build(db, best_pages):
         <h2>Changes</h2>
         <p>If we add analytics, ads, affiliate links or an email newsletter, we'll update this policy before they go live.</p>
         <h2>Contact</h2>
-        <p>Privacy questions: <a href="mailto:hello@gigatorq.com">hello@gigatorq.com</a>.</p>
+        <p>Privacy questions: <a href="mailto:contact@gigatorq.com">contact@gigatorq.com</a>.</p>
       </div>
     </section>
     """
