@@ -293,3 +293,7 @@ table.ctx { width: 100%; border-collapse: collapse; font-size: .92rem; }
   .ctx td:nth-child(3), .ctx td:last-child { grid-column: 1 / -1; }
   .meter { min-width: 0; }
 }
+/* Pick illustrations */
+.pick-figure { margin: 14px 0 8px; }
+.pick-figure img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); background: var(--bg-2); }
+.pick-figure figcaption { margin-top: 6px; font-size: .8rem; color: var(--muted); }

@@ -1,2 +1,8 @@
+# Local helper and install scripts
 *.ps1
+# ...except the illustration tools, which belong in the repo
+!tools/illustrations/*.ps1
 __pycache__/
+# Illustration originals, candidates and references stay on the PC; only web-sized copies are committed
+assets/img/illustrations/*
+!assets/img/illustrations/web/

@@ -11,6 +11,25 @@ SHOW_STORES = False
 _site = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content', 'site.json')
 AUTHOR = json.load(open(_site, encoding='utf-8')).get('author', {}) if os.path.exists(_site) else {}
 
+# AI illustrations made from photos of the real model (tools/illustrations). A pick gets one when a shot was
+# made for that exact model; pages hide the figure if the web-sized file hasn't been committed yet.
+_shots = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'tools', 'illustrations', 'shots.json')
+SHOTS = json.load(open(_shots, encoding='utf-8')) if os.path.exists(_shots) else []
+
+
+def illustration(t, kind_label):
+    for sh in SHOTS:
+        if sh.get('kind') == 'Battery':
+            continue
+        if sh['name'] == t.t['slug'] or sh.get('query', '').startswith(t.name + ' '):
+            base = f"/assets/img/illustrations/web/{sh['name']}"
+            alt = f"Illustration of the {t.name} {kind_label}"
+            return (f'      <figure class="pick-figure"><img src="{base}.jpg" srcset="{base}-800.jpg 800w, {base}.jpg 1600w" '
+                    f'sizes="(max-width: 960px) 100vw, 928px" width="1600" height="900" alt="{esc(alt)}" loading="lazy" decoding="async" '
+                    f'onerror="this.parentNode.remove()">'
+                    f'<figcaption>AI illustration of the {esc(t.name)}, made using photos of the real tool as a reference. Not a photo of the actual product.</figcaption></figure>')
+    return ''
+
 
 def fmt_date(iso):
     d = date.fromisoformat(iso)
@@ -340,6 +359,7 @@ def render(db, spec):
         src_list = ''.join(f'<li><a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(link_text(u))}</a></li>' for u in srcs)
         sections.append(f"""    <section class="pick" id="{anchor(t)}">
       <span class="tag">{esc(p['label'])}</span>
+{illustration(t, spec.get('kind_label', 'tool'))}
       <h2>{esc(t.name)}</h2>
       <p class="muted small">{esc(t.t['name'])}</p>
       <p class="lead-in">{esc(p['headline'])}</p>

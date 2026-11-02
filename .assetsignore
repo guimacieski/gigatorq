@@ -6,3 +6,6 @@ wrangler.jsonc
 *.ps1
 db
 build
+tools
+assets/img/illustrations/_review
+assets/img/illustrations/_refs

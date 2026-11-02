@@ -278,7 +278,7 @@ def build(db, best_pages):
         <h2 id="ai">4. How we use AI</h2>
         <p>GigaTorq uses AI tools to research at a scale one person couldn't manage alone: collecting spec sheets from every brand, converting them to the same units, reading owner reviews and drafting summaries.</p>
         <p>AI doesn't decide what's true. Every number on a page comes from a brand or retailer source that we link to, and our database won't accept a spec without one. When sources disagree, the page says so instead of picking a number. An engineer with hands-on power tool experience reviews the picks before they go live.</p>
-        <p>Some images on the site are AI-generated illustrations. They're captioned "Illustration" and never presented as a photo of a specific model.</p>
+        <p>Some images on the site are AI-generated illustrations of the tools, made using photos of the real model as a reference. Each one is captioned as an AI illustration, so it's never mistaken for a photo of the actual product.</p>
         <h2>What we weigh</h2>
         <p>Every pick comes down to four things:</p>
         <ul>
@@ -295,7 +295,7 @@ def build(db, best_pages):
     </section>
     """
     page("/how-we-choose/", "How We Choose Power Tools | GigaTorq",
-         "Our research method: verified specs, owner feedback from major retailers, prices and warranty, weighed for power, features, owner satisfaction and value.", how, '/how-we-choose/', lastmod='2026-10-24')
+         "Our research method: verified specs, owner feedback from major retailers, prices and warranty, weighed for power, features, owner satisfaction and value.", how, '/how-we-choose/', lastmod='2026-11-02')
 
     # ---------------- About ----------------
     from best_list import AUTHOR

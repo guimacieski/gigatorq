@@ -5,7 +5,7 @@
   "tag": "Cordless drills",
   "description": "The best cordless drill/drivers for pros, homeowners and tight budgets, compared on published torque, speed, weight, real voltage, price and owner ratings.",
   "teaser": "Six drill/drivers for pros, homeowners and tight budgets, compared on torque, weight, price and owner ratings.",
-  "updated": "2026-10-24",
+  "updated": "2026-11-02",
   "category": "drill-drivers",
   "intro": [
     "A drill/driver is the first cordless tool most people buy, and the one they use most: drilling holes in wood and metal, driving screws, mixing paint and running hole saws. We went through the published specs of {n_tools} drill/drivers from {n_brands} brands, checked current prices and owner ratings at a major US retailer, and picked the six that make the most sense for different buyers.",
@@ -189,5 +189,6 @@
       "If you don't own the brand's batteries, buy a kit. The battery and charger are worth far more bought together. If you do own them, the bare tool is the better deal."
     ]
   ],
-  "category_plural": "drill/drivers"
+  "category_plural": "drill/drivers",
+  "kind_label": "drill/driver"
 }
