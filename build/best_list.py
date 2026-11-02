@@ -489,11 +489,38 @@ def render(db, spec):
                  'Brushless' if t.t['motor_type'] == 'brushless' else 'Brushed']
         return s, pr, [x for x in items if x]
 
+    def band(v):
+        if v < 50:
+            return 'Under $50'
+        step = 50 if v < 300 else 100
+        lo = int(v // step * step)
+        return f'${lo}&ndash;{lo + step}'
+
     def price_txt(s, pr):
         if not pr:
             return ''
         what = 'tool only' if s['sku_type'] == 'tool_only' else 'kit with battery and charger'
-        return f'${num(pr["price_usd"])} <small>{what}</small>'
+        return f'{band(pr["price_usd"])} <small>{what}</small>'
+
+    # --- bar scales: best figure among every tool in the category
+    ids = [r[0] for r in db.execute('SELECT t.id FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,))]
+    best_torque = max([v for v in (spec_value(db, i, 'max_torque') for i in ids) if v] or [1])
+    best_speed = max([v for v in (spec_value(db, i, 'no_load_speed') for i in ids) if v] or [1])
+    best_weight = min([v for v in (spec_value(db, i, 'weight_tool_only') for i in ids) if v] or [1])
+
+    def bars(t, r):
+        torque = spec_value(db, t.t['id'], 'max_torque')
+        speed = spec_value(db, t.t['id'], 'no_load_speed')
+        weight = spec_value(db, t.t['id'], 'weight_tool_only')
+        rows = [
+            ('Torque', torque and 100 * torque / best_torque, f'{num(torque)} in-lbs' if torque else 'not published'),
+            ('Top speed', speed and 100 * speed / best_speed, f'{num(speed)} RPM' if speed else 'not published'),
+            ('Lightness', weight and 100 * best_weight / weight, f'{num(weight)} lb' if weight else 'no tool-only weight'),
+            ('Owner rating', r and r['avg_rating'] and 100 * r['avg_rating'] / 5, f'{r["avg_rating"]:.1f} / 5' if r and r['avg_rating'] else 'not shown'),
+        ]
+        out = ''.join(f'<div class="mbar"><span class="mbar-l">{l}</span><span class="mbar-t"><i style="width:{max(0, min(100, pct or 0)):.0f}%"></i></span>'
+                      f'<span class="mbar-v{" muted" if not pct else ""}">{esc(v)}</span></div>' for l, pct, v in rows)
+        return f'<div class="mbars">{out}</div>'
 
     # --- cards
     cards = []
@@ -511,7 +538,8 @@ def render(db, spec):
         <span class="tag">{esc(p['label'])}</span>
         <h3>{esc(t.name)}</h3>
         <p>{esc(p['headline'])}</p>
-        <div class="pick-foot"><div class="price">{price_txt(s, pr)}</div>{stars(r)}</div>
+        <div class="pick-foot"><div class="price">{price_txt(s, pr)}</div></div>
+        {bars(t, r)}
       </a>""")
 
     # --- sections
@@ -549,7 +577,7 @@ def render(db, spec):
       <p>{p['why'][0]}</p>
       <dl class="fit-list"><div><dt>Best for</dt><dd>{esc(p['best_for'])}</dd></div><div><dt>Skip it if</dt><dd>{esc(p['skip_if'])}</dd></div></dl>
       <p class="owner-line">{owner}</p>
-      <p class="price-line">{price_txt(s, pr)}{f' <span class="muted small">&middot; {fmt_date(pr["observed_at"])}</span>' if pr else ''}</p>
+      <p class="price-line">{price_txt(s, pr)}</p>
       </div>
     </section>""")
 
@@ -563,7 +591,7 @@ def render(db, spec):
         rows.append(f'<tr><th><a href="#{t.t["slug"]}">{esc(t.name)}</a><br><small class="muted">{esc(p["label"])}</small></th>'
                     f'<td>{num(torque) + " in-lbs" if torque else "&ndash;"}</td>'
                     f'<td>{(w + " <small class=muted>(" + ("tool" if wk == "tool only" else "w/ battery") + ")</small>") if w else "&ndash;"}</td>'
-                    f'<td>{("$" + num(pr["price_usd"])) if pr else "&ndash;"}</td>'
+                    f'<td>{band(pr["price_usd"]) if pr else "&ndash;"}</td>'
                     f'<td>{("%.1f" % r["avg_rating"]) if r and r["avg_rating"] else "&ndash;"}</td></tr>')
 
     faq = '\n'.join(f'      <details class="faq"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in spec['faq'])
@@ -588,15 +616,16 @@ def render(db, spec):
     <div class="grid grid-3 picks">
 {chr(10).join(cards)}
     </div>
+    <p class="muted small">Bars compare each pick with the best figure among the {n_tools} {esc(spec.get('category_plural', 'tools'))} we track: the most torque, the highest top speed and the lightest tool-only weight. Owner rating is out of 5. Price ranges are based on the store prices we checked.</p>
 
 {chr(10).join(sections)}
 
     <h2>Quick comparison</h2>
     <div class="table-wrap"><table class="compare slim-table">
-      <thead><tr><th>{esc(kind.split('/')[0].title())}</th><th>Torque</th><th>Weight</th><th>Price</th><th>Rating</th></tr></thead>
+      <thead><tr><th>{esc(kind.split('/')[0].title())}</th><th>Torque</th><th>Weight</th><th>Price range</th><th>Rating</th></tr></thead>
       <tbody>{''.join(rows)}</tbody>
     </table></div>
-    <p class="muted small">Prices and owner ratings as checked on the dates shown; they change often. "20V MAX" batteries are 18V nominal, the same as 18V.</p>
+    <p class="muted small">Price ranges and owner ratings are based on what we saw at a major US retailer and change often. "20V MAX" batteries are 18V nominal, the same as 18V.</p>
 
     <h2>Questions</h2>
       <details class="faq"><summary>How should I choose a {esc(kind)}?</summary>{guide}</details>

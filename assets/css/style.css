@@ -331,3 +331,12 @@ details.faq p { color: var(--muted); }
   a.card.pick-card h3 { font-size: 1.15rem; }
   a.card.pick-card .price { font-size: 1.15rem; }
 }
+/* Mini bar charts on pick cards */
+.mbars { display: grid; gap: 6px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.mbar { display: grid; grid-template-columns: 86px minmax(0, 1fr) auto; align-items: center; gap: 8px; font-size: .76rem; }
+.mbar-l { color: var(--muted); }
+.mbar-t { height: 7px; background: var(--bg-3); border-radius: 4px; overflow: hidden; }
+.mbar-t i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.mbar-v { color: var(--text); font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mbar-v.muted { color: var(--muted); font-weight: 400; }
+@media (max-width: 760px) { a.card.pick-card .mbars { grid-column: 1 / -1; } }
