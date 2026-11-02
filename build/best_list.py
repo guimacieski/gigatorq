@@ -609,14 +609,14 @@ def render(db, spec):
   <div class="container article wide-article">
     <div class="breadcrumb"><a href="/">Home</a> / <a href="/best/">Best Picks</a> / {esc(spec['tag'])}</div>
     <h1>{esc(spec['h1'])}</h1>
-    <p class="muted">Updated <time datetime="{spec['updated']}">{fmt_date(spec['updated'])}</time> &middot; {byline} &middot; Research-based, not hands-on tested (<a href="/how-we-choose/">how we choose</a>)</p>
+    <p class="muted">Updated <time datetime="{spec['updated']}">{fmt_date(spec['updated'])}</time></p>
     {DISCLOSURE}
     <p>{intro}</p>
 
     <div class="grid grid-3 picks">
 {chr(10).join(cards)}
     </div>
-    <p class="muted small">Bars compare each pick with the best figure among the {n_tools} {esc(spec.get('category_plural', 'tools'))} we track: the most torque, the highest top speed and the lightest tool-only weight. Owner rating is out of 5. Price ranges are based on the store prices we checked.</p>
+    <p class="muted small">Bars compare each pick with the best figure among the {n_tools} {esc(spec.get('category_plural', 'tools'))} we track: the most torque, the highest top speed and the lightest tool-only weight. Owner rating is out of 5. Price ranges are based on the store prices we checked. Our picks come from published specs, prices and owner ratings, not hands-on tests (<a href="/how-we-choose/">how we choose</a>).</p>
 
 {chr(10).join(sections)}
 
