@@ -237,7 +237,8 @@ def context_rows(db, t, cat_name_plural):
             f'Right end of the bar = best in the group.</p>')
 
 
-def render(db, spec):
+def render_detailed(db, spec):
+    """The long version of a best-list page (kept for single-tool pages later)."""
     picks = [(p, Tool(db, p['tool'])) for p in spec['picks']]
     cat = spec['category']
     n_tools = db.execute('SELECT count(*) FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,)).fetchone()[0]
@@ -445,6 +446,164 @@ def render(db, spec):
 
     <h2>Sources</h2>
     <details class="sources" open><summary>Where every number on this page comes from</summary><ul>{src_html}</ul></details>
+  </div>
+</section>
+"""
+    ld = {
+        '@context': 'https://schema.org', '@type': 'Article', 'headline': spec['title'],
+        'description': spec['description'], 'dateModified': spec['updated'],
+        'author': ({'@type': 'Person', 'name': author['name'], 'jobTitle': author['title'], 'url': 'https://gigatorq.com/about/#author'}
+                   if author else {'@type': 'Organization', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/about/'}),
+        'publisher': {'@type': 'Organization', 'name': 'GigaTorq', 'logo': {'@type': 'ImageObject', 'url': 'https://gigatorq.com/assets/img/favicon.png'}},
+        'mainEntityOfPage': 'https://gigatorq.com' + spec['path'],
+    }
+    page(spec['path'], spec['title'] + ' | GigaTorq', spec['description'], body, '/best/',
+         lastmod=spec['updated'], jsonld=ld, og_type='article')
+
+
+def render(db, spec):
+    """A short best-list page: picks at a glance, one compact section per pick, a small table, FAQ."""
+    picks = [(p, Tool(db, p['tool'])) for p in spec['picks']]
+    cat = spec['category']
+    n_tools = db.execute('SELECT count(*) FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,)).fetchone()[0]
+    n_brands = db.execute('SELECT count(DISTINCT brand_id) FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,)).fetchone()[0]
+    store_hosts = {r[0].split('/')[2].replace('www.', '') for r in db.execute('SELECT website FROM retailer WHERE website IS NOT NULL')}
+
+    def link_text(u):
+        host = u.split('/')[2]
+        return 'retailer page' if (not SHOW_STORES and host.replace('www.', '') in store_hosts) else host
+
+    author = AUTHOR if AUTHOR.get('name') else None
+    byline = (f'By <a href="/about/#author">{esc(author["name"])}</a>' if author else 'By the GigaTorq team')
+    kind = spec.get('kind_label', 'tool')
+    sources = []
+
+    def facts(p, t):
+        s = t.sku(p['buy_sku'])
+        pr = t.price(s['id'])
+        torque = t.val('max_torque')
+        w, wk = t.weight()
+        items = [f'{num(torque)} in-lbs' if torque else 'Torque not published',
+                 f'{w} {"tool only" if wk == "tool only" else "with battery"}' if w else None,
+                 t.speeds() and f'{t.speeds()} RPM',
+                 'Brushless' if t.t['motor_type'] == 'brushless' else 'Brushed']
+        return s, pr, [x for x in items if x]
+
+    def price_txt(s, pr):
+        if not pr:
+            return ''
+        what = 'tool only' if s['sku_type'] == 'tool_only' else 'kit with battery and charger'
+        return f'${num(pr["price_usd"])} <small>{what}</small>'
+
+    # --- cards
+    cards = []
+    for p, t in picks:
+        s, pr, f = facts(p, t)
+        r = t.rating(s['id'])
+        img = illustration(t, kind)
+        thumb = ''
+        if img:
+            name = next(sh['name'] for sh in SHOTS if sh['name'] == t.t['slug'] or sh.get('query', '').startswith(t.name + ' '))
+            thumb = (f'<img class="card-thumb" src="/assets/img/illustrations/web/{name}-800.jpg" width="800" height="450" '
+                     f'style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" alt="" loading="lazy" onerror="this.remove()">')
+        cards.append(f"""      <a class="card pick-card" href="#{t.t['slug']}">
+        {thumb}
+        <span class="tag">{esc(p['label'])}</span>
+        <h3>{esc(t.name)}</h3>
+        <p>{esc(p['headline'])}</p>
+        <div class="pick-foot"><div class="price">{price_txt(s, pr)}</div>{stars(r)}</div>
+      </a>""")
+
+    # --- sections
+    sections = []
+    for p, t in picks:
+        s, pr, f = facts(p, t)
+        r = t.best_rating()
+        th = t.themes()
+        likes = [x['theme'] for x in th if x['sentiment'] == 'praise'][:2]
+        gripe = [x['theme'] for x in th if x['sentiment'] == 'complaint'][:1]
+        owner = stars(r)
+        if likes:
+            owner += f'<br><span class="muted">Owners like: {esc(likes[0].rstrip("."))}{"; " + esc(likes[1][0].lower() + likes[1][1:].rstrip(".")) if len(likes) > 1 else ""}.'
+            owner += (f' Complaint: {esc(gripe[0][0].lower() + gripe[0][1:].rstrip("."))}.' if gripe else '') + '</span>'
+        if r is not None:
+            sources.append((f'{t.name} owner rating', r['url']))
+        for x in th[:1]:
+            for u in json.loads(x['sources']):
+                sources.append((f'{t.name} owner reviews', u))
+        if pr:
+            sources.append((f'{s["model_number"]} price', pr['url']))
+        for u in t.sources():
+            sources.append((f'{t.name} specs', u))
+        chips = ''.join(f'<span>{esc(x)}</span>' for x in f)
+        fig = illustration(t, kind)
+        sections.append(f"""    <section class="pick slim{' has-media' if fig else ''}" id="{t.t['slug']}">
+      <div class="pick-media">
+{fig}
+      </div>
+      <div class="pick-body">
+      <span class="tag">{esc(p['label'])}</span>
+      <h2>{esc(t.name)}</h2>
+      <p class="lead-in">{esc(p['headline'])}</p>
+      <div class="chips">{chips}</div>
+      <p>{p['why'][0]}</p>
+      <dl class="fit-list"><div><dt>Best for</dt><dd>{esc(p['best_for'])}</dd></div><div><dt>Skip it if</dt><dd>{esc(p['skip_if'])}</dd></div></dl>
+      <p class="owner-line">{owner}</p>
+      <p class="price-line">{price_txt(s, pr)}{f' <span class="muted small">&middot; {fmt_date(pr["observed_at"])}</span>' if pr else ''}</p>
+      </div>
+    </section>""")
+
+    # --- small table
+    rows = []
+    for p, t in picks:
+        s, pr, f = facts(p, t)
+        r = t.rating(s['id'])
+        w, wk = t.weight()
+        torque = t.val('max_torque')
+        rows.append(f'<tr><th><a href="#{t.t["slug"]}">{esc(t.name)}</a><br><small class="muted">{esc(p["label"])}</small></th>'
+                    f'<td>{num(torque) + " in-lbs" if torque else "&ndash;"}</td>'
+                    f'<td>{(w + " <small class=muted>(" + ("tool" if wk == "tool only" else "w/ battery") + ")</small>") if w else "&ndash;"}</td>'
+                    f'<td>{("$" + num(pr["price_usd"])) if pr else "&ndash;"}</td>'
+                    f'<td>{("%.1f" % r["avg_rating"]) if r and r["avg_rating"] else "&ndash;"}</td></tr>')
+
+    faq = '\n'.join(f'      <details class="faq"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in spec['faq'])
+    guide = ''.join(f'<p><b>{esc(h)}.</b> {esc(b)}</p>' for h, b in spec['guide'])
+    uniq, seen = [], set()
+    for label, u in sources:
+        if u not in seen:
+            seen.add(u)
+            uniq.append((label, u))
+    src_html = ''.join(f'<li>{esc(l)}: <a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(link_text(u))}</a></li>' for l, u in uniq)
+    intro = spec['intro'][0].format(n_tools=n_tools, n_brands=n_brands)
+
+    body = f"""
+<section class="section">
+  <div class="container article wide-article">
+    <div class="breadcrumb"><a href="/">Home</a> / <a href="/best/">Best Picks</a> / {esc(spec['tag'])}</div>
+    <h1>{esc(spec['h1'])}</h1>
+    <p class="muted">Updated <time datetime="{spec['updated']}">{fmt_date(spec['updated'])}</time> &middot; {byline} &middot; Research-based, not hands-on tested (<a href="/how-we-choose/">how we choose</a>)</p>
+    {DISCLOSURE}
+    <p>{intro}</p>
+
+    <div class="grid grid-3 picks">
+{chr(10).join(cards)}
+    </div>
+
+{chr(10).join(sections)}
+
+    <h2>Quick comparison</h2>
+    <div class="table-wrap"><table class="compare slim-table">
+      <thead><tr><th>{esc(kind.split('/')[0].title())}</th><th>Torque</th><th>Weight</th><th>Price</th><th>Rating</th></tr></thead>
+      <tbody>{''.join(rows)}</tbody>
+    </table></div>
+    <p class="muted small">Prices and owner ratings as checked on the dates shown; they change often. "20V MAX" batteries are 18V nominal, the same as 18V.</p>
+
+    <h2>Questions</h2>
+      <details class="faq"><summary>How should I choose a {esc(kind)}?</summary>{guide}</details>
+{faq}
+
+    <details class="sources"><summary>Sources for every number on this page</summary><ul>{src_html}</ul></details>
+{author_box(author)}
   </div>
 </section>
 """
