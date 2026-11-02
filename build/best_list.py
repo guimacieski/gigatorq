@@ -620,6 +620,7 @@ def render(db, spec):
       <dl class="fit-list"><div><dt>Best for</dt><dd>{esc(p['best_for'])}</dd></div><div><dt>Skip it if</dt><dd>{esc(p['skip_if'])}</dd></div></dl>
       <p class="owner-line">{owner}</p>
       <p class="price-line">{price_txt(s, pr)}</p>
+      <p class="small"><a href="/reviews/{t.t['slug']}/">Full specs and how it ranks &rarr;</a></p>
       </div>
     </section>""")
 
@@ -706,8 +707,20 @@ def render(db, spec):
         'publisher': {'@type': 'Organization', 'name': 'GigaTorq', 'logo': {'@type': 'ImageObject', 'url': 'https://gigatorq.com/assets/img/favicon.png'}},
         'mainEntityOfPage': 'https://gigatorq.com' + spec['path'],
     }
+    del ld['@context']
+    url = 'https://gigatorq.com' + spec['path']
+    graph = {'@context': 'https://schema.org', '@graph': [
+        ld,
+        {'@type': 'BreadcrumbList', 'itemListElement': [
+            {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://gigatorq.com/'},
+            {'@type': 'ListItem', 'position': 2, 'name': 'Best Picks', 'item': 'https://gigatorq.com/best/'},
+            {'@type': 'ListItem', 'position': 3, 'name': spec['h1'], 'item': url}]},
+        {'@type': 'ItemList', 'name': spec['h1'], 'itemListElement': [
+            {'@type': 'ListItem', 'position': i + 1, 'name': f"{p['label']}: {t.name}", 'url': f"https://gigatorq.com/reviews/{t.t['slug']}/"}
+            for i, (p, t) in enumerate(picks)]},
+    ]}
     page(spec['path'], spec['title'] + ' | GigaTorq', spec['description'], body, '/best/',
-         lastmod=spec['updated'], jsonld=ld, og_type='article')
+         lastmod=spec['updated'], jsonld=graph, og_type='article')
 
 
 def author_box(author):
@@ -739,4 +752,7 @@ def render_hub(pages):
     last = max(b['updated'] for b in pages)
     page('/best/', 'Best Power Tools: Buying Guides | GigaTorq',
          'Research-based buying guides for drills, impact drivers, saws and more, built on verified specs, prices and owner ratings.',
-         body, '/best/', lastmod=last)
+         body, '/best/', lastmod=last,
+         jsonld={'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
+             {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://gigatorq.com/'},
+             {'@type': 'ListItem', 'position': 2, 'name': 'Best Picks', 'item': 'https://gigatorq.com/best/'}]})

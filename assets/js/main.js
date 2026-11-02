@@ -13,14 +13,4 @@
   // Footer year
   var y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
-
-  // Newsletter placeholder (wire to your email provider later)
-  var form = document.querySelector(".newsletter");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var btn = form.querySelector("button");
-      if (btn) btn.textContent = "Thanks - you're on the list";
-    });
-  }
 })();

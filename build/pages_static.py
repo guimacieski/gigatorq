@@ -71,20 +71,13 @@ def build(db, best_pages):
       </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container center">
-        <span class="eyebrow">Newsletter</span>
-        <h2>New comparisons, straight to your inbox</h2>
-        <p class="muted">One email when a new comparison drops. No spam.</p>
-        <form class="newsletter">
-          <input type="email" placeholder="you@example.com" required aria-label="Email address">
-          <button class="btn" type="submit">Subscribe</button>
-        </form>
-      </div>
-    </section>
     """
     page("/", "GigaTorq | Power Tool Comparisons and Reviews",
-         "Research-based power tool comparisons. We compare drills, impact drivers, saws and grinders on verified specs, prices and owner feedback so you can buy the right tool.", home, lastmod='2026-10-22')
+         "Research-based power tool comparisons. We compare drills, impact drivers, saws and grinders on verified specs, prices and owner feedback so you can buy the right tool.", home, lastmod='2026-11-02',
+         jsonld={'@context': 'https://schema.org', '@graph': [
+             {'@type': 'Organization', '@id': 'https://gigatorq.com/#org', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/',
+              'logo': 'https://gigatorq.com/assets/img/favicon.png', 'email': 'hello@gigatorq.com'},
+             {'@type': 'WebSite', 'name': 'GigaTorq', 'url': 'https://gigatorq.com/', 'publisher': {'@id': 'https://gigatorq.com/#org'}}]})
 
     # Compare and Reviews are built by tools_pages.py
     # ---------------- How we choose ----------------
@@ -193,20 +186,22 @@ def build(db, best_pages):
       <div class="container article">
         <span class="eyebrow">Legal</span>
         <h1>Privacy policy</h1>
-        <p class="muted">Last updated October 22, 2026</p>
-        <p class="placeholder">STARTER TEXT: review and complete this policy before launch, especially once you add analytics, ads or a newsletter provider.</p>
+        <p class="muted">Last updated November 2, 2026</p>
+        <p>GigaTorq is a reading site. You don't need an account, and we don't ask for your name, email address or any other personal information.</p>
         <h2>What we collect</h2>
-        <p>If you subscribe to our newsletter, we collect your email address. Our hosting provider and any analytics tools may collect standard technical data such as IP address, browser type and pages visited.</p>
-        <h2>Links to stores</h2>
-        <p>When you click a link to a store, that store's own privacy policy applies to what happens on its site.</p>
-        <h2>Your choices</h2>
-        <p>You can unsubscribe from emails at any time, and you can block or delete cookies in your browser settings.</p>
+        <p>We don't run analytics, ads or tracking scripts, and our pages don't set cookies. Like every website, our hosting provider (Cloudflare) processes standard technical data such as your IP address, browser type and the pages you request, to deliver the site and protect it from abuse.</p>
+        <h2>Fonts</h2>
+        <p>Our pages load fonts from Google Fonts, so your browser connects to Google's servers, which receive your IP address. See Google's privacy policy for how Google handles this data.</p>
+        <h2>Links to stores and brands</h2>
+        <p>When you follow a link to a store or a brand's website, that site's own privacy policy applies to what happens there.</p>
+        <h2>Changes</h2>
+        <p>If we add analytics, ads, affiliate links or an email newsletter, we'll update this policy before they go live.</p>
         <h2>Contact</h2>
         <p>Privacy questions: <a href="mailto:hello@gigatorq.com">hello@gigatorq.com</a>.</p>
       </div>
     </section>
     """
-    page("/privacy/", "Privacy Policy | GigaTorq", "GigaTorq privacy policy.", privacy, lastmod='2026-10-22')
+    page("/privacy/", "Privacy Policy | GigaTorq", "GigaTorq privacy policy.", privacy, lastmod='2026-11-02')
 
     # ---------------- 404 ----------------
     nf = """

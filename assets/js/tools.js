@@ -143,7 +143,7 @@
         return '<th class="cmp-head">' + thumb(t, "cmp-img") +
           (t.pick ? '<span class="tag">' + esc(t.pick.label) + "</span>" : "") +
           "<b>" + esc(title(t)) + '</b><small class="muted">' + esc(t.n) + "</small>" +
-          '<a class="small" href="/reviews/?tool=' + t.s + '">Full review &rarr;</a></th>';
+          '<a class="small" href="/reviews/' + t.s + '/">Full review &rarr;</a></th>';
       }).join("");
       var hint = ts.length === 1
         ? '<p class="muted">Now choose a second ' + esc(singular(c.name).toLowerCase()) + " to line them up.</p>" : "";
@@ -157,14 +157,13 @@
     fill(); sync(); render();
   }
 
-  // ------------------------------------------------------------------ Reviews
+  // ------------------------------------------------------------------ Reviews search
+  // Every tool has its own static page at /reviews/<slug>/; this box just finds it.
   function reviews() {
+    var old = param("tool");  // links from before the static pages existed
+    if (old && BY[old]) { location.replace("/reviews/" + old + "/"); return; }
     var q = document.getElementById("q");
     var list = document.getElementById("q-results");
-    var out = document.getElementById("review-out");
-    var browse = document.getElementById("review-browse");
-    var head = document.getElementById("reviews-head");
-    var baseTitle = document.title;
     var active = -1, found = [];
 
     function norm(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
@@ -193,7 +192,7 @@
       active = -1;
       if (!q.value.trim()) { list.hidden = true; list.innerHTML = ""; return; }
       list.innerHTML = found.length ? found.map(function (t, i) {
-        return '<li role="option" id="r' + i + '"><a href="/reviews/?tool=' + t.s + '" data-s="' + t.s + '">' + thumb(t, "res-img") +
+        return '<li role="option" id="r' + i + '"><a href="/reviews/' + t.s + '/">' + thumb(t, "res-img") +
           "<span><b>" + esc(title(t)) + "</b><small>" + esc(t.n) + " &middot; " + esc(catName(t)) + "</small></span></a></li>";
       }).join("") : '<li class="none">No tools match. Try a brand (Makita), a model number or a type (circular saw).</li>';
       list.hidden = false;
@@ -207,110 +206,9 @@
     q.addEventListener("keydown", function (e) {
       if (e.key === "ArrowDown" && found.length) { active = Math.min(active + 1, found.length - 1); highlight(); e.preventDefault(); }
       else if (e.key === "ArrowUp" && found.length) { active = Math.max(active - 1, 0); highlight(); e.preventDefault(); }
-      else if (e.key === "Enter" && found.length) { open(found[Math.max(active, 0)].s, true); e.preventDefault(); }
+      else if (e.key === "Enter" && found.length) { location.href = "/reviews/" + found[Math.max(active, 0)].s + "/"; e.preventDefault(); }
       else if (e.key === "Escape") { list.hidden = true; }
     });
-    list.addEventListener("click", function (e) {
-      var a = e.target.closest("a[data-s]");
-      if (a) { e.preventDefault(); open(a.getAttribute("data-s"), true); }
-    });
     document.addEventListener("click", function (e) { if (!e.target.closest(".search-box")) list.hidden = true; });
-    window.addEventListener("popstate", function () { open(param("tool"), false); });
-
-    function open(slug, push) {
-      var t = BY[slug];
-      list.hidden = true;
-      if (push) history.pushState(null, "", location.pathname + (t ? "?tool=" + t.s : ""));
-      if (!t) { out.innerHTML = ""; browse.hidden = false; head.hidden = false; document.title = baseTitle; return; }
-      q.value = "";
-      browse.hidden = true;
-      head.hidden = true;
-      document.title = title(t) + " Review: Specs, Price Range and Owner Ratings | GigaTorq";
-      out.innerHTML = render(t);
-      window.scrollTo(0, 0);
-    }
-
-    function render(t) {
-      var c = DATA.categories[t.c], peers = sameCat(t.c), kind = singular(c.name).toLowerCase();
-
-      // how it ranks against every tool of the same type
-      var bars = [];
-      c.specs.forEach(function (sp) {
-        var v = t.nums[sp.k];
-        if (v == null || sp.hib == null || !t.specs[sp.k] || t.specs[sp.k].indexOf(";") !== -1) return;
-        var vals = peers.map(function (p) { return p.nums[sp.k]; }).filter(function (x) { return x != null; });
-        if (vals.length < 3) return;
-        var best = sp.hib ? Math.max.apply(null, vals) : Math.min.apply(null, vals);
-        var rank = 1 + vals.filter(function (x) { return sp.hib ? x > v : x < v; }).length;
-        bars.push([sp.label + (sp.hib ? "" : " (lower is better)"), sp.hib ? v / best : best / v, t.specs[sp.k], rank, vals.length]);
-      });
-      if (t.rating && t.rating.avg) {
-        var rs = peers.filter(function (p) { return p.rating && p.rating.avg; }).map(function (p) { return p.rating.avg; });
-        bars.push(["Owner rating", t.rating.avg / 5, t.rating.avg.toFixed(1) + " / 5", 1 + rs.filter(function (x) { return x > t.rating.avg; }).length, rs.length]);
-      }
-      var barHtml = bars.map(function (b) {
-        return '<div class="rbar"><span class="rbar-l">' + esc(b[0]) + '</span><span class="mbar-t"><i style="width:' + Math.round(b[1] * 100) + '%"></i></span>' +
-          '<span class="rbar-v">' + esc(b[2]) + ' <small class="muted">' + (b[4] > 1 ? "#" + b[3] + " of " + b[4] : "") + "</small></span></div>";
-      }).join("");
-
-      var chips = [t.power === "corded" ? "Corded" : (hasV(t) ? fmt(t.v) + "V " : "") + (t.p || ""), motor(t)];
-      c.specs.filter(function (sp) { return sp.key && t.specs[sp.k] && t.specs[sp.k].indexOf(";") === -1; }).slice(0, 3)
-        .forEach(function (sp) { chips.push(t.specs[sp.k]); });
-
-      var specRows = c.specs.filter(function (sp) { return t.specs[sp.k]; }).map(function (sp) {
-        return "<tr><th>" + esc(sp.label) + "</th><td>" + esc(t.specs[sp.k]) + "</td></tr>";
-      });
-      specRows.unshift("<tr><th>Battery platform</th><td>" + platform(t) + "</td></tr>");
-      if (t.motor) specRows.splice(1, 0, "<tr><th>Motor</th><td>" + motor(t) + "</td></tr>");
-      if (t.w) specRows.push("<tr><th>Warranty</th><td>" + esc(t.w) + "</td></tr>");
-
-      var owners;
-      if (t.likes.length || t.gripes.length) {
-        owners = (t.likes.length ? "<h4>What owners like</h4><ul class=\"pros\">" + t.likes.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") +
-          (t.gripes.length ? "<h4>What owners complain about</h4><ul class=\"cons\">" + t.gripes.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") +
-          (t.read ? '<p class="muted small">Summarized in our own words from ' + t.read + " owner reviews we read at a major US retailer.</p>" : "");
-      } else {
-        owners = '<p class="muted">We haven\'t read enough owner reviews of this tool to sum up what owners say yet.' +
-          (t.rating && t.rating.avg ? " Its star rating is shown above." : "") + "</p>";
-      }
-
-      var fig = t.img ? '<figure class="pick-figure"><img src="' + IMG + t.img + '.jpg" srcset="' + IMG + t.img + "-800.jpg 800w, " + IMG + t.img +
-        '.jpg 1600w" sizes="(max-width: 760px) 100vw, 440px" width="1600" height="900" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" alt="Illustration of the ' +
-        esc(title(t)) + '" onerror="this.parentNode.remove()"><figcaption>AI illustration of the ' + esc(title(t)) +
-        ", made using photos of the real tool as a reference. Not a photo of the actual product.</figcaption></figure>" : "";
-
-      return '<article class="review">' +
-        '<p class="small"><a href="/reviews/" data-back>&larr; All tools</a> &middot; <a href="/reviews/#' + t.c + '" data-back>' + esc(c.name) + "</a></p>" +
-        '<div class="pick slim' + (fig ? " has-media" : "") + '" style="margin-top:8px;border-top:0;padding-top:0">' +
-        '<div class="pick-media">' + fig + "</div>" +
-        '<div class="pick-body">' +
-        '<span class="tag">' + esc(t.pick ? t.pick.label : singular(c.name)) + "</span>" +
-        "<h1>" + esc(title(t)) + " review</h1>" +
-        '<p class="lead-in">' + esc(t.pick ? t.pick.headline : t.n) + "</p>" +
-        '<div class="chips">' + chips.filter(Boolean).map(function (x) { return "<span>" + esc(x) + "</span>"; }).join("") + "</div>" +
-        (t.price ? '<p class="price-line">' + priceTxt(t) + "</p>" : '<p class="muted">We haven\'t checked a price for this tool yet.</p>') +
-        "<p>" + (t.rating && t.rating.avg ? "&#9733; " + ratingTxt(t) + ' <small class="muted">checked ' + esc(t.rating.on) + "</small>" : '<span class="muted">No owner rating recorded yet.</span>') + "</p>" +
-        '<div class="buy-box"><a class="btn" href="/compare/?a=' + t.s + '">Compare with other ' + esc(c.name.toLowerCase()) + "</a>" +
-        (t.pick ? '<a class="btn btn-ghost" href="' + t.pick.url + '">See it in ' + esc(t.pick.page) + "</a>" : "") + "</div>" +
-        "</div></div>" +
-        (t.pick ? '<dl class="fit-list"><div><dt>Best for</dt><dd>' + esc(t.pick.best_for) + "</dd></div><div><dt>Skip it if</dt><dd>" + esc(t.pick.skip_if) + "</dd></div></dl>" : "") +
-        (barHtml ? "<h2>How it ranks among the " + peers.length + " " + esc(c.name.toLowerCase()) + " we track</h2><div class=\"rbars\">" + barHtml +
-          '</div><p class="muted small">Bars compare this ' + esc(kind) + " with the best published figure of its type. Rank counts only tools whose brand publishes that number.</p>" : "") +
-        "<h2>What owners say</h2>" + owners +
-        "<h2>Specs</h2><div class=\"table-wrap\"><table class=\"compare spec-table\"><tbody>" + specRows.join("") + "</tbody></table></div>" +
-        '<p class="muted small">Specs come from ' + esc(t.b) + "'s published specs and major US retailers. Price ranges and ratings change often. We didn't test this tool ourselves (<a href=\"/how-we-choose/\">how we choose</a>).</p>" +
-        "</article>";
-    }
-
-    out.addEventListener("click", function (e) {
-      var a = e.target.closest("a[data-back]");
-      if (!a) return;
-      e.preventDefault();
-      var hash = a.getAttribute("href").split("#")[1];
-      open(null, true);
-      if (hash) { var el = document.getElementById(hash); if (el) el.scrollIntoView(); }
-    });
-
-    if (param("tool")) open(param("tool"), false);
   }
 })();
