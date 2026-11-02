@@ -25,7 +25,7 @@ def illustration(t, kind_label):
             base = f"/assets/img/illustrations/web/{sh['name']}"
             alt = f"Illustration of the {t.name} {kind_label}"
             return (f'      <figure class="pick-figure"><img src="{base}.jpg" srcset="{base}-800.jpg 800w, {base}.jpg 1600w" '
-                    f'sizes="(max-width: 960px) 100vw, 928px" width="1600" height="900" alt="{esc(alt)}" loading="lazy" decoding="async" '
+                    f'sizes="(max-width: 960px) 100vw, 928px" width="1600" height="900" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover" alt="{esc(alt)}" loading="lazy" decoding="async" '
                     f'onerror="this.parentNode.remove()">'
                     f'<figcaption>AI illustration of the {esc(t.name)}, made using photos of the real tool as a reference. Not a photo of the actual product.</figcaption></figure>')
     return ''
