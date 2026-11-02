@@ -322,4 +322,12 @@ details.faq p { color: var(--muted); }
 .pick.slim .fit-list { grid-template-columns: 1fr; gap: 8px; }
 @media (max-width: 760px) { .pick.slim.has-media { grid-template-columns: 1fr; } }
 .pick .pick-body > .tag { display: inline-block; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; background: var(--accent); color: #111; padding: 4px 8px; border-radius: 4px; }
-@media (max-width: 760px) { .card-thumb { display: none; } a.card.pick-card { padding-top: 4px; } }
+@media (max-width: 760px) {
+  a.card.pick-card { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 14px; padding: 12px; align-items: start; }
+  a.card.pick-card > *:not(.card-thumb) { grid-column: 2; margin-left: 0; margin-right: 0; }
+  a.card.pick-card .card-thumb { grid-column: 1; grid-row: 1 / span 5; border: 1px solid var(--line); border-radius: 6px; }
+  a.card.pick-card .tag { margin-top: 0; justify-self: start; }
+  a.card.pick-card .price small { white-space: normal; display: block; margin-left: 0; }
+  a.card.pick-card h3 { font-size: 1.15rem; }
+  a.card.pick-card .price { font-size: 1.15rem; }
+}
