@@ -1,0 +1,155 @@
+{
+  "path": "/best/impact-wrenches/",
+  "title": "Best Impact Wrenches (2026): 5 Picks Compared by Breakaway and Fastening Torque",
+  "h1": "Best Impact Wrenches",
+  "tag": "Impact wrenches",
+  "description": "The best cordless impact wrenches for heavy bolts, auto work and big equipment, compared on published breakaway torque, fastening torque, drive size and weight.",
+  "teaser": "Five impact wrenches compared on published breakaway torque, fastening torque and weight.",
+  "updated": "2026-11-02",
+  "category": "impact-wrenches",
+  "intro": [
+    "An impact wrench loosens and tightens nuts and bolts with hard rotary blows, from lug nuts to rusted suspension bolts. We went through the published specs of {n_tools} impact wrenches from {n_brands} brands and picked five for different jobs.",
+    "We didn't test these wrenches ourselves, and we haven't checked store prices or owner ratings for them yet, so these picks are based on published specs only. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "milwaukee-2967",
+      "headline": "1,600 ft-lbs of breakaway torque in a 5.9 lb body.",
+      "why": [
+        "Milwaukee rates the M18 FUEL 2967 at 1,200 ft-lbs fastening and 1,600 ft-lbs breakaway torque, second only to DeWalt's DCF961 in our database. It's 7.6 inches long and 5.9 lb without a battery, with a friction-ring anvil for quick socket changes and a 5-year tool warranty."
+      ],
+      "best_for": "Mechanics, farm and fleet work, and anyone breaking loose big rusted bolts.",
+      "skip_if": "You mostly do lug nuts and brakes on cars. A mid-torque wrench is smaller and easier to control."
+    },
+    {
+      "label": "Most power",
+      "tool": "dewalt-dcf961",
+      "headline": "The most torque we track: 1,900 ft-lbs breakaway.",
+      "why": [
+        "DeWalt rates the 20V MAX XR DCF961 at 1,320 ft-lbs fastening and 1,900 ft-lbs breakaway torque, the highest figures in our database. It uses a hog-ring anvil."
+      ],
+      "best_for": "DeWalt 20V MAX owners who deal with the largest and most stubborn fasteners.",
+      "skip_if": "You want to compare weight and speed. We couldn't find published figures for those for this model."
+    },
+    {
+      "label": "Lightest high-torque",
+      "tool": "ryobi-pbliw01",
+      "headline": "1,170 ft-lbs breakaway at 5.13 lb, the lightest published weight we track.",
+      "why": [
+        "Ryobi's ONE+ HP PBLIW01 delivers 1,170 ft-lbs of breakaway torque and 2,800 impacts per minute, with four modes and a friction-ring anvil. At 5.13 lb without a battery, it has the lowest published weight of any impact wrench in our database."
+      ],
+      "best_for": "Ryobi 18V ONE+ owners who want real high-torque power for cars, trucks and equipment.",
+      "skip_if": "You need to compare fastening torque. Ryobi lists breakaway torque only."
+    },
+    {
+      "label": "Best mid-torque",
+      "tool": "milwaukee-2962",
+      "headline": "Up to 650 ft-lbs breakaway, with three speeds for smaller bolts.",
+      "why": [
+        "The M18 FUEL 2962 is a mid-torque 1/2-inch wrench: up to 550 ft-lbs fastening and 650 ft-lbs breakaway in its top mode, with lower modes (350 and 450 ft-lbs) that make it easier not to over-tighten smaller bolts. It has four drive modes and a friction-ring anvil."
+      ],
+      "best_for": "Car owners and mechanics doing lug nuts, brakes and suspension.",
+      "skip_if": "You regularly break loose large, rusted bolts. A high-torque wrench is the better tool."
+    },
+    {
+      "label": "Best 3/4-inch",
+      "tool": "bosch-gds18v-770c",
+      "headline": "A 3/4-inch drive for trucks, equipment and heavy fasteners.",
+      "why": [
+        "Bosch's PROFACTOR GDS18V-770C has a 3/4-inch square drive and is rated at 770 ft-lbs fastening and 1,250 ft-lbs breakaway torque, with three speeds. It's 8.7 inches long and 6.4 lb without a battery."
+      ],
+      "best_for": "Heavy trucks, equipment and construction work that uses 3/4-inch sockets.",
+      "skip_if": "Your sockets are 1/2-inch. Adapters add length and can break; a 1/2-inch wrench is a better match."
+    }
+  ],
+  "guide": [
+    [
+      "Breakaway vs fastening torque",
+      "Breakaway (or nut-busting) torque is how hard the wrench can work to loosen a stuck bolt. Fastening torque is what it delivers when tightening. Breakaway numbers are always higher."
+    ],
+    [
+      "Drive size",
+      "3/8-inch drives suit small bolts and tight spaces, 1/2-inch is the common size for cars and general work, and 3/4-inch is for trucks and heavy equipment."
+    ],
+    [
+      "Mid-torque or high-torque",
+      "Mid-torque wrenches (around 500 to 650 ft-lbs) are smaller and handle most car work. High-torque models (1,000 ft-lbs and up) are for rusted, large or heavily torqued bolts."
+    ],
+    [
+      "Anvil type",
+      "A friction ring holds sockets in place and lets you change them quickly. A pin or hog-ring anvil holds them more securely."
+    ],
+    [
+      "Weight",
+      "High-torque wrenches weigh 5 to 6.5 lb without a battery. Mid-torque models are lighter and easier to use overhead."
+    ]
+  ],
+  "faq": [
+    [
+      "Can I tighten lug nuts with an impact wrench?",
+      "Snug them with the wrench on a low setting, then finish with a torque wrench to your vehicle's spec. A powerful impact wrench can easily over-tighten lug nuts."
+    ],
+    [
+      "Impact wrench or impact driver?",
+      "An impact wrench has a square drive for sockets and much more torque. An impact driver takes hex bits for screws."
+    ],
+    [
+      "Do I need impact sockets?",
+      "Yes. Use impact-rated sockets. Regular chrome sockets can crack under impact."
+    ],
+    [
+      "How much torque do I need for car work?",
+      "Most car lug nuts are torqued well under 200 ft-lbs, so a mid-torque wrench handles routine work. Rusted suspension and exhaust bolts are where high-torque models help."
+    ]
+  ],
+  "category_plural": "impact wrenches",
+  "kind_label": "impact wrench",
+  "bars": [
+    {
+      "key": "breakaway_torque",
+      "label": "Breakaway",
+      "unit": "ft-lbs",
+      "best": "the most breakaway torque"
+    },
+    {
+      "key": "fastening_torque",
+      "label": "Fastening",
+      "unit": "ft-lbs",
+      "best": "the most fastening torque"
+    },
+    {
+      "key": "weight_tool_only",
+      "label": "Lightness",
+      "unit": "lb",
+      "lower": true,
+      "best": "the lightest tool-only weight",
+      "missing": "no tool-only weight"
+    }
+  ],
+  "chips": [
+    "drive_size",
+    "breakaway_torque",
+    "anvil_retention"
+  ],
+  "table": [
+    [
+      "drive_size",
+      "Drive"
+    ],
+    [
+      "fastening_torque",
+      "Fastening"
+    ],
+    [
+      "breakaway_torque",
+      "Breakaway"
+    ],
+    [
+      "weight_tool_only",
+      "Weight (tool only)"
+    ]
+  ],
+  "table_note": "Specs as published by each brand or a major retailer. Where a wrench has several modes, we show the torque in its highest mode. A dash means we couldn't find that number.",
+  "specs_only": true
+}

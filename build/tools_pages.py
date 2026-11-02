@@ -29,7 +29,7 @@ def build(db, best_pages):
     for b in best_pages:
         p = [x['tool'] for x in b['picks']]
         name = {t['s']: f"{t['b']} {t['m']}" for t in tools}
-        for other in p[1:4]:
+        for other in p[1:2]:
             matchups.append((f'/compare/?a={p[0]}&amp;b={other}', f'{name[p[0]]} vs {name[other]}', b['tag']))
         if len(p) >= 3:
             matchups.append((f'/compare/?a={p[0]}&amp;b={p[1]}&amp;c={p[2]}', f'{name[p[0]]} vs {name[p[1]]} vs {name[p[2]]}', b['tag']))

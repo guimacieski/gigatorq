@@ -1,0 +1,152 @@
+{
+  "path": "/best/angle-grinders/",
+  "title": "Best Angle Grinders (2026): 5 Picks Compared by Wheel Size, Speed and Safety Features",
+  "h1": "Best Angle Grinders",
+  "tag": "Angle grinders",
+  "description": "The best angle grinders for metal work, large wheels, light weight and corded use, compared on published wheel size, speed, switch type, brake and weight.",
+  "teaser": "Five angle grinders compared on published wheel size, speed, switch and brake.",
+  "updated": "2026-11-02",
+  "category": "angle-grinders",
+  "intro": [
+    "An angle grinder cuts, grinds and polishes metal, tile and stone with a fast-spinning wheel. We went through the published specs of {n_tools} angle grinders from {n_brands} brands and picked five for different kinds of buyers, with extra weight on safety features like paddle switches and electric brakes.",
+    "We didn't test these grinders ourselves, and we haven't checked store prices or owner ratings for them yet, so these picks are based on published specs only. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "milwaukee-2880",
+      "headline": "A 4-1/2 / 5 in. grinder with a paddle switch, no lock-on and an electric brake.",
+      "why": [
+        "The M18 FUEL 2880 takes 4-1/2 or 5 in. wheels at 8,500 RPM. Its paddle switch has no lock-on, so the grinder stops as soon as you let go, and the electric brake stops the wheel quickly. The tool warranty is 5 years."
+      ],
+      "best_for": "Fabricators, welders and DIYers who want a cordless grinder with strong safety features.",
+      "skip_if": "You need 6 in. wheels. Look at the DeWalt DCG418."
+    },
+    {
+      "label": "Best for big wheels",
+      "tool": "dewalt-dcg418",
+      "headline": "Takes wheels from 4-1/2 to 6 in., the largest range we track.",
+      "why": [
+        "DeWalt's FLEXVOLT DCG418 takes 4-1/2 to 6 in. wheels, the largest range in our database, and runs at 9,000 RPM with an electric brake. It uses a trigger switch and FLEXVOLT 60V MAX batteries."
+      ],
+      "best_for": "Heavy cutting and grinding where a bigger wheel saves time.",
+      "skip_if": "You want a light grinder for small jobs. A 4-1/2 in. grinder is smaller and easier to control."
+    },
+    {
+      "label": "Lightest",
+      "tool": "dewalt-dcg413",
+      "headline": "3.75 lb without a battery, with a paddle switch and an electric brake.",
+      "why": [
+        "The 20V MAX XR DCG413 is the lightest grinder with a published weight in our database, at 3.75 lb without a battery. It takes 4-1/2 in. wheels and has a paddle switch and an electric brake."
+      ],
+      "best_for": "Light cutting and grinding, overhead work and DeWalt 20V MAX owners.",
+      "skip_if": "You need 5 in. wheels or want to compare speed. We couldn't find a published speed for it."
+    },
+    {
+      "label": "Best corded",
+      "tool": "dewalt-dwe43114n",
+      "headline": "A 13-amp corded grinder at 11,000 RPM, the fastest we track.",
+      "why": [
+        "DeWalt's DWE43114N runs at 11,000 RPM, the highest speed of any grinder in our database, and takes 4-1/2 or 5 in. wheels. It has a 13-amp motor and a paddle switch without lock-on."
+      ],
+      "best_for": "Long grinding sessions near an outlet.",
+      "skip_if": "You work away from power, or want an electric brake. We couldn't confirm one for this model."
+    },
+    {
+      "label": "Fastest cordless",
+      "tool": "flex-fx3171a",
+      "headline": "10,000 RPM with variable speed and a 5 in. wheel.",
+      "why": [
+        "Flex's FX3171A runs at up to 10,000 RPM, the fastest cordless grinder we track, with variable speed so you can slow it down for polishing and wire wheels. It takes 5 in. wheels, has a paddle switch and weighs 4.2 lb without a battery."
+      ],
+      "best_for": "Flex 24V owners and anyone who wants speed control.",
+      "skip_if": "You want an electric brake. We couldn't confirm one for this model."
+    }
+  ],
+  "guide": [
+    [
+      "Wheel size",
+      "4-1/2 and 5 in. grinders cover most work. 6 in. wheels cut deeper and grind faster, but the tool is bigger."
+    ],
+    [
+      "Paddle switch and no lock-on",
+      "A paddle switch you have to hold down stops the grinder the moment you let go. Many job sites require them."
+    ],
+    [
+      "Electric brake",
+      "A brake stops the wheel in a couple of seconds instead of letting it spin down, so you can set the grinder down safely sooner."
+    ],
+    [
+      "Speed",
+      "Most grinders run at 8,500 to 11,000 RPM. Variable speed helps with polishing, wire wheels and flap discs."
+    ],
+    [
+      "Weight and battery",
+      "Cordless grinders draw a lot of power. Larger batteries run longer and keep the speed up under load."
+    ]
+  ],
+  "faq": [
+    [
+      "4-1/2 or 5 inch grinder?",
+      "Most 4-1/2 in. grinders also take 5 in. wheels with the right guard. 5 in. wheels cut a little deeper and last longer."
+    ],
+    [
+      "Paddle switch or slide switch?",
+      "A paddle switch with no lock-on is safer because the tool stops when you let go. Slide switches can lock on."
+    ],
+    [
+      "Can an angle grinder cut tile and stone?",
+      "Yes, with a diamond wheel. Use water or dust control, since stone dust is harmful to breathe."
+    ],
+    [
+      "What safety gear do I need?",
+      "Eye protection and a face shield, gloves, hearing protection, and always keep the guard on."
+    ]
+  ],
+  "category_plural": "angle grinders",
+  "kind_label": "angle grinder",
+  "bars": [
+    {
+      "key": "no_load_speed",
+      "label": "Wheel speed",
+      "unit": "RPM",
+      "best": "the fastest wheel speed"
+    },
+    {
+      "key": "weight_tool_only",
+      "label": "Lightness",
+      "unit": "lb",
+      "lower": true,
+      "best": "the lightest tool-only weight",
+      "missing": "no tool-only weight"
+    }
+  ],
+  "chips": [
+    "wheel_diameter",
+    "no_load_speed",
+    "switch_type"
+  ],
+  "table": [
+    [
+      "wheel_diameter",
+      "Wheel"
+    ],
+    [
+      "no_load_speed",
+      "Speed"
+    ],
+    [
+      "switch_type",
+      "Switch"
+    ],
+    [
+      "electric_brake",
+      "Brake"
+    ],
+    [
+      "weight_tool_only",
+      "Weight (tool only)"
+    ]
+  ],
+  "specs_only": true
+}

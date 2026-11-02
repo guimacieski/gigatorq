@@ -193,13 +193,20 @@ CONTEXT_SPECS = [  # (label, spec key, unit, higher_is_better)
 
 
 def spec_value(db, tool_id, key):
-    """One comparable number per tool: the plain value, or for speeds the top gear (no turbo or hammer modes)."""
+    """One comparable number per tool: the plain value; else the top gear (speed:N rows, no turbo or hammer modes),
+    or the figure at 90 degrees for cut depths."""
     rows = db.execute("""SELECT ts.qualifier, ts.value_num FROM tool_spec ts JOIN spec_definition sd ON sd.id = ts.spec_id
                          WHERE ts.tool_id = ? AND sd.key = ? AND ts.value_num IS NOT NULL""", (tool_id, key)).fetchall()
-    vals = [r['value_num'] for r in rows
-            if not r['qualifier'] or (key == 'no_load_speed' and r['qualifier'].startswith('speed:')
-                                      and 'turbo' not in r['qualifier'] and 'mode' not in r['qualifier'])]
-    return max(vals) if vals else None
+    plain = [r['value_num'] for r in rows if not r['qualifier']]
+    gears = [r['value_num'] for r in rows if r['qualifier'] and r['qualifier'].startswith('speed:') and ',' not in r['qualifier']]
+    if key == 'no_load_speed':
+        return max(plain + gears) if plain + gears else None
+    if plain:
+        return max(plain)
+    if gears:
+        return max(gears)
+    at90 = [r['value_num'] for r in rows if r['qualifier'] == 'angle:90']
+    return max(at90) if at90 else None
 
 
 def context_rows(db, t, cat_name_plural):
@@ -478,9 +485,30 @@ def render(db, spec):
     kind = spec.get('kind_label', 'tool')
     sources = []
 
+    from tools_data import spec_texts, load_specdefs, INCH_KEYS
+    specdefs = load_specdefs(db)
+    chips_cfg = spec.get('chips')
+
+    def text(t, key):
+        """First value of a formatted spec, e.g. '2-5/8 in. (at 90°)'."""
+        v = spec_texts(t, specdefs)[0].get(key)
+        return v.split('; ')[0] if v else None
+
+    def pick_sku(p, t):
+        if p.get('buy_sku'):
+            return t.sku(p['buy_sku'])
+        skus = sorted(t.skus(), key=lambda x: x['sku_type'] != 'tool_only')
+        return skus[0] if skus else None
+
     def facts(p, t):
-        s = t.sku(p['buy_sku'])
-        pr = t.price(s['id'])
+        s = pick_sku(p, t)
+        pr = t.price(s['id']) if s else None
+        if chips_cfg:
+            items = [text(t, k) for k in chips_cfg]
+            items.append('Corded' if t.t['power_source'] == 'corded' else f"{t.t['platform']}")
+            if t.t['motor_type']:
+                items.append(t.t['motor_type'].title())
+            return s, pr, [x for x in items if x]
         torque = t.val('max_torque')
         w, wk = t.weight()
         items = [f'{num(torque)} in-lbs' if torque else 'Torque not published',
@@ -497,27 +525,39 @@ def render(db, spec):
         return f'${lo}&ndash;{lo + step}'
 
     def price_txt(s, pr):
-        if not pr:
+        if not pr or not s or not any_price:
             return ''
         what = 'tool only' if s['sku_type'] == 'tool_only' else 'kit with battery and charger'
         return f'{band(pr["price_usd"])} <small>{what}</small>'
 
     # --- bar scales: best figure among every tool in the category
+    bars_cfg = spec.get('bars') or [
+        {'key': 'max_torque', 'label': 'Torque', 'unit': 'in-lbs', 'best': 'the most torque'},
+        {'key': 'no_load_speed', 'label': 'Top speed', 'unit': 'RPM', 'best': 'the highest top speed'},
+        {'key': 'weight_tool_only', 'label': 'Lightness', 'unit': 'lb', 'lower': True, 'best': 'the lightest tool-only weight', 'missing': 'no tool-only weight'},
+    ]
     ids = [r[0] for r in db.execute('SELECT t.id FROM tool t JOIN category c ON c.id = t.category_id WHERE c.slug = ?', (cat,))]
-    best_torque = max([v for v in (spec_value(db, i, 'max_torque') for i in ids) if v] or [1])
-    best_speed = max([v for v in (spec_value(db, i, 'no_load_speed') for i in ids) if v] or [1])
-    best_weight = min([v for v in (spec_value(db, i, 'weight_tool_only') for i in ids) if v] or [1])
+    for b in bars_cfg:
+        vals = [v for v in (spec_value(db, i, b['key']) for i in ids) if v]
+        b['top'] = (min(vals) if b.get('lower') else max(vals)) if vals else None
+    # Pages marked specs_only don't show prices or ratings until they've been checked for every pick.
+    any_rating = not spec.get('specs_only') and any(t.best_rating() for p, t in picks)
+    any_price = not spec.get('specs_only') and any(facts(p, t)[1] for p, t in picks)
+
+    def show(v, b):
+        if b['key'] in INCH_KEYS and abs(v * 16 - round(v * 16)) < 1e-6:
+            return inch(v)
+        return f"{num(v)} {b['unit']}"
 
     def bars(t, r):
-        torque = spec_value(db, t.t['id'], 'max_torque')
-        speed = spec_value(db, t.t['id'], 'no_load_speed')
-        weight = spec_value(db, t.t['id'], 'weight_tool_only')
-        rows = [
-            ('Torque', torque and 100 * torque / best_torque, f'{num(torque)} in-lbs' if torque else 'not published'),
-            ('Top speed', speed and 100 * speed / best_speed, f'{num(speed)} RPM' if speed else 'not published'),
-            ('Lightness', weight and 100 * best_weight / weight, f'{num(weight)} lb' if weight else 'no tool-only weight'),
-            ('Owner rating', r and r['avg_rating'] and 100 * r['avg_rating'] / 5, f'{r["avg_rating"]:.1f} / 5' if r and r['avg_rating'] else 'not shown'),
-        ]
+        rows = []
+        for b in bars_cfg:
+            v = spec_value(db, t.t['id'], b['key'])
+            pct = v and b['top'] and 100 * (b['top'] / v if b.get('lower') else v / b['top'])
+            rows.append((b['label'], pct, show(v, b) if v else b.get('missing', 'not published')))
+        if any_rating:
+            rows.append(('Owner rating', r and r['avg_rating'] and 100 * r['avg_rating'] / 5,
+                         f'{r["avg_rating"]:.1f} / 5' if r and r['avg_rating'] else 'not shown'))
         out = ''.join(f'<div class="mbar"><span class="mbar-l">{l}</span><span class="mbar-t"><i style="width:{max(0, min(100, pct or 0)):.0f}%"></i></span>'
                       f'<span class="mbar-v{" muted" if not pct else ""}">{esc(v)}</span></div>' for l, pct, v in rows)
         return f'<div class="mbars">{out}</div>'
@@ -526,7 +566,7 @@ def render(db, spec):
     cards = []
     for p, t in picks:
         s, pr, f = facts(p, t)
-        r = t.rating(s['id'])
+        r = t.rating(s['id']) if s else None
         img = illustration(t, kind)
         thumb = ''
         if img:
@@ -550,7 +590,7 @@ def render(db, spec):
         th = t.themes()
         likes = [x['theme'] for x in th if x['sentiment'] == 'praise'][:2]
         gripe = [x['theme'] for x in th if x['sentiment'] == 'complaint'][:1]
-        owner = stars(r)
+        owner = stars(r) if any_rating else ''
         if likes:
             owner += f'<br><span class="muted">Owners like: {esc(likes[0].rstrip("."))}{"; " + esc(likes[1][0].lower() + likes[1][1:].rstrip(".")) if len(likes) > 1 else ""}.'
             owner += (f' Complaint: {esc(gripe[0][0].lower() + gripe[0][1:].rstrip("."))}.' if gripe else '') + '</span>'
@@ -561,6 +601,8 @@ def render(db, spec):
                 sources.append((f'{t.name} owner reviews', u))
         if pr:
             sources.append((f'{s["model_number"]} price', pr['url']))
+        elif not any_price:
+            pass
         for u in t.sources():
             sources.append((f'{t.name} specs', u))
         chips = ''.join(f'<span>{esc(x)}</span>' for x in f)
@@ -582,17 +624,27 @@ def render(db, spec):
     </section>""")
 
     # --- small table
+    table_cfg = spec.get('table')
     rows = []
     for p, t in picks:
         s, pr, f = facts(p, t)
-        r = t.rating(s['id'])
-        w, wk = t.weight()
-        torque = t.val('max_torque')
+        r = t.rating(s['id']) if s else None
+        if table_cfg:
+            cells = [text(t, k) for k, _ in table_cfg]
+        else:
+            w, wk = t.weight()
+            torque = t.val('max_torque')
+            cells = [num(torque) + ' in-lbs' if torque else None,
+                     (w + ' <small class=muted>(' + ('tool' if wk == 'tool only' else 'w/ battery') + ')</small>') if w else None]
+        cells = [c or '&ndash;' for c in cells]
+        if any_price:
+            cells.append(band(pr['price_usd']) if pr else '&ndash;')
+        if any_rating:
+            cells.append(('%.1f' % r['avg_rating']) if r and r['avg_rating'] else '&ndash;')
         rows.append(f'<tr><th><a href="#{t.t["slug"]}">{esc(t.name)}</a><br><small class="muted">{esc(p["label"])}</small></th>'
-                    f'<td>{num(torque) + " in-lbs" if torque else "&ndash;"}</td>'
-                    f'<td>{(w + " <small class=muted>(" + ("tool" if wk == "tool only" else "w/ battery") + ")</small>") if w else "&ndash;"}</td>'
-                    f'<td>{band(pr["price_usd"]) if pr else "&ndash;"}</td>'
-                    f'<td>{("%.1f" % r["avg_rating"]) if r and r["avg_rating"] else "&ndash;"}</td></tr>')
+                    + ''.join(f'<td>{c}</td>' for c in cells) + '</tr>')
+    heads = [l for _, l in table_cfg] if table_cfg else ['Torque', 'Weight']
+    heads += (['Price range'] if any_price else []) + (['Rating'] if any_rating else [])
 
     faq = '\n'.join(f'      <details class="faq"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in spec['faq'])
     guide = ''.join(f'<p><b>{esc(h)}.</b> {esc(b)}</p>' for h, b in spec['guide'])
@@ -603,6 +655,16 @@ def render(db, spec):
             uniq.append((label, u))
     src_html = ''.join(f'<li>{esc(l)}: <a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(link_text(u))}</a></li>' for l, u in uniq)
     intro = spec['intro'][0].format(n_tools=n_tools, n_brands=n_brands)
+    bests = [b['best'] for b in bars_cfg]
+    bar_note = (f"Bars compare each pick with the best figure among the {n_tools} {esc(spec.get('category_plural', 'tools'))} we track: "
+                + (', '.join(bests[:-1]) + ' and ' + bests[-1] if len(bests) > 1 else bests[0]) + '.'
+                + (' Owner rating is out of 5.' if any_rating else '')
+                + (' Price ranges are based on the store prices we checked.' if any_price else '')
+                + (' Our picks come from published specs, prices and owner ratings, not hands-on tests' if any_price and any_rating
+                   else " We haven't checked store prices or owner ratings for these tools yet, so these picks are based on published specs only, not hands-on tests")
+                + ' (<a href="/how-we-choose/">how we choose</a>).')
+    table_note = spec.get('table_note') or ('Price ranges and owner ratings are based on what we saw at a major US retailer and change often. '
+                                           '"20V MAX" batteries are 18V nominal, the same as 18V.')
 
     body = f"""
 <section class="section">
@@ -616,19 +678,19 @@ def render(db, spec):
     <div class="grid grid-3 picks">
 {chr(10).join(cards)}
     </div>
-    <p class="muted small">Bars compare each pick with the best figure among the {n_tools} {esc(spec.get('category_plural', 'tools'))} we track: the most torque, the highest top speed and the lightest tool-only weight. Owner rating is out of 5. Price ranges are based on the store prices we checked. Our picks come from published specs, prices and owner ratings, not hands-on tests (<a href="/how-we-choose/">how we choose</a>).</p>
+    <p class="muted small">{bar_note}</p>
 
 {chr(10).join(sections)}
 
     <h2>Quick comparison</h2>
     <div class="table-wrap"><table class="compare slim-table">
-      <thead><tr><th>{esc(kind.split('/')[0].title())}</th><th>Torque</th><th>Weight</th><th>Price range</th><th>Rating</th></tr></thead>
+      <thead><tr><th>{esc(kind.split('/')[0].title())}</th>{''.join(f'<th>{esc(h)}</th>' for h in heads)}</tr></thead>
       <tbody>{''.join(rows)}</tbody>
     </table></div>
-    <p class="muted small">Price ranges and owner ratings are based on what we saw at a major US retailer and change often. "20V MAX" batteries are 18V nominal, the same as 18V.</p>
+    <p class="muted small">{table_note}</p>
 
     <h2>Questions</h2>
-      <details class="faq"><summary>How should I choose a {esc(kind)}?</summary>{guide}</details>
+      <details class="faq"><summary>How should I choose {"an" if kind[:1] in "aeiou" else "a"} {esc(kind)}?</summary>{guide}</details>
 {faq}
 
     <details class="sources"><summary>Sources for every number on this page</summary><ul>{src_html}</ul></details>

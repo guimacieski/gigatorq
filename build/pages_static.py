@@ -47,13 +47,13 @@ def build(db, best_pages):
         <h2>Find your tool</h2>
         <div class="grid grid-4" style="margin-top:28px">
           <a class="card cat-card" href="/best/cordless-drills/"><div class="icon">&#128297;</div><h3>Drills</h3></a>
-          <a class="card cat-card" href="/reviews/#impact-drivers"><div class="icon">&#9881;&#65039;</div><h3>Impact Drivers</h3></a>
-          <a class="card cat-card" href="/reviews/#hammer-drills"><div class="icon">&#128296;</div><h3>Hammer Drills</h3></a>
-          <a class="card cat-card" href="/reviews/#circular-saws"><div class="icon">&#129690;</div><h3>Circular Saws</h3></a>
-          <a class="card cat-card" href="/reviews/#miter-saws"><div class="icon">&#129690;</div><h3>Miter Saws</h3></a>
-          <a class="card cat-card" href="/reviews/#reciprocating-saws"><div class="icon">&#129690;</div><h3>Reciprocating Saws</h3></a>
-          <a class="card cat-card" href="/reviews/#angle-grinders"><div class="icon">&#9889;</div><h3>Angle Grinders</h3></a>
-          <a class="card cat-card" href="/reviews/#impact-wrenches"><div class="icon">&#128297;</div><h3>Impact Wrenches</h3></a>
+          <a class="card cat-card" href="/best/impact-drivers/"><div class="icon">&#9881;&#65039;</div><h3>Impact Drivers</h3></a>
+          <a class="card cat-card" href="/best/hammer-drills/"><div class="icon">&#128296;</div><h3>Hammer Drills</h3></a>
+          <a class="card cat-card" href="/best/circular-saws/"><div class="icon">&#129690;</div><h3>Circular Saws</h3></a>
+          <a class="card cat-card" href="/best/miter-saws/"><div class="icon">&#129690;</div><h3>Miter Saws</h3></a>
+          <a class="card cat-card" href="/best/reciprocating-saws/"><div class="icon">&#129690;</div><h3>Reciprocating Saws</h3></a>
+          <a class="card cat-card" href="/best/angle-grinders/"><div class="icon">&#9889;</div><h3>Angle Grinders</h3></a>
+          <a class="card cat-card" href="/best/impact-wrenches/"><div class="icon">&#128297;</div><h3>Impact Wrenches</h3></a>
         </div>
       </div>
     </section>

@@ -1,0 +1,155 @@
+{
+  "path": "/best/circular-saws/",
+  "title": "Best Circular Saws (2026): 5 Picks Compared by Cut Depth, Blade Speed and Weight",
+  "h1": "Best Circular Saws",
+  "tag": "Circular saws",
+  "description": "The best circular saws for framing, all-around work, compact cutting and corded use, compared on published cut depth, blade speed, bevel and weight.",
+  "teaser": "Five circular saws compared on published cut depth, blade speed and weight.",
+  "updated": "2026-11-02",
+  "category": "circular-saws",
+  "intro": [
+    "A circular saw is the go-to tool for cutting plywood, 2x lumber and sheet goods on site. We went through the published specs of {n_tools} circular saws from {n_brands} brands, corded and cordless, and picked five for different kinds of buyers.",
+    "We didn't test these saws ourselves, and we haven't checked store prices or owner ratings for them yet, so these picks are based on published specs only. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "milwaukee-2834",
+      "headline": "Top blade speed and the deepest cut, in the lightest tool-only body we track.",
+      "why": [
+        "The M18 FUEL 2834 spins its 7-1/4 in. blade at 6,000 RPM and cuts 2-5/8 in. deep at 90 degrees and 2 in. at 45, tied for the deepest cut in our database. At 7.9 lb without a battery, it's the lightest 7-1/4 in. saw with a published tool-only weight, and it bevels to 57 degrees. The tool warranty is 5 years."
+      ],
+      "best_for": "Contractors and DIYers who cut a lot of framing lumber and plywood, or already own M18 batteries.",
+      "skip_if": "You only make a few cuts a year. A corded saw does the same work for less."
+    },
+    {
+      "label": "Best rear-handle",
+      "tool": "milwaukee-2930",
+      "headline": "A rear-handle layout for framers, with the same 6,000 RPM and 2-5/8 in. depth.",
+      "why": [
+        "The M18 FUEL 2930 puts the motor behind the blade like a worm-drive saw, which many framers prefer for long rip cuts and cutting on a slope. It matches the 2834 at 6,000 RPM and 2-5/8 in. at 90 degrees, and weighs 8.3 lb without a battery (11.6 lb with Milwaukee's largest FORGE battery)."
+      ],
+      "best_for": "Framers and roofers who are used to worm-drive saws and want to go cordless.",
+      "skip_if": "You've always used a sidewinder saw. The rear-handle balance takes some getting used to."
+    },
+    {
+      "label": "Best for Makita users",
+      "tool": "makita-xsh06",
+      "headline": "Two 18V LXT batteries for 36V power, 6,000 RPM and a 56-degree bevel.",
+      "why": [
+        "The XSH06 runs on two Makita 18V LXT batteries for 36V of power. It spins at 6,000 RPM, cuts 2-5/8 in. deep at 90 degrees and bevels to 56 degrees. Makita lists it at 10.5 lb with batteries."
+      ],
+      "best_for": "Makita 18V LXT owners who want corded-class power in a cordless saw.",
+      "skip_if": "Weight matters most. Two batteries make it one of the heavier saws here."
+    },
+    {
+      "label": "Best corded",
+      "tool": "dewalt-dwe575",
+      "headline": "A 15-amp corded saw at 8.8 lb, with a 57-degree bevel.",
+      "why": [
+        "DeWalt's DWE575 is a 15-amp corded saw that weighs 8.8 lb. It cuts 2-9/16 in. deep at 90 degrees and bevels to 57 degrees."
+      ],
+      "best_for": "Anyone who works near an outlet and wants a light saw that never needs charging.",
+      "skip_if": "You work on sites without power, or you're tired of dragging a cord."
+    },
+    {
+      "label": "Best compact",
+      "tool": "dewalt-dcs565",
+      "headline": "A smaller 6-1/2 in. saw with an electric brake for sheet goods and trim.",
+      "why": [
+        "The 20V MAX XR DCS565 uses a 6-1/2 in. blade at 4,950 RPM, with a 50-degree bevel, an electric brake that stops the blade quickly and an LED light. A smaller blade makes for a smaller, easier-to-handle saw."
+      ],
+      "best_for": "DIYers and remodelers who mostly cut plywood, paneling and trim.",
+      "skip_if": "You cut a lot of thick stock or framing. A 7-1/4 in. blade cuts deeper."
+    }
+  ],
+  "guide": [
+    [
+      "Blade size",
+      "7-1/4 in. is the standard for framing and cuts through a 2x in one pass. 6-1/2 in. saws are smaller and lighter, but cut less deep."
+    ],
+    [
+      "Cut depth",
+      "Look for 2-1/2 in. or more at 90 degrees for framing lumber. The depth at 45 degrees matters for bevel cuts."
+    ],
+    [
+      "Sidewinder or rear-handle",
+      "Sidewinders have the motor beside the blade and are shorter and lighter. Rear-handle saws have the motor behind the blade and are preferred by many framers for long, straight cuts."
+    ],
+    [
+      "Corded or cordless",
+      "Corded saws are lighter and cheaper and never run out of charge. Cordless saws go anywhere, but need large batteries for heavy cutting."
+    ],
+    [
+      "Brake and bevel",
+      "An electric brake stops the blade in a second or two. A bevel that goes past 45 degrees helps with roof and stair cuts."
+    ]
+  ],
+  "faq": [
+    [
+      "What size circular saw should I buy?",
+      "A 7-1/4 in. saw for most people. It's the standard size and blades are everywhere."
+    ],
+    [
+      "Can a cordless circular saw replace a corded one?",
+      "For most work, yes, with a large battery. For all-day ripping, a corded saw is still lighter and never stops to charge."
+    ],
+    [
+      "What blade should I use?",
+      "A 24-tooth framing blade for lumber and fast cuts, and a 40- to 60-tooth blade for clean cuts in plywood."
+    ],
+    [
+      "Is an electric brake worth it?",
+      "It's a nice safety feature: the blade stops quickly when you let go of the trigger, so you can set the saw down sooner."
+    ]
+  ],
+  "category_plural": "circular saws",
+  "kind_label": "circular saw",
+  "bars": [
+    {
+      "key": "cut_depth",
+      "label": "Cut depth",
+      "unit": "in.",
+      "best": "the deepest cut at 90 degrees"
+    },
+    {
+      "key": "no_load_speed",
+      "label": "Blade speed",
+      "unit": "RPM",
+      "best": "the fastest blade speed"
+    },
+    {
+      "key": "weight_tool_only",
+      "label": "Lightness",
+      "unit": "lb",
+      "lower": true,
+      "best": "the lightest tool-only weight",
+      "missing": "no tool-only weight"
+    }
+  ],
+  "chips": [
+    "blade_diameter",
+    "cut_depth",
+    "no_load_speed"
+  ],
+  "table": [
+    [
+      "blade_diameter",
+      "Blade"
+    ],
+    [
+      "cut_depth",
+      "Cut depth"
+    ],
+    [
+      "no_load_speed",
+      "Blade speed"
+    ],
+    [
+      "weight_tool_only",
+      "Weight (tool only)"
+    ]
+  ],
+  "table_note": "Specs as published by each brand or a major retailer. Cut depth is at 90 degrees. A dash means we couldn't find that number.",
+  "specs_only": true
+}

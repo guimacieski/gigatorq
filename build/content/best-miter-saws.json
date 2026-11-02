@@ -1,0 +1,158 @@
+{
+  "path": "/best/miter-saws/",
+  "title": "Best Miter Saws (2026): 5 Picks Compared by Cut Capacity, Bevel and Weight",
+  "h1": "Best Miter Saws",
+  "tag": "Miter saws",
+  "description": "The best miter saws for trim, framing, thick stock and portable cutting, compared on published crosscut capacity, bevel, sliding rails, blade speed and weight.",
+  "teaser": "Five miter saws compared on published cut capacity, bevel and weight.",
+  "updated": "2026-11-02",
+  "category": "miter-saws",
+  "intro": [
+    "A miter saw makes accurate crosscuts and angle cuts in trim, framing lumber and molding. We went through the published specs of {n_tools} miter saws from {n_brands} brands, corded and cordless, and picked five for different kinds of buyers.",
+    "We didn't test these saws ourselves, and we haven't checked store prices or owner ratings for them yet, so these picks are based on published specs only. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "dewalt-dws780",
+      "headline": "A 12 in. double-bevel slider that cuts 2x16 boards at 90 degrees.",
+      "why": [
+        "DeWalt's DWS780 is a 12 in. double-bevel sliding saw that crosscuts 2x16 lumber at 90 degrees and 2x12 at 45. It cuts 7-1/2 in. crown nested and 6-3/4 in. base vertically, has 10 positive stops and a 15-amp motor. It weighs 56 lb."
+      ],
+      "best_for": "Trim carpenters, remodelers and serious DIYers who want one saw for almost everything.",
+      "skip_if": "You need to carry it often. At 56 lb, it's a two-hands, one-trip tool."
+    },
+    {
+      "label": "Best cordless",
+      "tool": "milwaukee-2739",
+      "headline": "A cordless 12 in. double-bevel slider at 47.6 lb, the lightest 12 in. slider we track.",
+      "why": [
+        "The M18 FUEL 2739 crosscuts 13.4 in. wide at 3.8 in. high at 90 degrees, has 12 positive stops and bevels 48 degrees both ways. At 47.6 lb, it's the lightest 12 in. sliding saw with a published weight in our database, and it has a 5-year tool warranty."
+      ],
+      "best_for": "Trim and finish carpenters who move between rooms and jobs without power.",
+      "skip_if": "You're not on M18 batteries, or you cut on one site with power all day."
+    },
+    {
+      "label": "Best for thick stock",
+      "tool": "makita-ls1219l",
+      "headline": "Crosscuts 15 in. wide at 3-5/8 in. high, with 60-degree miters both ways.",
+      "why": [
+        "Makita's LS1219L crosscuts 15 in. wide at 3-5/8 in. high at 90 degrees, a big capacity for wide, thick boards. It miters 60 degrees left and right, cuts 8 in. crown nested and has a laser guide. It weighs 65 lb."
+      ],
+      "best_for": "Shops and job sites that cut thick stock like 4x material and wide boards.",
+      "skip_if": "You carry your saw a lot. It's one of the heaviest saws here."
+    },
+    {
+      "label": "Best non-sliding",
+      "tool": "dewalt-dws715",
+      "headline": "A simple 12 in. chop saw at 36 lb, the lightest saw we track.",
+      "why": [
+        "DeWalt's DWS715 has no sliding rails, which makes it smaller and lighter: 36 lb, the lightest miter saw in our database. It crosscuts 2x8 at 90 degrees and 2x6 at 45, cuts 5-1/2 in. base vertically and has 14 positive stops."
+      ],
+      "best_for": "Framing, decking and DIYers who mostly cut boards 8 inches wide or less.",
+      "skip_if": "You cut wide shelving or flooring. A sliding saw handles wider boards."
+    },
+    {
+      "label": "Best for Ryobi users",
+      "tool": "ryobi-pblms01",
+      "headline": "A cordless 10 in. slider for Ryobi ONE+ owners.",
+      "why": [
+        "Ryobi's ONE+ HP PBLMS01 is a cordless 10 in. sliding miter saw that crosscuts 12 in. wide at 90 degrees. It runs at 4,100 RPM, has 9 positive stops, miters 47 degrees each way and bevels 45 degrees to the left."
+      ],
+      "best_for": "DIYers on Ryobi 18V ONE+ batteries who want a portable saw for trim and small projects.",
+      "skip_if": "You cut thick stock or need to bevel both ways. It's single-bevel with a smaller blade."
+    }
+  ],
+  "guide": [
+    [
+      "Blade size",
+      "10 in. saws are lighter and blades are cheaper. 12 in. saws cut wider and thicker stock."
+    ],
+    [
+      "Sliding or non-sliding",
+      "Sliding rails let the blade travel forward, so you can cut boards 12 to 16 in. wide. Non-sliding saws are smaller, lighter and cheaper."
+    ],
+    [
+      "Single or double bevel",
+      "A double-bevel saw tilts both ways, so you don't have to flip long trim pieces for opposite bevels."
+    ],
+    [
+      "Capacity",
+      "Check crosscut capacity at 90 and 45 degrees, plus crown (nested) and base (vertical) capacity if you install trim."
+    ],
+    [
+      "Corded or cordless",
+      "Corded saws are cheaper and run all day. Cordless saws are great for trim work in houses without power yet."
+    ]
+  ],
+  "faq": [
+    [
+      "10 or 12 inch miter saw?",
+      "A 10 in. saw handles most trim and DIY work. Choose a 12 in. saw for wide boards, thick stock or big crown molding."
+    ],
+    [
+      "Do I need a sliding miter saw?",
+      "Only if you cut boards wider than about 6 to 8 inches. Otherwise a non-sliding saw is smaller and lighter."
+    ],
+    [
+      "What are positive stops?",
+      "Detents at common angles like 0, 22.5 and 45 degrees, so you can set accurate angles quickly."
+    ],
+    [
+      "Can a miter saw cut metal?",
+      "Not with a wood blade. Some saws can take special non-ferrous blades for aluminum. Check the manual first."
+    ]
+  ],
+  "category_plural": "miter saws",
+  "kind_label": "miter saw",
+  "bars": [
+    {
+      "key": "positive_stops",
+      "label": "Positive stops",
+      "unit": "stops",
+      "best": "the most positive stops"
+    },
+    {
+      "key": "no_load_speed",
+      "label": "Blade speed",
+      "unit": "RPM",
+      "best": "the fastest blade speed"
+    },
+    {
+      "key": "weight_tool_only",
+      "label": "Lightness",
+      "unit": "lb",
+      "lower": true,
+      "best": "the lightest weight",
+      "missing": "weight not published"
+    }
+  ],
+  "chips": [
+    "blade_diameter",
+    "crosscut_capacity",
+    "weight_tool_only"
+  ],
+  "table": [
+    [
+      "blade_diameter",
+      "Blade"
+    ],
+    [
+      "bevel_type",
+      "Bevel"
+    ],
+    [
+      "sliding",
+      "Sliding"
+    ],
+    [
+      "crosscut_capacity",
+      "Crosscut at 90°"
+    ],
+    [
+      "weight_tool_only",
+      "Weight"
+    ]
+  ],
+  "specs_only": true
+}

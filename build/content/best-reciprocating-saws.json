@@ -1,0 +1,154 @@
+{
+  "path": "/best/reciprocating-saws/",
+  "title": "Best Reciprocating Saws (2026): 5 Picks Compared by Stroke Length, Speed and Weight",
+  "h1": "Best Reciprocating Saws",
+  "tag": "Reciprocating saws",
+  "description": "The best reciprocating saws for demolition, pruning, plumbing and one-handed cuts, compared on published stroke length, strokes per minute, orbital action and weight.",
+  "teaser": "Five reciprocating saws compared on published stroke length, speed and weight.",
+  "updated": "2026-11-02",
+  "category": "reciprocating-saws",
+  "intro": [
+    "A reciprocating saw is the demolition tool: it cuts through walls, nail-embedded lumber, pipe and branches. We went through the published specs of {n_tools} reciprocating saws from {n_brands} brands and picked five for different jobs.",
+    "We didn't test these saws ourselves, and we haven't checked store prices or owner ratings for them yet, so these picks are based on published specs only. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "milwaukee-2722",
+      "headline": "Milwaukee's top cordless Sawzall: a 1-1/4 in. stroke with orbital action.",
+      "why": [
+        "The M18 FUEL SUPER SAWZALL 2722 has a 1-1/4 in. stroke, 3,000 strokes per minute and orbital action, which swings the blade in a slight loop for faster cuts in wood. The tool warranty is 5 years."
+      ],
+      "best_for": "Remodelers, plumbers and demolition crews on M18 batteries.",
+      "skip_if": "You want to compare weight. We couldn't find a published weight for it."
+    },
+    {
+      "label": "Fastest full-size",
+      "tool": "ridgid-r8647",
+      "headline": "3,200 strokes per minute and orbital action, with a lifetime warranty if registered.",
+      "why": [
+        "Ridgid's R8647 has a 1-1/4 in. stroke and 3,200 strokes per minute, tied for the fastest full-size saw we track, plus orbital action, an adjustable shoe and an LED. It weighs 6.71 lb without a battery. Ridgid offers a lifetime service agreement if you register the tool."
+      ],
+      "best_for": "Ridgid 18V owners and anyone who values a long warranty.",
+      "skip_if": "You're not on Ridgid batteries."
+    },
+    {
+      "label": "Lightest one-handed",
+      "tool": "dewalt-dcs369",
+      "headline": "A one-handed saw at 3.13 lb, the lightest we track.",
+      "why": [
+        "DeWalt's ATOMIC DCS369 is a compact one-handed saw that weighs 3.13 lb without a battery and is 12.5 inches long. It runs at 2,800 strokes per minute and has a tool-free blade clamp and an LED."
+      ],
+      "best_for": "Pruning, cutting PVC and copper, and quick cuts overhead or in tight spaces.",
+      "skip_if": "You do real demolition. A full-size saw with a longer stroke cuts much faster."
+    },
+    {
+      "label": "Best corded",
+      "tool": "milwaukee-6538",
+      "headline": "A 15-amp corded Super Sawzall with a 1-1/4 in. stroke and orbital action.",
+      "why": [
+        "Milwaukee's corded 6538 Super Sawzall has a 15-amp motor, a 1-1/4 in. stroke, 2,800 strokes per minute and orbital action. Plugged in, it never runs out of battery during long demolition days."
+      ],
+      "best_for": "Long demolition jobs near an outlet.",
+      "skip_if": "You work on sites without power."
+    },
+    {
+      "label": "Best for Makita users",
+      "tool": "makita-xrj05",
+      "headline": "A 1-1/4 in. stroke with two speeds for Makita 18V LXT owners.",
+      "why": [
+        "Makita's XRJ05 has a 1-1/4 in. stroke and a two-speed setting (2,300 and 3,000 strokes per minute), so you can slow it down for metal. Makita lists it at 8.2 lb with a battery and 17.25 inches long."
+      ],
+      "best_for": "Makita 18V LXT owners who need a full-size demolition saw.",
+      "skip_if": "You want orbital action. We couldn't confirm that this model has it."
+    }
+  ],
+  "guide": [
+    [
+      "Stroke length",
+      "A longer stroke (1-1/8 to 1-1/4 in.) removes more material with each pass. Compact one-handed saws usually have shorter strokes, around 7/8 in."
+    ],
+    [
+      "Strokes per minute",
+      "SPM is how fast the blade moves. Higher is faster in wood. For metal, a lower speed makes blades last longer."
+    ],
+    [
+      "Orbital action",
+      "Orbital mode moves the blade in a slight loop, which cuts wood faster. Turn it off for metal and cleaner cuts."
+    ],
+    [
+      "Full-size or one-handed",
+      "Full-size saws are for demolition. One-handed saws are lighter and better for pruning, plumbing and overhead cuts."
+    ],
+    [
+      "Blades",
+      "Use the right blade: coarse teeth for wood and demolition, fine teeth for metal, and bi-metal blades for nail-embedded wood."
+    ]
+  ],
+  "faq": [
+    [
+      "What is a reciprocating saw used for?",
+      "Demolition, cutting through walls and floors, cutting pipe, pruning branches and any rough cut where speed matters more than a clean edge."
+    ],
+    [
+      "Corded or cordless?",
+      "Cordless saws handle most work. Corded saws are still a good choice for long demolition days near an outlet."
+    ],
+    [
+      "Can it cut metal?",
+      "Yes, with a metal-cutting blade and a lower speed, without orbital action."
+    ],
+    [
+      "Is a one-handed saw enough?",
+      "For pruning, PVC and occasional cuts, yes. For demolition, a full-size saw is far faster."
+    ]
+  ],
+  "category_plural": "reciprocating saws",
+  "kind_label": "reciprocating saw",
+  "bars": [
+    {
+      "key": "stroke_length",
+      "label": "Stroke",
+      "unit": "in.",
+      "best": "the longest stroke"
+    },
+    {
+      "key": "strokes_per_minute",
+      "label": "Stroke rate",
+      "unit": "SPM",
+      "best": "the fastest stroke rate"
+    },
+    {
+      "key": "weight_tool_only",
+      "label": "Lightness",
+      "unit": "lb",
+      "lower": true,
+      "best": "the lightest tool-only weight",
+      "missing": "no tool-only weight"
+    }
+  ],
+  "chips": [
+    "stroke_length",
+    "strokes_per_minute",
+    "weight_tool_only"
+  ],
+  "table": [
+    [
+      "stroke_length",
+      "Stroke"
+    ],
+    [
+      "strokes_per_minute",
+      "Stroke rate"
+    ],
+    [
+      "orbital_action",
+      "Orbital"
+    ],
+    [
+      "weight_tool_only",
+      "Weight (tool only)"
+    ]
+  ],
+  "specs_only": true
+}

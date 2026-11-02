@@ -1,0 +1,154 @@
+{
+  "path": "/best/hammer-drills/",
+  "title": "Best Hammer Drills (2026): 5 Picks Compared by Torque, Hammer Rate and Weight",
+  "h1": "Best Hammer Drills",
+  "tag": "Hammer drills",
+  "description": "The best cordless hammer drills for masonry, heavy drilling, light weight and each battery platform, compared on published torque, blows per minute, speed and weight.",
+  "teaser": "Five hammer drills compared on published torque, hammer rate, speed and weight.",
+  "updated": "2026-11-02",
+  "category": "hammer-drills",
+  "intro": [
+    "A hammer drill is a drill/driver with a hammer mode that adds rapid blows for drilling into brick, block and concrete. We went through the published specs of {n_tools} hammer drills from {n_brands} brands and picked five for different kinds of buyers.",
+    "We didn't test these drills ourselves, and we haven't checked store prices or owner ratings for them yet, so these picks are based on published specs only. We use AI tools to gather and organize the research, and every number on this page comes from the brand or a major retailer, linked in the Sources section. <a href=\"/how-we-choose/\">Here's how we choose</a>."
+  ],
+  "picks": [
+    {
+      "label": "Best overall",
+      "tool": "milwaukee-2904",
+      "headline": "1,400 in-lbs and 33,000 blows per minute, in a body under 7 inches long.",
+      "why": [
+        "Milwaukee rates the M18 FUEL 2904 at 1,400 in-lbs and 33,000 blows per minute, the second-highest hammer rate we track. It's 6.9 inches long and 3.3 lb without a battery, with a ratcheting keyless chuck, 5/8 in. masonry capacity and room for 3-1/2 in. hole saws in wood. The tool warranty is 5 years."
+      ],
+      "best_for": "Pros and remodelers who drill into masonry now and then and need a strong drill the rest of the time.",
+      "skip_if": "You drill many holes in concrete every week. A rotary hammer is much faster for that."
+    },
+    {
+      "label": "Most torque",
+      "tool": "dewalt-dcd1007",
+      "headline": "The highest torque rating we track: 2,100 in-lbs.",
+      "why": [
+        "DeWalt lists the 20V MAX XR DCD1007 at 2,100 in-lbs and 1,530 max watts out, with three speeds and a ratcheting keyless chuck. That's the most torque of any hammer drill in our database."
+      ],
+      "best_for": "DeWalt 20V MAX owners who run big hole saws, augers and long spade bits.",
+      "skip_if": "You want to compare speed, hammer rate and weight. We couldn't find published figures for those for this model."
+    },
+    {
+      "label": "Best lightweight",
+      "tool": "milwaukee-3404",
+      "headline": "A 12V hammer drill at 2.1 lb, for light masonry work.",
+      "why": [
+        "The M12 FUEL 3404 weighs 2.1 lb without a battery and is 6 inches long, the lightest hammer drill we track. It still makes 400 in-lbs and 22,500 blows per minute, with 3/8 in. masonry capacity."
+      ],
+      "best_for": "Anchors for shelves, TV mounts and conduit straps, and overhead work.",
+      "skip_if": "You need holes bigger than 3/8 in. in masonry. An 18V hammer drill or a rotary hammer is better."
+    },
+    {
+      "label": "Best for Ryobi users",
+      "tool": "ryobi-pblhm101",
+      "headline": "750 in-lbs and 31,000 blows per minute on Ryobi ONE+ batteries.",
+      "why": [
+        "Ryobi's brushless ONE+ HP PBLHM101 makes 750 in-lbs and 31,000 blows per minute, with two speeds (500 and 2,100 RPM), a 24-position clutch and a ratcheting keyless chuck. It weighs 2.8 lb without a battery."
+      ],
+      "best_for": "Ryobi 18V ONE+ owners who need occasional masonry drilling.",
+      "skip_if": "You run big hole saws often. The Milwaukee 2904 has nearly twice the torque."
+    },
+    {
+      "label": "Best for Makita users",
+      "tool": "makita-xph14",
+      "headline": "1,250 in-lbs and 31,500 blows per minute for Makita 18V LXT owners.",
+      "why": [
+        "Makita rates the XPH14 at 1,250 in-lbs and up to 31,500 blows per minute, with 5/8 in. masonry and 3 in. wood capacity. Makita lists it at 6 lb with a battery and 7 inches long."
+      ],
+      "best_for": "Makita 18V LXT owners who want a full-power hammer drill.",
+      "skip_if": "You want a light drill for all-day use. One of the 12V or compact models is easier on your arm."
+    }
+  ],
+  "guide": [
+    [
+      "Hammer mode",
+      "In hammer mode the chuck taps forward thousands of times a minute while it spins, which chips through brick and block. Switch it off for wood and metal and it works like a regular drill."
+    ],
+    [
+      "Blows per minute",
+      "BPM is how fast the hammer works. Higher is faster in masonry, but a hammer drill is still much slower than a rotary hammer in hard concrete."
+    ],
+    [
+      "Torque",
+      "Torque matters for big hole saws, spade bits and augers in wood. 700 in-lbs and up handles most heavy drilling."
+    ],
+    [
+      "Masonry capacity",
+      "Brands list the largest hole they recommend in masonry, usually 3/8 to 5/8 in. For bigger holes or lots of concrete, use an SDS rotary hammer."
+    ],
+    [
+      "Weight",
+      "A hammer drill is a little heavier than a drill/driver. If you rarely drill masonry, a plain drill/driver is lighter."
+    ]
+  ],
+  "faq": [
+    [
+      "Hammer drill or regular drill?",
+      "Only buy a hammer drill if you drill into brick, block or concrete. For wood, metal and drywall, a drill/driver does the same job and is lighter."
+    ],
+    [
+      "Hammer drill or rotary hammer?",
+      "A hammer drill handles occasional small holes in masonry. A rotary hammer uses SDS bits and a piston mechanism that hits much harder, so it's far faster in concrete."
+    ],
+    [
+      "Can I use a hammer drill as a regular drill?",
+      "Yes. Turn the mode collar to drill or drive mode and the hammer action stops."
+    ],
+    [
+      "What bits do I need for masonry?",
+      "Carbide-tipped masonry bits. Regular twist bits dull quickly in brick and concrete."
+    ]
+  ],
+  "category_plural": "hammer drills",
+  "kind_label": "hammer drill",
+  "bars": [
+    {
+      "key": "max_torque",
+      "label": "Torque",
+      "unit": "in-lbs",
+      "best": "the most torque"
+    },
+    {
+      "key": "blows_per_minute",
+      "label": "Hammer rate",
+      "unit": "BPM",
+      "best": "the highest hammer rate"
+    },
+    {
+      "key": "weight_tool_only",
+      "label": "Lightness",
+      "unit": "lb",
+      "lower": true,
+      "best": "the lightest tool-only weight",
+      "missing": "no tool-only weight"
+    }
+  ],
+  "chips": [
+    "max_torque",
+    "blows_per_minute",
+    "weight_tool_only"
+  ],
+  "table": [
+    [
+      "max_torque",
+      "Torque"
+    ],
+    [
+      "blows_per_minute",
+      "Hammer rate"
+    ],
+    [
+      "no_load_speed",
+      "Speeds"
+    ],
+    [
+      "weight_tool_only",
+      "Weight (tool only)"
+    ]
+  ],
+  "specs_only": true
+}

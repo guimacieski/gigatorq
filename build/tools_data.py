@@ -28,6 +28,8 @@ def qual_label(q):
 
 def fmt_value(key, row, unit):
     v = row['value_num']
+    if row['value_min'] is not None and row['value_min'] == row['value_max']:
+        return f"{num(row['value_min'])}{(' ' + unit) if unit else ''}"
     if row['value_min'] is not None:
         return f"{num(row['value_min'])}–{num(row['value_max'])}{(' ' + unit) if unit else ''}"
     if row['value_bool'] is not None:
@@ -40,6 +42,41 @@ def fmt_value(key, row, unit):
     if key in INCH_KEYS and abs(v * 16 - round(v * 16)) < 1e-6:
         return inch(v)
     return f"{num(v)}{(' ' + unit) if unit else ''}"
+
+
+def spec_texts(t, specdefs):
+    """Formatted spec text per key, and one comparable number per key (plain value, or the top gear)."""
+    specs, nums = {}, {}
+    for key, rows in t.specs.items():
+        if key not in specdefs:
+            continue
+        unit = specdefs[key]['symbol'] or ''
+        parts, speedvals = [], []
+        for r in rows:
+            val = fmt_value(key, r, unit)
+            if val is None:
+                continue
+            q = r['qualifier']
+            if q and q.startswith('speed:') and ',' not in q:
+                speedvals.append((q, r['value_num']))
+                continue
+            parts.append(f'{val} ({qual_label(q)})' if q else val)
+        if speedvals:
+            speedvals.sort()
+            parts.insert(0, ' / '.join(num(v) for _, v in speedvals) + (f' {unit}' if unit else ''))
+        if parts:
+            specs[key] = '; '.join(parts)
+        # one comparable number: plain value, or the top speed across gears
+        plain = [r['value_num'] for r in rows if r['value_num'] is not None and not r['qualifier']]
+        gears = [v for _, v in speedvals]
+        if plain or gears:
+            nums[key] = max(plain + gears)
+    return specs, nums
+
+
+def load_specdefs(db):
+    return {r['key']: r for r in db.execute(
+        'SELECT sd.key, sd.label, sd.data_type, sd.higher_is_better, u.symbol FROM spec_definition sd LEFT JOIN unit u ON u.code = sd.unit_code')}
 
 
 def export(db):
@@ -67,31 +104,7 @@ def export(db):
     for row in db.execute('SELECT t.slug FROM tool t JOIN brand b ON b.id = t.brand_id ORDER BY b.name, t.model'):
         t = Tool(db, row['slug'])
         cat = db.execute('SELECT slug FROM category WHERE id = ?', (t.t['category_id'],)).fetchone()['slug']
-        specs, nums = {}, {}
-        for key, rows in t.specs.items():
-            if key not in specdefs:
-                continue
-            unit = specdefs[key]['symbol'] or ''
-            parts, speedvals = [], []
-            for r in rows:
-                val = fmt_value(key, r, unit)
-                if val is None:
-                    continue
-                q = r['qualifier']
-                if q and q.startswith('speed:') and ',' not in q:
-                    speedvals.append((q, r['value_num']))
-                    continue
-                parts.append(f'{val} ({qual_label(q)})' if q else val)
-            if speedvals:
-                speedvals.sort()
-                parts.insert(0, ' / '.join(num(v) for _, v in speedvals) + (f' {unit}' if unit else ''))
-            if parts:
-                specs[key] = '; '.join(parts)
-            # one comparable number: plain value, or the top speed across gears
-            plain = [r['value_num'] for r in rows if r['value_num'] is not None and not r['qualifier']]
-            gears = [v for _, v in speedvals]
-            if plain or gears:
-                nums[key] = max(plain + gears)
+        specs, nums = spec_texts(t, specdefs)
         pr = None  # tool-only price first, then a kit
         for s in sorted(t.skus(), key=lambda s: s['sku_type'] != 'tool_only'):
             p = t.price(s['id'])

@@ -934,5 +934,86 @@
   "kind": "Pick",
   "query": "DeWalt DCD800 drill driver",
   "prompt": "Photorealistic product photo of the DeWalt DCD800 (DeWalt 20V MAX XR compact brushless cordless drill/driver), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, standing upright on its battery, three-quarter side view, chuck facing left. It must clearly read as a drill/driver (not a hammer drill and not an impact driver). Key parts that must be visible: a keyless chuck at the front with a numbered clutch collar directly behind it, a speed selector switch on top of the motor housing, a forward/reverse button above the trigger, compact pistol-grip body. The real DCD800 has an all-metal ratcheting keyless chuck, a two-speed selector on top, a 3-mode LED work light at the base of the handle, and a very short head: about 6.4 inches from the back of the housing to the front of the chuck. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"DEWALT\", \"20V MAX\" and \"XR\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols (small numbers on the clutch collar are fine). No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "makita-xdt19",
+  "group": "Impact Drivers",
+  "brand": "Makita",
+  "variant": "18V LXT",
+  "kind": "Pick",
+  "query": "Makita XDT19 impact driver",
+  "prompt": "Photorealistic product photo of the Makita XDT19 (Makita 18V LXT cordless impact driver), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, standing upright on its battery, three-quarter side view, hex collet facing left. It must clearly read as an impact driver (not a drill). Key parts that must be visible: a short stubby head ending in a 1/4-inch hex quick-release bit collet with a hex bit inserted, NO drill chuck and NO clutch collar, a compact rounded hammer housing behind the collet, a mode button on the base above the battery. The real Makita XDT19 has a four-speed selector button on the base and is very compact, about 4.56 inches long from the back of the housing to the front of the nose. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"makita\" and \"18V\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "milwaukee-3404",
+  "group": "Hammer Drills",
+  "brand": "Milwaukee",
+  "variant": "M12",
+  "kind": "Pick",
+  "query": "Milwaukee 3404 hammer drill",
+  "prompt": "Photorealistic product photo of the Milwaukee 3404 (Milwaukee M12 FUEL compact cordless hammer drill), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, standing upright on its slide-in 12V battery inside the handle, three-quarter side view, chuck facing left. It must clearly read as a hammer drill, clearly different from a plain drill/driver. Key parts that must be visible: a keyless chuck at the front, directly behind it a mode-selector collar with molded icon positions (drill bit, hammer, screw), a speed selector switch on top. The real Milwaukee 3404 is small: about 6 inches long, with the 12V battery sliding up into the grip so only its base shows below the handle. Show the tool WITHOUT any auxiliary side handle. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"Milwaukee\" and \"M12\" and \"FUEL\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols (simple molded icons on the mode collar are fine). No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "milwaukee-2967",
+  "group": "Impact Wrenches",
+  "brand": "Milwaukee",
+  "variant": "M18",
+  "kind": "Pick",
+  "query": "Milwaukee 2967 impact wrench",
+  "prompt": "Photorealistic product photo of the Milwaukee 2967 (Milwaukee M18 FUEL high torque 1/2-inch cordless impact wrench), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, standing upright on its battery with a black impact socket on the anvil, three-quarter side view. It must clearly read as an impact wrench (not a drill or impact driver). Key parts that must be visible: a square drive anvil at the front holding a black impact socket, NO chuck and NO hex collet, a wide round hammer housing, forward/reverse button above the trigger, a mode button on the base. The real Milwaukee 2967 is a full-size high-torque wrench, about 7.6 inches long, with a 1/2-inch friction-ring anvil. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"Milwaukee\" and \"M18\" and \"FUEL\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "dewalt-dcf961",
+  "group": "Impact Wrenches",
+  "brand": "DeWalt",
+  "variant": "20V MAX",
+  "kind": "Pick",
+  "query": "DeWalt DCF961 impact wrench",
+  "prompt": "Photorealistic product photo of the DeWalt DCF961 (DeWalt 20V MAX XR high torque 1/2-inch cordless impact wrench), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, standing upright on its battery with a black impact socket on the anvil, three-quarter side view. It must clearly read as an impact wrench (not a drill or impact driver). Key parts that must be visible: a square drive anvil at the front holding a black impact socket, NO chuck and NO hex collet, a wide round hammer housing, forward/reverse button above the trigger, a mode button on the base. The real DeWalt DCF961 is a full-size high-torque wrench with a 1/2-inch hog-ring anvil and an LED light. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"DEWALT\" and \"20V MAX\" and \"XR\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "milwaukee-2962",
+  "group": "Impact Wrenches",
+  "brand": "Milwaukee",
+  "variant": "M18",
+  "kind": "Pick",
+  "query": "Milwaukee 2962 impact wrench",
+  "prompt": "Photorealistic product photo of the Milwaukee 2962 (Milwaukee M18 FUEL mid-torque 1/2-inch cordless impact wrench), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, standing upright on its battery with a black impact socket on the anvil, three-quarter side view. It must clearly read as an impact wrench (not a drill or impact driver). Key parts that must be visible: a square drive anvil at the front holding a black impact socket, NO chuck and NO hex collet, a wide round hammer housing, forward/reverse button above the trigger, a mode button on the base. The real Milwaukee 2962 is a compact mid-torque wrench, noticeably shorter than a high-torque model, with a 1/2-inch friction-ring anvil and a mode button with 4 settings. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"Milwaukee\" and \"M18\" and \"FUEL\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "milwaukee-2834",
+  "group": "Circular Saws",
+  "brand": "Milwaukee",
+  "variant": "M18",
+  "kind": "Pick",
+  "query": "Milwaukee 2834 circular saw",
+  "prompt": "Photorealistic product photo of the Milwaukee 2834 (Milwaukee M18 FUEL 7-1/4-inch cordless circular saw), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, sitting at the front edge of the bench with its flat metal base plate resting on the bench and the lower part of the blade hanging just past the edge, three-quarter front view from the blade side, slightly low camera. The blade passes down through the slot in the base plate, the upper guard covers the top of the blade and the lower guard covers the part below the base plate. It must clearly read as a handheld sidewinder circular saw. The real Milwaukee 2834 has a 7-1/4-inch blade and a magnesium base plate and guards. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"Milwaukee\" and \"M18\" and \"FUEL\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "milwaukee-2930",
+  "group": "Circular Saws",
+  "brand": "Milwaukee",
+  "variant": "M18",
+  "kind": "Pick",
+  "query": "Milwaukee 2930 rear handle circular saw",
+  "prompt": "Photorealistic product photo of the Milwaukee 2930 (Milwaukee M18 FUEL 7-1/4-inch cordless rear handle circular saw), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, sitting at the front edge of the bench with its flat metal base plate resting on the bench and the lower part of the blade hanging just past the edge, three-quarter front view from the blade side, slightly low camera. The blade passes down through the slot in the base plate, the upper guard covers the top of the blade and the lower guard covers the part below the base plate. It must clearly read as a rear-handle (worm-drive style) circular saw: the long body and main handle sit behind the blade, in line with it, with the battery at the back. The real Milwaukee 2930 has a 7-1/4-inch blade on the left side of the saw. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"Milwaukee\" and \"M18\" and \"FUEL\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "milwaukee-2722",
+  "group": "Reciprocating Saws",
+  "brand": "Milwaukee",
+  "variant": "M18",
+  "kind": "Pick",
+  "query": "Milwaukee 2722 Super Sawzall",
+  "prompt": "Photorealistic product photo of the Milwaukee 2722 (Milwaukee M18 FUEL SUPER SAWZALL cordless reciprocating saw), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, lying flat on its side with a wood-cutting blade installed, side view. It must clearly read as a full-size reciprocating saw. Key parts that must be visible: a long straight body, a pivoting metal shoe at the front with a straight blade sticking out of the blade clamp, a rubber front grip, an orbital-action switch, a trigger in the rear handle. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"Milwaukee\" and \"M18\" and \"FUEL\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. The battery is attached."
+ },
+ {
+  "name": "dewalt-dws780",
+  "group": "Miter Saws",
+  "brand": "DeWalt",
+  "variant": "Corded",
+  "kind": "Pick",
+  "query": "DeWalt DWS780 miter saw",
+  "prompt": "Photorealistic product photo of the DeWalt DWS780 (DeWalt 12-inch double-bevel sliding compound miter saw), reproduced accurately as that exact model: its real shape, proportions, controls and color layout, front three-quarter view with the blade raised, fence and table visible. It must clearly read as a sliding miter saw. Key parts that must be visible: a round turntable with a miter angle scale, a tall metal fence, twin steel sliding rails behind the saw head, the blade and upper guard on a pivoting arm with a D-shaped trigger handle. The real DeWalt DWS780 has a 12-inch blade. Placed on a light plywood workbench in a tidy home workshop, soft natural window light, shallow depth of field, tool in sharp focus, 16:9. The only text allowed anywhere is \"DEWALT\", spelled exactly like that. Side handles, blades, discs and the rest of the battery label are plain, with no letters, numbers or symbols. No mirrored or upside-down text, no other text, stickers or watermarks. No people. Include the power cord trailing off the bench."
  }
 ]
