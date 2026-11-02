@@ -34,7 +34,7 @@ HEAD = """<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css">{jsonld}
+<link rel="stylesheet" href="/assets/css/style.css?v={css_v}">{jsonld}
 </head>
 <body>
 <header class="site-header">
@@ -84,12 +84,19 @@ FOOT = """</main>
     </div>
   </div>
 </footer>
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.js?v={js_v}"></script>
 </body>
 </html>
 """
 
 FOOTER_LINKS = []  # filled by build.py with the published best-list pages
+
+
+def asset_version(rel):
+    """Short hash of an asset file, added to its URL so browsers fetch the new file whenever it changes."""
+    import hashlib
+    with open(os.path.join(ROOT, rel), 'rb') as f:
+        return hashlib.md5(f.read()).hexdigest()[:8]
 
 
 def esc(s):
@@ -107,7 +114,7 @@ def page(path, title, desc, body, active=None, noindex=False, lastmod='2026-10-2
         ld = '\n<script type="application/ld+json">' + json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/') + '</script>'
     out_html = HEAD.format(title=esc(title), desc=esc(desc), path=path, nav=nav, og_type=og_type,
                            robots='\n<meta name="robots" content="noindex, follow">' if noindex else '',
-                           jsonld=ld) + body + FOOT.format(tools=tools)
+                           jsonld=ld, css_v=asset_version('assets/css/style.css')) + body + FOOT.format(tools=tools, js_v=asset_version('assets/js/main.js'))
     if path.endswith('.html'):
         out = os.path.join(ROOT, path.strip('/'))
     else:
