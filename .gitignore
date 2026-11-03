@@ -5,4 +5,4 @@
 __pycache__/
 # Illustration originals, candidates and references stay on the PC; only web-sized copies are committed
 assets/img/illustrations/*
-!assets/img/illustrations/web/
+!assets/img/illustrations/web/!tools/indexnow/*.ps1
